@@ -1,0 +1,508 @@
+## Process Baseline Corridor Charging Availability 
+# Author: Catherine Ledna & Lily Hanig
+# Date: 08/05/2022
+
+#
+### National Highway system
+# https://www.fhwa.dot.gov/planning/national_highway_system/nhs_maps/
+
+### Alternative Fuel Corridors 
+# https://hepgis.fhwa.dot.gov/fhwagis/ViewMap.aspx?map=Highway+Information|Electric+Vehicle+(EV-Round+1,2,3,4,5+and+6)#
+
+### EV stations
+# https://afdc.energy.gov/stations/#/analyze?fuel=ELEC&status=E&status=P
+
+### disadvantaged communities shapefile DOT
+# https://www.transportation.gov/equity-Justice40
+
+# Population centers 
+# https://www2.census.gov/geo/docs/reference/cenpop2020/county/CenPop2020_Mean_CO.txt
+
+### Libraries and parameters
+
+```{r}
+library(sf)
+library(rgdal)
+library(data.table)
+library(dplyr)
+library(igraph)
+library(here)
+library(beepr)
+library(tidyverse)
+library(lwgeom)
+
+all.chargers.flag <- FALSE # if this is set to FALSE, it excludes TESLA
+segment.dist <- 50 # miles
+# Range distance if set to NA considers the whole contiguous US
+range.dist <- 500 # miles 
+short.road.exclusion <- 10 # miles
+meters.per.mile <- 1609.34
+data.processing <- F
+options(dplyr.summarise.inform = FALSE)
+
+```
+
+### File Path locations
+```{r}
+
+  proj.contig <- 5070 # 4326 # 
+  proj.isl <- 5070
+  proj.ak <- 3338
+  
+  
+  net.file <- "nhs20221230/NHS_20221230.shp"                        #"nhs20210815/National_NHS_2021-08-23.shp"
+  afc.net.file <- "AltFuels_Rounds1-6_2022-07-26/AltFuels_Rounds1-6_2022-07-26.shp"
+  alt.fuel.stations <- "alt_fuel_stations_3_1_2023.csv"             #"alt_fuel_stations_10_17_2022.csv"
+  DAC.file <- "shapefiles/DOT_DAC/DOT_Disadvantage_Layer_Final_April2022.shp"
+  net.folder <- "nhs2019"
+  county.file <- "tl_2020_us_county/tl_2020_us_county.shp"
+  county.pop.center.file <- "CenPop2020_Mean_CO.csv"
+  county.center.file <- "2020_us_population_center_county.csv"
+  file.path <- here("data/")                                         #here("Research/EV_NREL/data/")
+  folder.name <- here("data/shapefiles/")
+  state.file <- "tl_2022_us_state/tl_2022_us_state.shp"
+
+```
+
+### function found from internet to split geometric line strings (above 50 miles)
+```{r}
+split_lines <- function(input_lines, id = "ID",max_length = 10*meters.per.mile) {
+  #input_lines <- hwys.test
+  #id <- 'SIGN1'
+  
+  if(max_length < 50) warning("short max length detected, do you have your units right?")
+  
+  geom_column <- attr(input_lines, "sf_column")
+  
+  input_crs <- sf::st_crs(proj.contig)
+  
+  input_lines["geom_len"] <- sf::st_length(input_lines[[geom_column]])
+  input_lines["geom_id"] <- 1:nrow(input_lines)
+  
+  attr(input_lines[["geom_len"]], "units") <- NULL
+  input_lines[["geom_len"]] <- as.numeric(input_lines[["geom_len"]])
+  
+  too_long <- input_lines %>% filter(geom_len >= max_length)
+  short_lines <- input_lines %>% 
+                 filter(geom_len < max_length) %>% 
+                 mutate(split_fID = 1) %>% select(-geom_len)
+  rm(input_lines) # just to control memory usage in case this is big.
+  print(nrow(too_long))
+  too_long <- too_long %>%
+              mutate(pieces = ceiling(geom_len / max_length)) %>% # ceiling
+              select(-geom_len)
+  if (nrow(too_long) != 0){
+    too_long$fID <- 1:nrow(too_long)
+    split_points <- sf::st_drop_geometry(too_long)[rep(seq_len(nrow(too_long)), too_long[["pieces"]]),] %>%
+      select(-pieces)
+  
+    split_points <- split_points %>% group_by(SIGN1) %>%
+      mutate(split_fID = row_number()) %>%
+      group_by(fID) %>%
+      mutate(piece = 1:n()) %>%
+      mutate(start = (piece - 1) / n(),
+             end = piece / n()) %>%
+      ungroup()
+    
+    new_line <- function(i, f, t) {
+      lwgeom::st_linesubstring(x = too_long[[geom_column]][i], from = f, to = t)[[1]]
+    }
+    
+    split_lines <- apply(split_points[c("fID", "start", "end")], 1,
+                         function(x) new_line(i = x[["fID"]], f = x[["start"]], t = x[["end"]]))
+    
+    rm(too_long)
+    #
+    split_lines <- st_sf(split_points[c(id, "STFIPS", "CTFIPS", "AADT", "LENGTH", "split_fID", "geom_id")], crs = input_crs, geometry = st_sfc(split_lines, crs = input_crs))
+  }
+
+  all_lines <- rbind(short_lines, split_lines) %>% 
+    arrange(id, STFIPS, geom_id, split_fID) %>% select(-geom_id) %>%
+    st_sf(crs = input_crs)
+  return(all_lines)
+}
+```
+
+### The data processing part, only need to do once, than can switch data.processing to False
+```{r}
+if (data.processing){
+
+# national highway system
+
+  net <- read_sf(paste0(folder.name, net.file))
+  net <- st_transform(net, crs = st_crs(proj.contig))
+
+  hwys.contig <- net # %>% filter(!(STFIPS %in% c(2, 60, 66, 69, 72, 78, 15))) 
+  hwys.contig <- st_transform(hwys.contig, crs=st_crs(proj.contig)) #projecting to continent
+
+## AFDC Corridor Points Data (Non-Tesla, meeting criteria)
+
+# Existing stations
+
+  afdc.dcfc <- fread(paste0(file.path, alt.fuel.stations)) %>%
+               select(`Fuel Type Code`, `State`, `ZIP`,`Status Code`, `Expected Date`, `EV DC Fast Count`,
+                      `Geocode Status`, `Latitude`, `Longitude`, `ID`, `Open Date`, `Country`, `EV Connector Types`)%>%
+              # filter(!(is.na(`EV DC Fast Count`)),`EV DC Fast Count` > 0) %>%
+               mutate(`Open_Date`=as.character(`Open Date`),
+                      `Lat` = `Latitude`,
+                      `long` = `Longitude`,
+                      `EV DC Fast Count` = ifelse(is.na(`EV DC Fast Count`), 0, `EV DC Fast Count`),
+                      `Open_Year` = as.numeric(strsplit(`Open_Date`, split = "/", fixed = T)[[1]][1]),
+                      `Open_Year` = ifelse(is.na(`Open_Year`), 2022, Open_Year),
+                      `Tesla` = grepl('TESLA', `EV Connector Types`),
+                      `NEVI_count` = ifelse(`EV DC Fast Count` >= 4, TRUE, FALSE))
+  
+  
+  afdc.dcfc <- st_as_sf(afdc.dcfc, coords=c("Longitude", "Latitude"), crs=st_crs(4326))
+  afdc.dcfc.proj <- st_transform(afdc.dcfc, crs=st_crs(proj.contig)) # filter(!(State %in% c("AK", 'HI', 'PR')))
+  
+# Trying a new method for unioning the roads and splitting up
+
+  st_precision(hwys.contig) <- 0.1
+  hwys.test <- hwys.contig %>%
+      group_by(ROUTEID) %>%
+      fill(SIGN1) %>% # fills any missing SIGNS with the sign from the other segments with the same ROUTEID 
+      mutate(AADT = ifelse(is.na(AADT), mean(AADT), AADT)) %>% # fill in missing AADT with average for that road
+      ungroup() %>%
+      mutate(LNAME = ifelse(is.na(LNAME), paste0('NA_', row_number()), LNAME),
+             ROUTEID = ifelse(is.na(ROUTEID), LNAME, ROUTEID),
+             SIGN1 = ifelse(is.na(SIGN1), ROUTEID, SIGN1)) %>%  # replaces any roads with no signs with RouteID
+      group_by(SIGN1, STFIPS, CTFIPS) %>%  # group by county and sign name (incase there's the same road name twice in a state)
+      summarise(AADT = mean(AADT), 
+                geometry = st_union(st_combine(geometry)), # combines road segments into one geometry object
+                geometry = st_cast(geometry, "MULTILINESTRING"),
+                geometry = st_line_merge(geometry),
+                LENGTH = as.numeric(st_length(geometry))/meters.per.mile) %>% # finds length
+      ungroup()# total for road
+  
+  # Roads above (50 miles + short exception) are filtered and chopped up into smaller
+  # If a segment is the last one along a road and it's less than 10 miles it gets added to previous segment
+  
+  hwys.too.long <- hwys.test %>% filter(LENGTH > (segment.dist + short.road.exclusion)) 
+  
+  hwys.too.long <- lapply(1:nrow(hwys.too.long), function(i) {
+      st_cast(hwys.too.long[i, ], "LINESTRING", warn=F, crs = st_crs(proj.contig))
+  }) %>% do.call(rbind, .) %>% 
+    split_lines(id = "SIGN1") %>% 
+    group_by(SIGN1, STFIPS, CTFIPS) %>%
+    mutate(LENGTH = as.numeric(st_length(geometry))/meters.per.mile,
+           Seg_Num = ceiling(cumsum(LENGTH) / segment.dist)) %>%
+    group_by(SIGN1, STFIPS, CTFIPS, Seg_Num) %>% 
+    summarise(geometry = st_union(st_combine(geometry)),
+              AADT = mean(AADT), 
+              LENGTH = as.numeric(st_length(geometry))/meters.per.mile) %>% 
+    mutate(Seg_Num = ifelse((LENGTH < 10) & (Seg_Num > 1), Seg_Num - 1, Seg_Num)) %>%
+    group_by(SIGN1, STFIPS, CTFIPS, Seg_Num) %>%
+    summarise(geometry = st_union(st_combine(geometry)),
+              AADT = mean(AADT), 
+              LENGTH = as.numeric(st_length(geometry))/meters.per.mile)
+  
+  # Short roads and long/cut-up roads are appended into one dataset
+  
+  hwys.arr <- hwys.test %>%
+      filter(LENGTH <= (segment.dist + short.road.exclusion)) %>%
+     # select(-CTFIPS) %>%
+      mutate(Seg_Num = 1) %>%
+      rbind(., hwys.too.long) %>%
+      group_by(SIGN1, STFIPS, CTFIPS, Seg_Num) %>%
+      summarise(AADT = mean(AADT),
+                geometry = st_union(st_combine(geometry))) %>%
+      mutate(LENGTH =  as.numeric(st_length(geometry))/meters.per.mile, 
+             Seg_ID = paste0(SIGN1, "_", STFIPS, "_", CTFIPS, "_", Seg_Num))
+
+  # 1 mile buffer added 
+  
+  hwys.buff <- st_buffer(hwys.arr, dist = 1 * meters.per.mile, endCapStyle = "ROUND")
+
+  # stations found within 1 mile of each road
+
+  station.intersections <- st_intersection(hwys.buff, afdc.dcfc.proj)
+  
+  ### added to list of covered segments, new segments from state pre-processing
+  if(all.chargers.flag){
+    NEVI.seg <- station.intersections %>% filter(NEVI_count) %>% pull(Seg_ID) %>% unique() 
+  }else{
+    NEVI.seg <- station.intersections %>% filter(NEVI_count, !Tesla) %>% pull(Seg_ID) %>% unique() 
+  }
+  all.seg <- station.intersections %>% pull(Seg_ID) %>% unique()
+  all.but.tesla.seg <- station.intersections %>% filter(!Tesla) %>% pull(Seg_ID) %>% unique()
+  print('matched stations')
+# This just makes one row per 50-mile segment, fewer data points to deal with...
+
+  eligible.hwys <- hwys.arr %>% ungroup()%>% 
+      group_by(Seg_ID) %>% # Method
+      mutate(NEVI = Seg_ID %in% NEVI.seg,
+             Has_EV = Seg_ID %in% all.seg,
+             No_Tesla = Seg_ID %in% all.but.tesla.seg,
+             Traffic = AADT, # * LENGTH,
+             ) %>% ungroup() %>% group_by(Seg_ID) %>%
+      summarise(geometry = st_union(st_combine(geometry)), # lots of binary labeling
+                SIGN1 = first(SIGN1), # road name
+                STFIPS = first(STFIPS), # state
+                Seg_ID = first(Seg_ID), # identifier
+                NEVI = max(NEVI), # if it meets NEVI requirements (4 DC fast chargers)
+                Has_EV = max(Has_EV), # if it has any level 2 or DC chargers
+                No_Tesla = max(No_Tesla), # all chargers but Tesla
+                Traffic = mean(Traffic), # average traffic
+                Short_Road = ifelse(LENGTH <= short.road.exclusion, TRUE, FALSE), # If the total road is <10 miles
+                LENGTH =  as.numeric(st_length(geometry))/meters.per.mile,
+                ) %>% ungroup()
+  eligible.hwys$ID <- 1:nrow(eligible.hwys)
+  print('segments')
+
+# Finds which roads are AFC segments
+  # matches by name (PRIMARY_NA & SIGN1) and by location within a quarter mile buffer of network
+  # This doesn't include AFCs that are not in the national highway system because we don't have traffic
+  # info for those AFCs anyways, which is how the roads get weighted in the metric
+  
+  afc <-  read_sf(paste0(folder.name, afc.net.file))
+  afc <- st_transform(afc, crs = st_crs(proj.contig))
+  state.letters<- read_csv(paste0(file.path, "state_fips.csv"), show_col_types = FALSE)
+  afc <- merge(x=afc, y = state.letters, by.x = 'STATE', by.y = 'letters')
+  
+  afc <- afc %>% filter(EV != 0) %>% 
+                 mutate(PRIMARY_NA = ifelse(is.na(PRIMARY_NA), 'WITHOUT_SIGN', PRIMARY_NA),
+                        SIGN1 = PRIMARY_NA,
+                        ROUTEID = PRIMARY_NA) %>%
+                 select(SIGN1, ROUTEID, STFIPS) %>% 
+                 group_by(SIGN1, STFIPS) %>%
+                 summarise(geometry = st_union(st_combine(geometry))) %>%
+                 ungroup() %>% mutate(AFC_ID = row_number())
+  overlap.buffer <- st_buffer(eligible.hwys %>% filter(SIGN1 %in% afc$SIGN1), dist = (0.25 * meters.per.mile), endCapStyle = 'ROUND')
+  overlap.buffer <- st_buffer(overlap.buffer, dist=0)
+  overlapping <- st_intersection(st_make_valid(overlap.buffer), afc) %>% filter(SIGN1 == SIGN1.1)
+  
+  #finding any remaining ones
+  afc.buff <-st_buffer(afc, dist = (0.5 * meters.per.mile), endCapStyle = 'ROUND')
+  afc.check <- data.frame(st_contains(afc.buff, eligible.hwys))
+  colnames(afc.check) <- c('AFC_ID', 'hwys_ID')
+  eligible.hwys <- eligible.hwys %>% mutate(AFC = (Seg_ID %in% overlapping$Seg_ID) | (ID %in% afc.check$hwys_ID))
+  
+  remaining.afc <- afc %>% filter(!(AFC_ID %in% overlapping$AFC_ID) & !(AFC_ID %in% afc.check$AFC_ID))
+  afc.stations <- st_intersection(afc.buff %>% filter(AFC_ID %in% remaining.afc$AFC_ID), afdc.dcfc.proj)
+    
+  # AFCs not in NHS are given mean traffic for state
+  state.traffic <- eligible.hwys %>% st_drop_geometry() %>% 
+    group_by(STFIPS) %>% summarise(Traffic = mean(Traffic))
+  
+  # made to match NHS data
+  remaining.afc <- remaining.afc %>% merge(state.traffic, by = 'STFIPS') %>%
+    mutate(Seg_ID = paste0(SIGN1, "_", STFIPS, "_",'AFC', "_", row_number()), # identifier
+           NEVI = AFC_ID %in% (afc.stations %>% filter(NEVI_count, !Tesla) %>% pull(AFC_ID)),
+           Has_EV = AFC_ID %in% (afc.stations %>% pull(AFC_ID)), 
+           No_Tesla = AFC_ID %in% (afc.stations %>% filter(!Tesla) %>% pull(AFC_ID)), # average traffic
+           LENGTH =  as.numeric(st_length(geometry))/meters.per.mile,
+           Short_Road = ifelse(LENGTH <= short.road.exclusion, TRUE, FALSE), # If the total road is <10 miles
+           ID = row_number() + length(eligible.hwys$ID),
+           AFC = TRUE) %>% select(colnames(eligible.hwys))
+  eligible.hwys <- rbind(eligible.hwys, remaining.afc)
+  
+  ####
+  eligible.hwys.drop <- st_drop_geometry(eligible.hwys)
+  
+  print('matched AFCs')
+  # Finds every road segment that touches every other one (within a 1/4 mile buffer)
+
+  st_precision(eligible.hwys) <- 0.1
+  eligible.buff <- st_buffer(eligible.hwys, dist = 0.25 * meters.per.mile)
+  touching <- st_overlaps(st_make_valid(eligible.buff))
+  touching.segments <- data.table(data.frame(touching))
+  colnames(touching.segments) <- c('ID', 'ID_match')
+  
+  # This makes the touching segments a segment ID based dataframe instead of an array of arrays
+
+  touching.segments <- merge(x = touching.segments, 
+                             y = eligible.hwys.drop %>% select(ID, Seg_ID), 
+                             by = "ID")
+  touching.segments <- merge(x = touching.segments, 
+                             y = eligible.hwys.drop %>% 
+                               mutate(Seg_ID_match = Seg_ID) %>% 
+                               select(ID, Seg_ID_match), 
+                             by.x = "ID_match", by.y = "ID")
+
+  print('touching segments found')
+# create county population center 50-mile buffer
+
+  county.pop.centers <- read_sf(paste0(file.path, county.pop.center.file)) %>%
+                    st_as_sf(coords=c("LONGITUDE", "LATITUDE"), crs = st_crs(4326)) %>%
+                    mutate(GEOID = gsub(' ', '0', paste0(formatC(STATEFP, digits=1), formatC(COUNTYFP, digits = 2)))) %>%
+                    st_transform(crs=st_crs(proj.contig))
+  
+  county.buffers <- st_buffer(county.pop.centers, dist = (meters.per.mile * segment.dist))
+  
+  st_precision(county.buffers) <- 0.1
+  st_precision(eligible.hwys) <- 0.1
+  
+  # If the range considered is not the whole country (500 miles or 100 miles etc)
+  # Find the segments within the range that is set by range.dist
+  if (!is.na(range.dist)){
+    county.ranges <- st_buffer(county.pop.centers, dist = (meters.per.mile * range.dist))
+  }
+  # Finds which segments are in which county population center 50-mile buffer
+  county.segments <- st_intersection(eligible.hwys, county.buffers) %>% 
+                     st_drop_geometry() %>%
+                     select(Seg_ID, ID, GEOID, STATEFP, COUNTYFP) %>% data.table()
+
+# write all datasets to a folder (2023)
+
+  write_csv(touching.segments, paste0(file.path, 'results/2023/touching_datatable.csv'))
+  write.csv(eligible.hwys.drop, paste0(file.path, 'results/2023/eligible_hwys/eligible_hwys.csv'))
+  write_sf(eligible.hwys, paste0(file.path, 'results/2023/eligible_hwys/eligible_hwys.shp'))
+  write.csv(county.segments, paste0(file.path, 'results/2023/county_intersections.csv'))
+
+}else{
+  
+  # If the above section has been run before, set `data.processing` to false and read in
+  
+  eligible.hwys <- read_sf(paste0(file.path, 'results/2023/eligible_hwys/eligible_hwys.shp')) %>%
+                   st_transform(crs = st_crs(proj.contig))
+  DACs <- read_sf(paste0(file.path, DAC.file)) %>% st_transform(crs = st_crs(proj.contig))
+  counties <- read_sf(paste0(folder.name, county.file)) %>%
+                   st_transform(crs = st_crs(proj.contig))
+  county.pop.centers <- read_sf(paste0(file.path, county.pop.center.file)) %>%
+                    st_as_sf(coords=c("LONGITUDE", "LATITUDE"), crs = st_crs(4326)) %>%
+                    mutate(GEOID = gsub(' ', '0', paste0(formatC(STATEFP, digits=1), formatC(COUNTYFP, digits = 2)))) %>%
+                    st_transform(crs=st_crs(proj.contig))
+  
+  county.buffers <- st_buffer(county.pop.centers, dist = (meters.per.mile * segment.dist))
+  if (!is.na(range.dist)){
+    county.ranges <- st_buffer(county.pop.centers, dist = (meters.per.mile * range.dist))
+  }
+  county.segments <- read_csv(paste0(file.path, 'results/2023/county_intersections.csv'), show_col_types = FALSE)
+  touching.segments <- read_csv(paste0(file.path, 'results/2023/touching_datatable.csv'), show_col_types = FALSE)
+  eligible.hwys.drop <- read_csv(paste0(file.path, 'results/2023/eligible_hwys/eligible_hwys.csv'), show_col_types = FALSE)
+  st_precision(county.buffers) <- 0.1
+  st_precision(eligible.hwys) <- 0.1
+}
+beep()
+```
+
+
+# Calculates coverage metric for each county
+
+
+```{r}
+full.county.coverage <- data.frame()
+counties <- unique(county.segments$GEOID)
+st_agr(eligible.hwys) = "constant"
+i <- 0
+for (county.ID in counties){
+  state.fips <- as.numeric(substr(county.ID, 1, 2))
+  i <- i + 1
+  if (i%%500 ==0){
+    print(i)
+  }
+  # the roots of the search function are all of the segments in the county
+  roots <- county.segments[county.segments$GEOID == county.ID, ]$Seg_ID
+  
+  # full.range is the set of all segments in range of the county
+  if (!is.na(range.dist)){
+    county.range <- county.ranges[county.ranges$GEOID == county.ID, ]
+    st_agr(county.range) = "constant"
+    county.range.segments <- st_intersection(eligible.hwys, county.range) %>% 
+                       st_drop_geometry() %>%
+                       select(Seg_ID, ID, GEOID, STATEFP, COUNTYFP) %>% data.table()
+    full.range <- county.range.segments[county.range.segments$GEOID == county.ID, ]$Seg_ID
+  }else{
+    full.range <- eligible.hwys$Seg_ID
+  }
+  
+  # marks any county in county as 'In_County' grabs only segments in-range
+  eligible.hwys.county <- eligible.hwys.drop %>% filter(Seg_ID %in% full.range) %>% mutate(In_County = Seg_ID %in% roots)
+  
+  # any road segment in the county that touches another segment can be the starting point
+  # for the breadth-first-search
+  seed.IDs <- eligible.hwys.county %>% 
+    filter(In_County, !Short_Road, (Seg_ID %in% touching.segments$Seg_ID)) %>% 
+    pull(Seg_ID)
+  
+  # If there are no highways that leave a county (some very rural middle-america counties)
+  # just consider segments in the county (rare)
+  if (length(seed.IDs)==0){
+    numerator.afc <- eligible.hwys.county %>% filter((In_County), !Short_Road) %>% 
+      mutate(weight = Traffic) %>% pull(weight) %>% sum()
+    numerator.all <- eligible.hwys.county %>% filter((In_County), !Short_Road) %>% 
+      mutate(weight = Traffic) %>% pull(weight) %>% sum()
+    numerator <- eligible.hwys.county %>% filter((In_County), !Short_Road) %>% 
+      mutate(weight = Traffic) %>% pull(weight) %>% sum()
+    numerator.spill <- 0
+  }else{
+    # for AFC scenario, grab all eligible segments and make a iGraph graph
+    eligible.segments.afc.ID <- filter(eligible.hwys.county, (NEVI | Short_Road | AFC | In_County)) %>% pull(Seg_ID)
+    graph.tree.afc <- graph.data.frame(touching.segments[,c('Seg_ID','Seg_ID_match')] %>% filter(Seg_ID %in% eligible.segments.afc.ID))
+    # this is the breadth first search function that starts with every seed segment in county
+    cluster.tree.afc <- subcomponent(graph.tree.afc, seed.IDs, mode = "out")
+    # finds accessible segments
+    cluster.afc.IDs <- cluster.tree.afc$name
+    # calculates numerator as the traffic of all of the accessible segments
+    numerator.afc <- eligible.hwys.drop %>% 
+      filter((Seg_ID %in% cluster.afc.IDs), !Short_Road, (Seg_ID %in% full.range)) %>% 
+      mutate(weight = Traffic) %>% pull(weight) %>% sum()
+    
+    # if true, include TESLA stations, otherwise do not
+    if(all.chargers.flag){
+      eligible.segments.all.ID <- filter(eligible.hwys.county, (Has_EV | Short_Road | In_County)) %>% pull(Seg_ID)
+    }else{
+      eligible.segments.all.ID <-  filter(eligible.hwys.county, (No_Tesla | Short_Road | In_County)) %>% pull(Seg_ID)
+    }
+    # this makes a graph/network of the segments, from the list of what segments each touches
+    # same process as above but excluding AFCs that do not already have a station
+    graph.tree.all <- graph.data.frame(touching.segments[,c('Seg_ID','Seg_ID_match')] %>% filter(Seg_ID %in% eligible.segments.all.ID))
+    cluster.tree.all <- subcomponent(graph.tree.all, seed.IDs, mode = "out")
+    cluster.all.IDs <- cluster.tree.all$name
+    numerator.all <- eligible.hwys.drop %>% 
+      filter((Seg_ID %in% cluster.all.IDs), !Short_Road,(Seg_ID %in% full.range)) %>% 
+      mutate(weight = Traffic) %>% pull(weight) %>% sum()
+    numerator.spill <- eligible.hwys.drop %>% 
+      filter((Seg_ID %in% cluster.all.IDs), !(STFIPS == state.fips), !Short_Road, (Seg_ID %in% full.range)) %>% 
+      mutate(weight = Traffic) %>% pull(weight) %>% sum()
+    
+  # same process as above but excluding AFCs that do not already have a station
+  eligible.segments.ID <- filter(eligible.hwys.county, (NEVI | Short_Road | In_County)) %>%  pull(Seg_ID)
+  graph.tree <- graph.data.frame(touching.segments[,c('Seg_ID','Seg_ID_match')] %>% filter(Seg_ID %in% eligible.segments.ID))
+    cluster.tree <- subcomponent(graph.tree, seed.IDs, mode = "out")
+    cluster.IDs <- cluster.tree$name
+    numerator <- eligible.hwys.drop %>% 
+      filter((Seg_ID %in% cluster.IDs), !Short_Road,(Seg_ID %in% full.range)) %>% 
+      mutate(weight = Traffic) %>% pull(weight) %>% sum()
+  }
+  # all coverage scenarios have the same baseline (all roads in range of starting buffer)
+  denominator <- eligible.hwys.drop %>% filter(!Short_Road, (Seg_ID %in% full.range)) %>% 
+    mutate(weight = Traffic) %>% pull(weight) %>% sum()
+  county.coverage <- data.frame('county' = county.ID, 
+                                'Baseline coverage' = (numerator.all/denominator), 
+                                'Spillover State coverage' = (numerator.spill/denominator),
+                                'NEVI coverage' = (numerator/denominator),
+                                'AFC coverage' = (numerator.afc/denominator))
+  # append to full set
+  full.county.coverage <- rbind(full.county.coverage, county.coverage)
+}
+full.county.coverage <- full.county.coverage %>% mutate(`NEVI Increase` = `AFC.coverage`-`NEVI.coverage`)
+# rename column depending on if Tesla was included
+#colnames(full.county.coverage)[2] <- ifelse(all.chargers.flag, 'Baseline coverage', 'All but Tesla coverage')
+beep()
+```
+
+```{r}
+if(all.chargers.flag){
+  write_csv(full.county.coverage, paste0(file.path, 'results/2023/', paste0('county_coverage_with_tesla.csv')))
+}else{
+  write_csv(full.county.coverage, paste0(file.path, 'results/2023/', paste0('county_coverage_no_tesla.csv')))
+}
+
+```
+
+```{r}
+#full.county.coverage <- read_csv(paste0(file.path, 'results/2023/', paste0('county_coverage_no_tesla.csv')))
+```
+
+```{r}
+fast_chargers_needed <- eligible.hwys %>% filter(!(STFIPS %in% c(2, 60, 66, 69, 72, 78, 15)), !NEVI, !Short_Road) %>% pull(Seg_ID) %>% length() # 6316 + 55 AK + 16 HI, 5260 with Tesla + 51 with AK +16 HI
+print(fast_chargers_needed)
+fast_chargers_needed_afc <- eligible.hwys %>% filter(!(STFIPS %in% c(2, 60, 66, 69, 72, 78, 15)), !NEVI, !Short_Road, !AFC) %>% pull(Seg_ID) %>% length() 
+fast_chargers_needed_afc # 4408 +43 AK + 0 HI, 3914 with Tesla + 40 AK + 0 HI if tesla is accessible
+# 1908 needed on AFCs
+# 1346 needed on AFCs if Tesla chargers are accessible
+```
+
+

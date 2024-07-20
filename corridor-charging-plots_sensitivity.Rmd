@@ -1,0 +1,455 @@
+## Process Baseline Corridor Charging Availability 
+# Author: Catherine Ledna & Lily Hanig
+# Date: 08/05/2022
+
+#
+### National Highway system
+# https://www.fhwa.dot.gov/planning/national_highway_system/nhs_maps/
+
+### Alternative Fuel Corridors 
+# https://hepgis.fhwa.dot.gov/fhwagis/ViewMap.aspx?map=Highway+Information|Electric+Vehicle+(EV-Round+1,2,3,4,5+and+6)#
+
+### EV stations
+# https://afdc.energy.gov/stations/#/analyze?fuel=ELEC&status=E&status=P
+
+### disadvantaged communities shapefile DOT
+# https://www.transportation.gov/equity-Justice40
+
+# Population centers 
+# https://www2.census.gov/geo/docs/reference/cenpop2020/county/CenPop2020_Mean_CO.txt
+
+```{r}
+library(sf)
+library(rgdal)
+library(data.table)
+library(dplyr)
+library(igraph)
+library(here)
+library(beepr)
+library(tidyverse)
+library(lwgeom)
+
+
+segment.dist <- 50 # miles
+range.dist <- 500 # miles
+short.road.exclusion <- 10 # miles
+meters.per.mile <- 1609.34
+options(dplyr.summarise.inform = FALSE)
+
+```
+
+```{r}
+
+  proj.contig <- 5070 # 4326 # 
+  proj.isl <- 5070
+  proj.ak <- 3338
+  
+  
+  net.file <- "nhs20221230/NHS_20221230.shp"                        #"nhs20210815/National_NHS_2021-08-23.shp"
+  afc.net.file <- "AltFuels_Rounds1-6_2022-07-26/AltFuels_Rounds1-6_2022-07-26.shp"
+  alt.fuel.stations <- "alt_fuel_stations_3_1_2023.csv"  
+  alt.fuel.stations.trucks <- "alt_fuel_stations_04_09_2024.csv"
+  #"alt_fuel_stations_10_17_2022.csv"
+  DAC.file <- "shapefiles/DOT_DAC/DOT_Disadvantage_Layer_Final_April2022.shp"
+  net.folder <- "nhs2019"
+  county.file <- "tl_2020_us_county/tl_2020_us_county.shp"
+  county.file.ak <- "tl_2018_02_cousub/tl_2018_02_cousub.shp"
+  county.pop.center.file <- "CenPop2020_Mean_CO.csv"
+  county.center.file <- "2020_us_population_center_county.csv"
+  #Documents/Research/EV_NREL
+  file.path <- here("data/")       #../corridor_coverage_project                                  #here("Research/EV_NREL/data/")
+  folder.name <- here("../corridor_coverage_project/data/shapefiles/")
+  state.file <- "tl_2022_us_state/tl_2022_us_state.shp"
+  cb.state.file <- "cb_2018_us_state/cb_2018_us_state_20m.shp"
+
+```
+
+```{r}
+counties <- read_sf(paste0(folder.name, county.file)) %>%
+  st_transform(crs = st_crs(proj.contig))
+                 
+```
+# Read in files
+```{r}
+
+eligible.hwys <- read_sf(paste0(file.path, 'results/2023/eligible_hwys/eligible_hwys_500.shp')) %>%
+                 st_transform(crs = st_crs(proj.contig))
+DACs <- read_sf(paste0(file.path, DAC.file)) %>% st_transform(crs = st_crs(proj.contig))
+counties <- read_sf(paste0(folder.name,county.file.ak)) %>%
+                   st_transform(crs = st_crs(proj.contig)) %>%  
+  mutate(GEOID = substr(GEOID, 1, 5))
+counties<- merge(x=counties, y=full.county.coverage, by.x = 'GEOID', by.y = 'county', all=T)
+vehicles.per.county <- read_csv(paste0(file.path, 'vehicles_per_county.csv'))
+counties <- merge(x=counties, y= vehicles.per.county, by = 'GEOID',all=T) #
+county.pop.centers <- read_sf(paste0(file.path, county.pop.center.file)) %>%
+                  st_as_sf(coords=c("LONGITUDE", "LATITUDE"), crs = st_crs(4326)) %>%
+                  mutate(GEOID = gsub(' ', '0', paste0(formatC(STATEFP, digits=1), formatC(COUNTYFP, digits = 2)))) %>%
+                  st_transform(crs=st_crs(proj.contig))
+
+county.buffers <- st_buffer(county.pop.centers, dist = (meters.per.mile * segment.dist))
+if (!is.na(range.dist)){
+  county.ranges <- st_buffer(county.pop.centers, dist = (meters.per.mile * range.dist))
+}
+county.segments <- read_csv(paste0(file.path, 'results/2023/county_intersections_500.csv'), show_col_types = FALSE)
+touching.segments <- read_csv(paste0(file.path, 'results/2023/touching_datatable_500.csv'), show_col_types = FALSE)
+eligible.hwys.drop <- read_csv(paste0(file.path, 'results/2023/eligible_hwys/eligible_hwys_500.csv'), show_col_types = FALSE)
+st_precision(county.buffers) <- 0.1
+st_precision(eligible.hwys) <- 0.1
+
+#beep(sound=3)
+```
+
+
+# Read in coverage per county
+
+# Read in county shapefile and state shapefile, match the coverage to each
+# weight state-level coverage by number of registered vehicles
+```{r}
+all.chargers.flag <- FALSE
+read.in <-TRUE
+ending <- '500'
+if (read.in){
+  if(all.chargers.flag){
+    full.county.coverage <- read_csv(paste0(file.path, 'results/2023/', paste0('county_coverage_with_tesla_', ending, '.csv')))
+  }else{
+    full.county.coverage <- read_csv(paste0(file.path, 'results/2023/', paste0('county_coverage_no_tesla_', ending, '.csv')))
+  }
+}
+
+
+
+counties <- read_sf(paste0(folder.name, county.file)) %>%
+                   st_transform(crs = st_crs(proj.contig))%>%  
+  mutate(GEOID = substr(GEOID, 1, 5))
+counties<- merge(x=counties, y=full.county.coverage, by.x = 'GEOID', by.y = 'county', all=T)
+vehicles.per.county <- read_csv(paste0(file.path, 'vehicles_per_county.csv'))
+counties <- merge(x=counties, y= vehicles.per.county, by = 'GEOID', all=T) %>% replace(is.na(.), 0)
+
+state.coverage <- counties %>% st_drop_geometry() %>% group_by(STATEFP) %>%
+                     summarise(`Baseline Coverage` = weighted.mean(`Baseline.coverage`, Vehicles),
+                               `NEVI Coverage` = weighted.mean(`NEVI.coverage`, Vehicles),
+                               `AFC Coverage` = weighted.mean(`AFC.coverage`, Vehicles),
+                               `State Spillover` = weighted.mean(`Spillover.State.coverage`, Vehicles),
+                               `NEVI Increase` = weighted.mean(`NEVI Increase`, Vehicles))
+
+states <- read_sf(paste0(folder.name, cb.state.file)) %>%
+                   st_transform(crs = st_crs(proj.contig)) %>%
+              merge(state.coverage, by.x = "GEOID", by.y = 'STATEFP')
+
+state.letters<- read_csv(paste0(file.path, "state_fips.csv"), show_col_types = FALSE)
+
+commuters <- read_csv(paste0(file.path, 'commute_data.csv'), show_col_types = FALSE)
+
+#write.csv(st_drop_geometry(states), paste0(file.path, 'results/2023/', 'state_coverage_contiguous_', ending,'.csv'))
+```
+
+### plot the coverage at the state level (weighted by vehicle registration per county) for baseline
+```{r}
+
+ggplot()+geom_sf(data=states %>% filter((STATEFP %in% c('15'))), aes(fill=`Baseline Coverage`), colour = alpha("gray70", 1 / 2), size = 0.2)+ scale_fill_gradientn(colors=c("#fbfddf", "#e1e96b","#8da72a","#4E8E5B", "#0e758c"),limits = c(0,1))+
+  guides(fill = guide_colourbar(title = "Minimum Viable\nCoverage\n(tesla)"))+theme_minimal() +theme(panel.grid = element_blank())
+```
+
+# plot the coverage at the state level (weighted by vehicle registration per county) for NEVI-compliant only
+```{r}
+
+ggplot()+geom_sf(data=states %>% filter((STATEFP %in% c('15'))), aes(fill=`NEVI Coverage`), colour = alpha("gray70", 1 / 2), size = 0.2)+ scale_fill_gradientn(colors=c("#fbfddf", "#e1e96b","#8da72a","#4E8E5B", "#0e758c"),limits = c(0,1))+ theme_minimal()+ guides(fill = guide_colourbar(title = "Fast Charger\nCoverage\n")) +theme(panel.grid = element_blank())
+```
+
+# plot the coverage at the state level (weighted by vehicle registration per county) for NEVI-compliant and AFC only
+```{r}
+# , '72', '60', '69', '78', '66', '15'
+ggplot()+geom_sf(data=states %>% filter((STATEFP %in% c('02'))), aes(fill=`AFC Coverage`), colour = alpha("gray70", 1 / 2), size = 0.2)+ scale_fill_gradientn(colors=c("#fbfddf", "#e1e96b","#8da72a","#4E8E5B", "#0e758c"),limits = c(0,1))+ theme_minimal()+ guides(fill = guide_colourbar(title = "AFCs Reach\nNEVI-compliant\nStatus")) +theme(panel.grid = element_blank())
+```
+
+# County level
+#plot the coverage at the county level for baseline coverage
+```{r}
+#, '02', '72', '60', '69', '78', '66','15'
+ggplot()+geom_sf(data=counties %>% filter((STATEFP %in% c('15'))) %>% mutate(Baseline.coverage = replace_na(Baseline.coverage, 0)), aes(fill=0), colour = alpha("gray70", 1 / 2), size = 0.2)+ scale_fill_gradientn(colors=c("#fbfddf", "#e1e96b","#8da72a","#4E8E5B", "#0e758c"),limits = c(0,1))+ theme_minimal()+
+  guides(fill = guide_colourbar(title = "minimum viable coverage\nlevel 2 & DC chargers\n(600 miles)")) +theme(panel.grid = element_blank())
+```
+
+#plot the coverage at the county level for NEVI-compliant stations and AFCs
+# %>% mutate(AFC.coverage = replace_na(AFC.coverage, 0))
+```{r}
+ggplot()+geom_sf(data=counties %>% filter(!(STATEFP %in% c('02', '15', '72', '60', '69', '78', '66')))%>% mutate(AFC.coverage = replace_na(AFC.coverage, 0)), aes(fill=`AFC.coverage`), colour = alpha("gray70", 1 / 2), size = 0.2)+ scale_fill_gradientn(colors=c("#fbfddf", "#e1e96b","#8da72a","#4E8E5B", "#0e758c"),limits = c(0,1))+ 
+ # geom_sf(data=eligible.hwys%>% filter((AFC==1), !(STFIPS %in% c(2, 15, 72, 60, 69, 78, 66))), color = '#d9d2e9')+
+  theme_minimal()+ guides(fill = guide_colourbar(title = "AFCs reach\nNEVI-compliance\n(600 miles)"))# +theme(panel.grid = element_blank())
+```
+
+#plot the coverage at the county level for NEVI-compliant stations only
+```{r}
+# , '02', 
+ggplot()+geom_sf(data=counties %>% filter(!(STATEFP %in% c('02', '15', '72', '60', '69', '78', '66')))
+                 %>% mutate(NEVI.coverage = replace_na(NEVI.coverage, 0)),
+                 aes(fill=`NEVI.coverage`), colour = alpha("gray70", 1 / 2), size = 0.2)+ scale_fill_gradientn(colors=c("#fbfddf", "#e1e96b","#8da72a","#4E8E5B", "#0e758c"),limits = c(0,1))+ theme_minimal()+ guides(fill = guide_colourbar(title = "minimum 4\nDC fast chargers\n(600 miles)"))#+theme(panel.grid = element_blank())
+```
+```{r}
+
+states <- read.csv(paste0(file.path, 'results/2023/', 'state_coverage_contiguous_', ending,'.csv'))
+```
+# Pick a specific county to run
+# the regions are the states that should be included in a map for a certain state,
+# (17=Illinois and should include Indiana, Iowa, etc.)
+
+```{r}
+
+county.ID <- "36061" ##"48201"#"17031"#"08031"# "36061"# "06075" 
+
+state.fips <- as.numeric(substr(county.ID, 1, 2))
+regions <- vector(mode='list', length=55)
+regions[[17]] <- c('17', '18', '19', '55', '29', '21', '39', '26', '21', '27', '54', '47') # IL
+regions[[36]] <- c('36', '09', '42', '34', '25', '50', '33', '44', '23', '51', '54', '39', '24', '44', '37', '26') # NY
+regions[[6]] <- c('06', '32', '41', '04', '49') # CA
+regions[[8]] <- c('08', '04', '49', '35', '56', '31', '20', '46', '40', '16', '30') # 48
+regions[[48]] <- c('48', '22', '05', '40', '28')
+```
+
+# Get the segments that are covered for a specific county
+```{r}
+st_agr(eligible.hwys) = "constant"
+
+# the roots of the search function are all of the segments in the county
+roots <- county.segments[county.segments$GEOID == county.ID, ]$Seg_ID
+if (!is.na(range.dist)){
+  county.range <- county.ranges[county.ranges$GEOID == county.ID, ]
+  st_agr(county.range) = "constant"
+  county.range.segments <- st_intersection(eligible.hwys, county.range) %>% 
+                     st_drop_geometry() %>%
+                     select(Seg_ID, ID, GEOID, STATEFP, COUNTYFP) %>% data.table()
+  full.range <- county.range.segments[county.range.segments$GEOID == county.ID, ]$Seg_ID
+}else{
+  full.range <- eligible.hwys$Seg_ID
+}
+
+# marks any county in county as 'In_County'
+eligible.hwys.county <- eligible.hwys.drop %>% filter(Seg_ID %in% full.range) %>% mutate(In_County = Seg_ID %in% roots)
+
+seed.IDs <- eligible.hwys.county %>% 
+  filter(In_County, !Short_Road, (Seg_ID %in% touching.segments$Seg_ID)) %>% 
+  pull(Seg_ID)
+
+if (length(seed.IDs)==0){
+  numerator.afc <- eligible.hwys.county %>% filter((In_County), !Short_Road) %>% 
+    mutate(weight = Traffic) %>% pull(weight) %>% sum()
+  numerator.all <- eligible.hwys.county %>% filter((In_County), !Short_Road) %>% 
+    mutate(weight = Traffic) %>% pull(weight) %>% sum()
+  numerator <- eligible.hwys.county %>% filter((In_County), !Short_Road) %>% 
+    mutate(weight = Traffic) %>% pull(weight) %>% sum()
+}else{
+  eligible.segments.afc.ID <- filter(eligible.hwys.county, (NEVI | Short_Road | AFC | In_County)) %>% pull(Seg_ID)
+  graph.tree.afc <- graph.data.frame(touching.segments[,c('Seg_ID','Seg_ID_match')] %>% filter(Seg_ID %in% eligible.segments.afc.ID))
+  cluster.tree.afc <- subcomponent(graph.tree.afc, seed.IDs, mode = "out")
+  cluster.afc.IDs <- cluster.tree.afc$name
+  numerator.afc <- eligible.hwys.drop %>% 
+    filter((Seg_ID %in% cluster.afc.IDs), !Short_Road, (Seg_ID %in% full.range)) %>% 
+    mutate(weight = Traffic) %>% pull(weight) %>% sum()
+  
+  if(all.chargers.flag){
+    eligible.segments.all.ID <- filter(eligible.hwys.county, (Has_EV | Short_Road | In_County)) %>% pull(Seg_ID)
+  }else{
+    eligible.segments.all.ID <-  filter(eligible.hwys.county, (No_Tesla | Short_Road | In_County)) %>% pull(Seg_ID)
+  }
+  # this makes a graph/network of the segments, from the list of what segments each touches
+  graph.tree.all <- graph.data.frame(touching.segments[,c('Seg_ID','Seg_ID_match')] %>% filter(Seg_ID %in% eligible.segments.all.ID))
+  cluster.tree.all <- subcomponent(graph.tree.all, seed.IDs, mode = "out")
+  cluster.all.IDs <- cluster.tree.all$name
+  numerator.all <- eligible.hwys.drop %>% 
+    filter((Seg_ID %in% cluster.all.IDs), !Short_Road,(Seg_ID %in% full.range)) %>% 
+    mutate(weight = Traffic) %>% pull(weight) %>% sum()
+  
+eligible.segments.ID <- filter(eligible.hwys.county, (NEVI | Short_Road | In_County)) %>%  pull(Seg_ID)
+graph.tree <- graph.data.frame(touching.segments[,c('Seg_ID','Seg_ID_match')] %>% filter(Seg_ID %in% eligible.segments.ID))
+  cluster.tree <- subcomponent(graph.tree, seed.IDs, mode = "out")
+  cluster.IDs <- cluster.tree$name
+  numerator <- eligible.hwys.drop %>% 
+    filter((Seg_ID %in% cluster.IDs), !Short_Road,(Seg_ID %in% full.range)) %>% 
+    mutate(weight = Traffic) %>% pull(weight) %>% sum()
+}
+denominator <- eligible.hwys.drop %>% filter(!Short_Road, (Seg_ID %in% full.range)) %>% 
+  mutate(weight = Traffic) %>% pull(weight) %>% sum()
+county.coverage <- data.frame('county' = county.ID, 
+                              'Baseline coverage' = (numerator.all/denominator), 
+                              'NEVI coverage' = (numerator/denominator),
+                              'AFC coverage' = (numerator.afc/denominator))
+
+colnames(county.coverage)[2] <- ifelse(all.chargers.flag, 'Baseline coverage', 'All but Tesla coverage')
+
+```
+
+# Plot the covered segments in the baseline case including all chargers
+
+```{r}
+# all chargers
+g1 <- ggplot()+geom_sf(data= states %>% filter(STATEFP %in% regions[[state.fips]]), fill = '#f7f9ff')+
+  geom_sf(data=eligible.hwys%>% filter(Seg_ID %in% full.range),aes(color='roads'))+
+  geom_sf(data=eligible.hwys%>% filter((Seg_ID %in% full.range), (Has_EV==1)),aes(color='chargers'))+
+  geom_sf(data=eligible.hwys%>% filter(Seg_ID %in% cluster.all.IDs), aes(color='access'))+theme_bw()+
+  scale_color_manual('Charging Station Access\n(500 mile radius)', 
+                     values = c('roads' = '#b4c2da', 'chargers' = '#f2a649', 'access' = '#00337c'), labels = c('Contiguous coverage', 'all charging stations', 'All highways'))+ ggtitle('2023 Coverage\n(level 2 & DC chargers)') + theme(plot.title = element_text(size = 10, hjust = 0.05, vjust = 1), legend.position = 'none')
+g1
+```
+
+# Plot the covered segments in the baseline case including only NEVI-compliant chargers
+```{r}
+# nevi compliant
+g2<- ggplot()+geom_sf(data= states%>% filter(STATEFP %in% regions[[state.fips]]), fill = '#f7f9ff')+
+  geom_sf(data=eligible.hwys%>% filter(Seg_ID %in% full.range), aes(color = 'roads'))+
+  geom_sf(data=eligible.hwys%>% filter(Seg_ID %in% full.range, NEVI==1), aes(color = 'afcchargers'))+
+  geom_sf(data=eligible.hwys%>% filter(Seg_ID %in% cluster.IDs),  aes(color = 'access'))+theme_bw()#+
+  scale_color_manual('NEVI-compliant stations\n(500 mile radius)', 
+                     values = c('roads' = '#b4c2da', 'afcchargers' = '#ff6363', 'access'='#00337c'),
+                     labels = c('Contiguous coverage','NEVI-compliant stations', 'All highways'))+ labs(tag = "NEVI-compliant only")
+```
+
+# Plot the covered segments in the baseline case including only NEVI-compliant chargers and AFCs
+```{r}
+# AFCs built
+g3 <- ggplot()+geom_sf(data= states%>% filter(STATEFP %in% regions[[state.fips]]), fill = '#f7f9ff')+
+  geom_sf(data=eligible.hwys%>% filter(Seg_ID %in% full.range), aes(color = 'roads'))+
+  geom_sf(data=eligible.hwys%>% filter(Seg_ID %in% full.range, (NEVI==1 | AFC==1)), aes(color = 'afcchargers'))+
+  geom_sf(data=eligible.hwys%>% filter(Seg_ID %in% cluster.afc.IDs), aes(color='access'))+
+  theme_bw()+scale_color_manual('Charging Station Access\n(500 mile radius)', 
+                     values = c('roads' = '#b4c2da', 'afcchargers' = '#ff6363', 'access'='#00337c', 'chargers' = '#f2a649'),
+                     labels =c('Contiguous coverage','NEVI-compliant stations','All highways', 'Any charging station'))+ ggtitle('2030 Coverage with AFCs complete\n(min. 4 DC fast chargers)') + theme(plot.title = element_text(size = 10, hjust = 0.05, vjust = 1), legend.position = 'none')
+#g3
+```
+
+```{r}
+g1+g3 + plot_layout(guides = "collect")
+
+```
+
+
+# State level
+%>% filter(!(STATEFP %in% c('02', '60', '66', '69', '72', '78', '15')
+
+### plot the coverage at the state level (weighted by vehicle registration per county) for baseline
+```{r}
+
+ggplot()+geom_sf(data=states %>% filter(STUSPS %in% c('AL')), aes(fill=`Baseline Coverage`), colour = alpha("gray70", 1 / 2), size = 0.2)+ scale_fill_gradientn(colors=c("#fbfddf", "#e1e96b","#8da72a","#4E8E5B", "#0e758c"),limits = c(0,1))+
+  guides(fill = guide_colourbar(title = "Minimum Viable\nCoverage\n(1000 miles)"))+theme_minimal() +theme(panel.grid = element_blank())
+```
+
+# plot the coverage at the state level (weighted by vehicle registration per county) for NEVI-compliant only
+```{r}
+
+ggplot()+geom_sf(data=states %>% filter(STATEFP %in% c('02')), aes(fill=`NEVI Coverage`), colour = alpha("gray70", 1 / 2), size = 0.2)+ scale_fill_gradientn(colors=c("#fbfddf", "#e1e96b","#8da72a","#4E8E5B", "#0e758c"),limits = c(0,1))+ theme_minimal()+ guides(fill = guide_colourbar(title = "Fast Charger\nCoverage\n(1000 miles)")) +theme(panel.grid = element_blank())
+```
+
+# plot the coverage at the state level (weighted by vehicle registration per county) for NEVI-compliant and AFC only
+```{r}
+
+ggplot()+geom_sf(data=states %>% filter(STATEFP %in% c('02')), aes(fill=`AFC Coverage`), colour = alpha("gray70", 1 / 2), size = 0.2)+ scale_fill_gradientn(colors=c("#fbfddf", "#e1e96b","#8da72a","#4E8E5B", "#0e758c"),limits = c(0,1))+ theme_minimal()+ guides(fill = guide_colourbar(title = "AFCs Reach\nNEVI-compliant\nStatus (1000 miles)")) +theme(panel.grid = element_blank())
+```
+
+# County level
+#plot the coverage at the county level for baseline coverage
+```{r}
+
+ggplot()+geom_sf(data=counties %>% filter(!STATEFP %in% c('02', '15', '72')) %>% mutate(Baseline.coverage = replace_na(Baseline.coverage, 0)), aes(fill=`Baseline.coverage`), colour = alpha("gray70", 1 / 2), size = 0.2)+ scale_fill_gradientn(colors=c("#fbfddf", "#e1e96b","#8da72a","#4E8E5B", "#0e758c"),limits = c(0,1))+ theme_minimal()+
+  guides(fill = guide_colourbar(title = "minimum viable coverage\nlevel 2 & DC chargers\n(Heavy Duty Trucks)")) +theme(panel.grid = element_blank())
+```
+
+#plot the coverage at the county level for NEVI-compliant stations and AFCs
+
+```{r}
+ggplot()+geom_sf(data=counties %>% filter(STATEFP %in% c('02')) %>% mutate(AFC.coverage = replace_na(AFC.coverage, 0)), aes(fill=`AFC.coverage`), colour = alpha("gray70", 1 / 2), size = 0.2)+ scale_fill_gradientn(colors=c("#fbfddf", "#e1e96b","#8da72a","#4E8E5B", "#0e758c"),limits = c(0,1))+ 
+  geom_sf(data=eligible.hwys%>% filter((AFC==1), (STFIPS %in% c(2))), color = '#d9d2e9')+
+  theme_minimal()+ guides(fill = guide_colourbar(title = "AFCs reach\nNEVI-compliance\n(400 miles)")) +theme(panel.grid = element_blank())
+```
+
+#plot the coverage at the county level for NEVI-compliant stations only
+```{r}
+ggplot()+geom_sf(data=counties %>% filter(STATEFP %in% c('02'))
+                 %>% mutate(NEVI.coverage = replace_na(NEVI.coverage, 0)),
+                 aes(fill=`NEVI.coverage`), colour = alpha("gray70", 1 / 2), size = 0.2)+ scale_fill_gradientn(colors=c("#fbfddf", "#e1e96b","#8da72a","#4E8E5B", "#0e758c"),limits = c(0,1))+ theme_minimal()+ guides(fill = guide_colourbar(title = "minimum 4\nDC fast chargers\n(HD truck)"))+theme(panel.grid = element_blank())
+```
+
+# Plot all AFC roads
+```{r}
+
+ggplot()+geom_sf(data=states %>% filter(!(STATEFP %in% c('02', '60', '66', '69', '72', '78', '15'))), fill = '#f7f9ff')+ 
+  geom_sf(data=eligible.hwys%>% filter(!(STFIPS %in% c(2, 60, 66, 69, 72, 78, 15))), aes(color=factor(AFC)))+scale_color_manual(" ", labels = c('National Highway System', 'Alternative Fuel Corridors'), values = c("#7fdbff", "#005249"))+theme_minimal()#+theme(legend.position = c(0.25,0.13))
+
+```
+
+```{r}
+afdc.dcfc <- fread(paste0(file.path, alt.fuel.stations.trucks)) %>%
+               select(`Fuel Type Code`, `State`, `ZIP`,`Status Code`, `Expected Date`, `EV DC Fast Count`,
+                      `Geocode Status`, `Latitude`, `Longitude`, `ID`, `Open Date`, `Country`, `EV Connector Types`,`Maximum Vehicle Class`)%>%
+              # filter(!(is.na(`EV DC Fast Count`)),`EV DC Fast Count` > 0) %>%
+             #  filter(`Maximum Vehicle Class` == 'HD') %>%
+               mutate(`Open_Date`=as.character(`Open Date`),
+                      `Lat` = `Latitude`,
+                      `long` = `Longitude`,
+                      `EV DC Fast Count` = ifelse(is.na(`EV DC Fast Count`), 0, `EV DC Fast Count`),
+                      `Open_Year` = as.numeric(strsplit(`Open_Date`, split = "/", fixed = T)[[1]][1]),
+                      `Open_Year` = ifelse(is.na(`Open_Year`), 2022, Open_Year),
+                      `Tesla` = grepl('TESLA', `EV Connector Types`),
+                      `NEVI_count` = ifelse(`EV DC Fast Count` >= 4, TRUE, FALSE))
+  
+  
+  afdc.dcfc <- st_as_sf(afdc.dcfc, coords=c("Longitude", "Latitude"), crs=st_crs(4326))
+  afdc.dcfc.proj <- st_transform(afdc.dcfc, crs=st_crs(proj.contig))
+```
+  
+
+# Plot charging stations
+```{r}
+
+#afdc.dcfc.proj <- merge(afdc.dcfc.proj, state.letters, by.x = 'State', by.y = 'letters')
+ggplot()+geom_sf(data=states %>% filter((STATEFP %in% c('02'))), fill = '#f7f9ff')+ 
+ # geom_sf(data=st_union(eligible.hwys%>% filter(!(STFIPS %in% c(2, 60, 66, 69, 72, 78, 15)))), color="#ddeeff")+
+  geom_sf(data=afdc.dcfc.proj%>% filter((STFIPS %in% c(2)), !(ID==237731)), aes(color=`Maximum Vehicle Class`), alpha=1,size= 5)+
+  scale_color_manual(" ", #values = c("FALSE"= "#e76f51","TRUE"="#16537e"), 
+                     values = c("HD"= "darkorange","MD"="darkolivegreen"), 
+                     labels = c('Medium & Heavy-Duty', 'Medium-Duty'))+
+  theme_minimal()+theme(legend.position = 'none', panel.grid = element_blank())+ #c(0.63,0.13)
+ guides(color = guide_legend(override.aes = list(size = 3))) #
+```
+```{r}
+median_income <- read_csv(paste0(file.path, 'median_income.csv'), show_col_types = FALSE)
+commuters <- merge(commuters, counties, by = c('GEOID')) %>% merge(median_income, by = c('GEOID'))
+```
+
+```{r}
+#commuters <- commuters %>% filter(!(STATEFP %in% c('72'))) %>%select(car_truck_van, Median_household_income, time_to_work, `Baseline.coverage`, `NEVI.coverage`, `AFC.coverage`) %>% mutate(time_to_work = round(as.numeric(time_to_work)))
+national_income_median <- 74755/1000
+mean_county <-62326/1000
+car_median <- median(commuters$car_truck_van)
+
+p1 <- ggplot(commuters) + geom_point(aes(y = Median_household_income, x = `Baseline.coverage`, color = car_truck_van),alpha = 0.4)+theme_bw()+geom_hline(yintercept = car_median)+ylab('percent car commuter')+xlab('Minimum Viable Coverage')+scale_x_continuous(labels = scales::percent)+scale_y_continuous(labels = scales::dollar_format())+scale_color_viridis_c(option = "plasma", labels = scales::percent)
+
+p2 <- ggplot(commuters) + geom_point(aes(y = Median_household_income/1000, x = `Baseline.coverage`, color = car_truck_van),alpha = 0.4)+theme_bw()+geom_hline(yintercept = mean_county,color='grey50')+ylab('Median Household Income')+xlab('Minimum Viable Coverage')+scale_x_continuous(labels = scales::percent)+scale_y_continuous(labels = function(x) paste0("$", x, 'k'))+scale_color_viridis_c(option = "plasma",labels = scales::percent)+theme(legend.position = 'none')
+
+p3 <- ggplot(commuters) + geom_point(aes(y = car_truck_van, x = `NEVI.coverage`, color = car_truck_van),alpha = 0.4)+theme_bw()+geom_hline(yintercept = car_median,color='grey50')+ylab('percent car commuter')+xlab('Fast Charger Coverage')+scale_x_continuous(labels = scales::percent)+theme(axis.text.y=element_blank(),legend.position = 'none')+scale_color_viridis_c(option = "plasma",labels = scales::percent)
+
+p4 <- ggplot(commuters) + geom_point(aes(y = Median_household_income/1000, x = `NEVI.coverage`, color = car_truck_van),alpha = 0.4)+theme_bw()+geom_hline(yintercept = mean_county,color='grey50')+ylab('')+xlab('Fast Charger Coverage')+scale_x_continuous(labels = scales::percent)+theme(axis.title.y=element_blank(),legend.position = 'none',axis.text.y=element_blank())+scale_color_viridis_c(option = "plasma",labels = scales::percent)
+
+p5 <- ggplot(commuters) + geom_point(aes(y = car_truck_van, x = `AFC.coverage`, color = car_truck_van),alpha = 0.4)+theme_bw()+geom_hline(yintercept = car_median,color='grey50')+ylab('percent car commuter')+xlab('NEVI-program Coverage')+scale_x_continuous(labels = scales::percent)+scale_color_viridis_c(option = "plasma",labels = scales::percent)
+
+p6 <- ggplot(commuters) + geom_point(aes(y = Median_household_income/1000, x = `AFC.coverage`, color = car_truck_van),alpha = 0.4)+theme_bw()+geom_hline(yintercept = mean_county, color='grey50')+ylab('')+xlab('AFCs Reach NEVI-Compliance')+scale_x_continuous(labels = scales::percent)+theme(axis.title.y = element_blank(), axis.text.y=element_blank(), legend.position = 'none')+scale_color_viridis_c('', option = "plasma",labels = scales::percent, limits = c(0, 1))
+```
+
+
+```{r}
+
+(p2+p4+p6)+theme(legend.position = 'bottom')
+
+```
+```{r}
+ggplot(commuters) + geom_point(aes(x = Median_household_income/1000, y = `Baseline.coverage`, colour = car_truck_van))+theme_bw()+geom_vline(xintercept = mean_county)+xlab('Median Household Income')+ylab('Minimum coverage')+scale_y_continuous(labels = scales::percent)+scale_x_continuous(labels = function(x) paste0("$", x, 'k'))+scale_colour_viridis_c(option = "plasma")#+ scale_colour_gradientn(colors=c("#fbfddf", "#e1e96b","#8da72a","#4E8E5B", "#0e758c"),limits = c(0,1))
+
+ggplot(commuters) + geom_point(aes(x = Median_household_income/1000, y = `AFC.coverage`, colour = car_truck_van))+theme_bw()+geom_vline(xintercept = mean_county)+xlab('Median Household Income')+ylab('AFC coverage')+scale_y_continuous(labels = scales::percent)+scale_x_continuous(labels = function(x) paste0("$", x, 'k'))+
+  scale_colour_viridis_c(option = "plasma",direction = -1)#scale_colour_gradientn(colors=c("red", "#e1e96b","#8da72a","#4E8E5B", "#0e758c"),limits = c(0,1))
+
+ggplot(commuters) + geom_point(aes(x = Median_household_income/1000, y = `NEVI.coverage`, colour = car_truck_van))+theme_bw()+geom_vline(xintercept = mean_county)+xlab('Median Household Income')+ylab('Percent of Car Commuters')+scale_y_continuous(labels = scales::percent)+scale_x_continuous(labels = function(x) paste0("$", x, 'k'))+
+  scale_colour_viridis_c(option = "plasma")#scale_colour_gradientn(colors=c("#fbfddf", "#e1e96b","#8da72a","#4E8E5B", "#0e758c"),limits = c(0,1))
+```
+
+```{r}
+
+write.csv(st_drop_geometry(states), paste0(file.path, 'results/2023/', 'state_coverage_contiguous_tesla.csv'))
+```
