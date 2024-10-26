@@ -1,0 +1,3223 @@
+﻿GEOID,NAME,total_workers,car_truck_van,worked_outside_county,time_to_work
+1001,"Autauga County, Alabama",27031.00,0.93,0.63,27.10
+1003,"Baldwin County, Alabama",105865.00,0.88,0.22,26.60
+1005,"Barbour County, Alabama",8341.00,0.92,0.29,25.50
+1007,"Bibb County, Alabama",8064.00,0.95,0.65,30.60
+1009,"Blount County, Alabama",24402.00,0.94,0.67,34.90
+1011,"Bullock County, Alabama",3679.00,0.97,0.39,31.30
+1013,"Butler County, Alabama",7394.00,0.95,0.27,25.20
+1015,"Calhoun County, Alabama",48898.00,0.95,0.24,24.80
+1017,"Chambers County, Alabama",14660.00,0.94,0.56,22.90
+1019,"Cherokee County, Alabama",10079.00,0.93,0.57,30.00
+1021,"Chilton County, Alabama",18524.00,0.93,0.54,31.00
+1023,"Choctaw County, Alabama",4402.00,0.97,0.44,34.90
+1025,"Clarke County, Alabama",7694.00,0.96,0.29,25.50
+1027,"Clay County, Alabama",5176.00,0.92,0.36,26.80
+1029,"Cleburne County, Alabama",5593.00,0.96,0.73,34.70
+1031,"Coffee County, Alabama",22669.00,0.95,0.40,23.10
+1033,"Colbert County, Alabama",25195.00,0.93,0.35,22.00
+1035,"Conecuh County, Alabama",3664.00,0.97,0.47,27.90
+1037,"Coosa County, Alabama",3851.00,0.91,0.78,30.10
+1039,"Covington County, Alabama",14928.00,0.96,0.21,24.00
+1041,"Crenshaw County, Alabama",5128.00,0.91,0.46,29.40
+1043,"Cullman County, Alabama",38671.00,0.96,0.28,26.20
+1045,"Dale County, Alabama",19769.00,0.93,0.46,22.90
+1047,"Dallas County, Alabama",14138.00,0.94,0.23,26.00
+1049,"DeKalb County, Alabama",30290.00,0.94,0.32,25.20
+1051,"Elmore County, Alabama",38872.00,0.92,0.63,27.30
+1053,"Escambia County, Alabama",12733.00,0.98,0.24,21.60
+1055,"Etowah County, Alabama",43715.00,0.95,0.29,24.60
+1057,"Fayette County, Alabama",6236.00,0.96,0.50,29.60
+1059,"Franklin County, Alabama",13403.00,0.98,0.31,26.60
+1061,"Geneva County, Alabama",10627.00,0.95,0.56,26.50
+1063,"Greene County, Alabama",2170.00,0.94,0.48,30.70
+1065,"Hale County, Alabama",5358.00,0.96,0.63,33.60
+1067,"Henry County, Alabama",7154.00,0.95,0.65,27.10
+1069,"Houston County, Alabama",45364.00,0.94,0.18,22.60
+1071,"Jackson County, Alabama",20023.00,0.94,0.35,27.30
+1073,"Jefferson County, Alabama",306222.00,0.88,0.12,24.40
+1075,"Lamar County, Alabama",5222.00,0.96,0.46,25.60
+1077,"Lauderdale County, Alabama",42958.00,0.93,0.32,26.20
+1079,"Lawrence County, Alabama",13720.00,0.97,0.67,29.50
+1081,"Lee County, Alabama",80729.00,0.89,0.29,22.00
+1083,"Limestone County, Alabama",47315.00,0.91,0.52,26.50
+1085,"Lowndes County, Alabama",3642.00,0.93,0.73,33.10
+1087,"Macon County, Alabama",6787.00,0.86,0.50,23.50
+1089,"Madison County, Alabama",191093.00,0.86,0.07,21.90
+1091,"Marengo County, Alabama",7399.00,0.91,0.37,27.60
+1093,"Marion County, Alabama",11051.00,0.95,0.35,27.20
+1095,"Marshall County, Alabama",40866.00,0.93,0.28,25.30
+1097,"Mobile County, Alabama",173909.00,0.91,0.10,26.00
+1099,"Monroe County, Alabama",6220.00,0.94,0.24,24.00
+1101,"Montgomery County, Alabama",98021.00,0.91,0.10,20.80
+1103,"Morgan County, Alabama",54268.00,0.93,0.31,23.70
+1105,"Perry County, Alabama",2156.00,0.90,0.45,22.90
+1107,"Pickens County, Alabama",6691.00,0.92,0.59,36.50
+1109,"Pike County, Alabama",13338.00,0.92,0.15,20.30
+1111,"Randolph County, Alabama",8456.00,0.91,0.43,31.70
+1113,"Russell County, Alabama",23566.00,0.90,0.65,26.00
+1115,"St. Clair County, Alabama",41302.00,0.91,0.59,31.00
+1117,"Shelby County, Alabama",112772.00,0.86,0.45,29.70
+1119,"Sumter County, Alabama",4136.00,0.92,0.41,24.70
+1121,"Talladega County, Alabama",31194.00,0.94,0.37,26.80
+1123,"Tallapoosa County, Alabama",15388.00,0.95,0.41,28.10
+1125,"Tuscaloosa County, Alabama",107697.00,0.92,0.10,22.90
+1127,"Walker County, Alabama",25402.00,0.94,0.35,30.00
+1129,"Washington County, Alabama",5516.00,0.91,0.53,34.60
+1131,"Wilcox County, Alabama",3174.00,0.93,0.34,27.20
+1133,"Winston County, Alabama",9707.00,0.93,0.39,29.50
+2013,"Aleutians East Borough, Alaska",2244.00,0.27,0.01,6.00
+2016,"Aleutians West Census Area, Alaska",3413.00,0.58,0.00,6.10
+2020,"Anchorage Municipality, Alaska",148597.00,0.85,0.04,19.10
+2050,"Bethel Census Area, Alaska",6444.00,0.30,0.01,7.10
+2060,"Bristol Bay Borough, Alaska",438.00,0.74,0.03,11.10
+2063,"Chugach Census Area, Alaska",3495.00,0.77,0.07,9.40
+2066,"Copper River Census Area, Alaska",1110.00,0.68,0.14,28.40
+2068,"Denali Borough, Alaska",1389.00,0.58,0.04,14.60
+2070,"Dillingham Census Area, Alaska",1805.00,0.52,0.01,8.90
+2090,"Fairbanks North Star Borough, Alaska",48184.00,0.86,0.03,19.20
+2100,"Haines Borough, Alaska",791.00,0.63,0.06,13.20
+2105,"Hoonah-Angoon Census Area, Alaska",1127.00,0.39,0.05,14.10
+2110,"Juneau City and Borough, Alaska",16370.00,0.79,0.02,16.00
+2122,"Kenai Peninsula Borough, Alaska",24511.00,0.79,0.06,19.70
+2130,"Ketchikan Gateway Borough, Alaska",7018.00,0.83,0.01,14.00
+2150,"Kodiak Island Borough, Alaska",6890.00,0.77,0.01,11.90
+2158,"Kusilvak Census Area, Alaska",2398.00,0.10,0.01,6.00
+2164,"Lake and Peninsula Borough, Alaska",483.00,0.43,0.03,7.20
+2170,"Matanuska-Susitna Borough, Alaska",45940.00,0.82,0.31,35.30
+2180,"Nome Census Area, Alaska",3666.00,0.36,0.00,5.80
+2185,"North Slope Borough, Alaska",6370.00,0.40,0.06,8.10
+2188,"Northwest Arctic Borough, Alaska",2525.00,0.31,0.02,6.50
+2195,"Petersburg Borough, Alaska",1670.00,0.68,0.01,7.20
+2198,"Prince of Wales-Hyder Census Area, Alaska",2626.00,0.71,0.03,13.20
+2220,"Sitka City and Borough, Alaska",4643.00,0.72,0.03,11.40
+2230,"Skagway Municipality, Alaska",767.00,0.39,0.04,5.90
+2240,"Southeast Fairbanks Census Area, Alaska",2780.00,0.75,0.02,15.50
+2275,"Wrangell City and Borough, Alaska",798.00,0.70,0.01,6.80
+2282,"Yakutat City and Borough, Alaska",318.00,0.61,0.00,5.00
+2290,"Yukon-Koyukuk Census Area, Alaska",2257.00,0.36,0.07,8.70
+4001,"Apache County, Arizona",18073.00,0.85,0.23,28.10
+4003,"Cochise County, Arizona",46755.00,0.86,0.07,21.70
+4005,"Coconino County, Arizona",66342.00,0.79,0.07,19.20
+4007,"Gila County, Arizona",18434.00,0.88,0.18,22.20
+4009,"Graham County, Arizona",13864.00,0.93,0.15,23.10
+4011,"Greenlee County, Arizona",4129.00,0.95,0.15,18.20
+4012,"La Paz County, Arizona",5410.00,0.88,0.11,13.60
+4013,"Maricopa County, Arizona",2146216.00,0.79,0.02,26.10
+4015,"Mohave County, Arizona",74493.00,0.89,0.16,21.10
+4017,"Navajo County, Arizona",33309.00,0.86,0.11,23.10
+4019,"Pima County, Arizona",461211.00,0.82,0.03,24.50
+4021,"Pinal County, Arizona",167486.00,0.84,0.45,32.00
+4023,"Santa Cruz County, Arizona",18616.00,0.90,0.19,23.30
+4025,"Yavapai County, Arizona",92865.00,0.84,0.08,23.70
+4027,"Yuma County, Arizona",77216.00,0.90,0.07,20.80
+5001,"Arkansas County, Arkansas",7222.00,0.96,0.08,19.70
+5003,"Ashley County, Arkansas",6525.00,0.93,0.20,20.60
+5005,"Baxter County, Arkansas",15129.00,0.91,0.13,17.40
+5007,"Benton County, Arkansas",141682.00,0.85,0.16,20.80
+5009,"Boone County, Arkansas",15850.00,0.89,0.16,19.10
+5011,"Bradley County, Arkansas",3691.00,0.93,0.32,22.40
+5013,"Calhoun County, Arkansas",1643.00,0.95,0.55,21.80
+5015,"Carroll County, Arkansas",11683.00,0.85,0.13,21.10
+5017,"Chicot County, Arkansas",3224.00,0.90,0.27,20.50
+5019,"Clark County, Arkansas",9777.00,0.86,0.24,21.30
+5021,"Clay County, Arkansas",6194.00,0.90,0.37,23.00
+5023,"Cleburne County, Arkansas",9354.00,0.91,0.31,28.10
+5025,"Cleveland County, Arkansas",2886.00,0.93,0.75,31.80
+5027,"Columbia County, Arkansas",9137.00,0.92,0.19,20.70
+5029,"Conway County, Arkansas",8867.00,0.91,0.44,28.40
+5031,"Craighead County, Arkansas",50201.00,0.94,0.14,19.20
+5033,"Crawford County, Arkansas",24303.00,0.94,0.49,23.30
+5035,"Crittenden County, Arkansas",19881.00,0.93,0.39,21.60
+5037,"Cross County, Arkansas",6934.00,0.96,0.35,24.20
+5039,"Dallas County, Arkansas",2617.00,0.94,0.33,19.30
+5041,"Desha County, Arkansas",4027.00,0.96,0.22,17.80
+5043,"Drew County, Arkansas",6993.00,0.93,0.24,19.70
+5045,"Faulkner County, Arkansas",58110.00,0.91,0.34,25.90
+5047,"Franklin County, Arkansas",6644.00,0.95,0.47,25.50
+5049,"Fulton County, Arkansas",4212.00,0.87,0.54,29.40
+5051,"Garland County, Arkansas",41090.00,0.91,0.13,21.50
+5053,"Grant County, Arkansas",7695.00,0.89,0.54,29.90
+5055,"Greene County, Arkansas",19536.00,0.93,0.29,22.80
+5057,"Hempstead County, Arkansas",7626.00,0.97,0.35,23.30
+5059,"Hot Spring County, Arkansas",12758.00,0.94,0.55,28.00
+5061,"Howard County, Arkansas",5285.00,0.95,0.18,19.50
+5063,"Independence County, Arkansas",15894.00,0.92,0.11,19.50
+5065,"Izard County, Arkansas",4112.00,0.91,0.42,22.60
+5067,"Jackson County, Arkansas",5825.00,0.94,0.30,20.70
+5069,"Jefferson County, Arkansas",24926.00,0.91,0.17,20.40
+5071,"Johnson County, Arkansas",9860.00,0.92,0.21,18.60
+5073,"Lafayette County, Arkansas",2313.00,0.91,0.51,27.90
+5075,"Lawrence County, Arkansas",6312.00,0.94,0.43,25.90
+5077,"Lee County, Arkansas",2514.00,0.85,0.41,22.00
+5079,"Lincoln County, Arkansas",3550.00,0.95,0.35,23.40
+5081,"Little River County, Arkansas",5008.00,0.94,0.47,29.80
+5083,"Logan County, Arkansas",9042.00,0.91,0.31,24.60
+5085,"Lonoke County, Arkansas",34314.00,0.93,0.63,29.20
+5087,"Madison County, Arkansas",6891.00,0.90,0.43,32.00
+5089,"Marion County, Arkansas",5824.00,0.90,0.39,26.20
+5091,"Miller County, Arkansas",15949.00,0.94,0.57,20.80
+5093,"Mississippi County, Arkansas",16253.00,0.96,0.12,19.10
+5095,"Monroe County, Arkansas",2286.00,0.97,0.47,25.90
+5097,"Montgomery County, Arkansas",3222.00,0.94,0.52,36.10
+5099,"Nevada County, Arkansas",3117.00,0.98,0.52,27.90
+5101,"Newton County, Arkansas",2785.00,0.82,0.58,33.10
+5103,"Ouachita County, Arkansas",8345.00,0.95,0.38,23.30
+5105,"Perry County, Arkansas",3749.00,0.93,0.69,35.10
+5107,"Phillips County, Arkansas",5529.00,0.92,0.19,20.10
+5109,"Pike County, Arkansas",4210.00,0.93,0.50,29.30
+5111,"Poinsett County, Arkansas",9114.00,0.92,0.53,25.40
+5113,"Polk County, Arkansas",7479.00,0.92,0.13,21.80
+5115,"Pope County, Arkansas",26768.00,0.92,0.19,20.50
+5117,"Prairie County, Arkansas",3540.00,0.90,0.51,26.90
+5119,"Pulaski County, Arkansas",186769.00,0.88,0.07,20.30
+5121,"Randolph County, Arkansas",6962.00,0.95,0.25,22.60
+5123,"St. Francis County, Arkansas",7810.00,0.94,0.31,20.20
+5125,"Saline County, Arkansas",58391.00,0.92,0.55,25.20
+5127,"Scott County, Arkansas",4047.00,0.93,0.38,29.40
+5129,"Searcy County, Arkansas",2844.00,0.95,0.46,29.50
+5131,"Sebastian County, Arkansas",56890.00,0.91,0.14,19.40
+5133,"Sevier County, Arkansas",6683.00,0.94,0.32,25.20
+5135,"Sharp County, Arkansas",6216.00,0.92,0.48,24.10
+5137,"Stone County, Arkansas",3856.00,0.92,0.27,26.30
+5139,"Union County, Arkansas",15967.00,0.92,0.10,19.10
+5141,"Van Buren County, Arkansas",5364.00,0.88,0.30,29.10
+5143,"Washington County, Arkansas",119440.00,0.87,0.17,20.30
+5145,"White County, Arkansas",31811.00,0.93,0.25,23.50
+5147,"Woodruff County, Arkansas",2625.00,0.90,0.37,19.00
+5149,"Yell County, Arkansas",8902.00,0.90,0.42,23.10
+6001,"Alameda County, California",827327.00,0.63,0.29,32.60
+6003,"Alpine County, California",638.00,0.71,0.44,30.90
+6005,"Amador County, California",15508.00,0.84,0.32,31.20
+6007,"Butte County, California",91975.00,0.83,0.10,21.40
+6009,"Calaveras County, California",17014.00,0.83,0.44,35.60
+6011,"Colusa County, California",9477.00,0.92,0.31,24.60
+6013,"Contra Costa County, California",556391.00,0.72,0.36,36.80
+6015,"Del Norte County, California",9607.00,0.86,0.07,17.20
+6017,"El Dorado County, California",86127.00,0.78,0.37,29.00
+6019,"Fresno County, California",411511.00,0.88,0.09,23.30
+6021,"Glenn County, California",12118.00,0.88,0.32,21.70
+6023,"Humboldt County, California",58327.00,0.80,0.02,18.90
+6025,"Imperial County, California",59335.00,0.88,0.10,22.70
+6027,"Inyo County, California",8094.00,0.79,0.11,15.80
+6029,"Kern County, California",351806.00,0.91,0.07,23.90
+6031,"Kings County, California",56893.00,0.92,0.25,23.10
+6033,"Lake County, California",24313.00,0.81,0.23,31.00
+6035,"Lassen County, California",8909.00,0.90,0.08,20.10
+6037,"Los Angeles County, California",4737721.00,0.77,0.07,31.00
+6039,"Madera County, California",57706.00,0.86,0.36,29.50
+6041,"Marin County, California",126445.00,0.63,0.27,29.90
+6043,"Mariposa County, California",7072.00,0.72,0.20,31.40
+6045,"Mendocino County, California",36841.00,0.82,0.08,21.70
+6047,"Merced County, California",106381.00,0.87,0.31,30.50
+6049,"Modoc County, California",3184.00,0.82,0.22,20.40
+6051,"Mono County, California",7400.00,0.71,0.09,15.20
+6053,"Monterey County, California",189526.00,0.79,0.12,25.00
+6055,"Napa County, California",66906.00,0.82,0.19,25.60
+6057,"Nevada County, California",44318.00,0.74,0.24,24.30
+6059,"Orange County, California",1563277.00,0.80,0.14,27.30
+6061,"Placer County, California",187335.00,0.78,0.32,27.60
+6063,"Plumas County, California",7380.00,0.86,0.11,19.10
+6065,"Riverside County, California",1048421.00,0.87,0.27,33.80
+6067,"Sacramento County, California",727094.00,0.79,0.18,27.80
+6069,"San Benito County, California",30710.00,0.88,0.50,35.10
+6071,"San Bernardino County, California",946303.00,0.87,0.26,32.40
+6073,"San Diego County, California",1622954.00,0.78,0.02,26.10
+6075,"San Francisco County, California",487526.00,0.35,0.19,31.80
+6077,"San Joaquin County, California",325292.00,0.88,0.27,35.20
+6079,"San Luis Obispo County, California",129192.00,0.79,0.09,21.60
+6081,"San Mateo County, California",393729.00,0.68,0.34,28.00
+6083,"Santa Barbara County, California",204766.00,0.79,0.07,20.90
+6085,"Santa Clara County, California",975427.00,0.73,0.11,27.60
+6087,"Santa Cruz County, California",129470.00,0.73,0.21,26.70
+6089,"Shasta County, California",74304.00,0.88,0.07,20.20
+6091,"Sierra County, California",1216.00,0.87,0.35,26.50
+6093,"Siskiyou County, California",15974.00,0.85,0.07,20.00
+6095,"Solano County, California",209755.00,0.86,0.39,32.70
+6097,"Sonoma County, California",242102.00,0.82,0.14,25.40
+6099,"Stanislaus County, California",229451.00,0.90,0.27,30.80
+6101,"Sutter County, California",41767.00,0.89,0.43,28.20
+6103,"Tehama County, California",24769.00,0.89,0.26,24.20
+6105,"Trinity County, California",5176.00,0.67,0.13,31.30
+6107,"Tulare County, California",184620.00,0.92,0.16,23.20
+6109,"Tuolumne County, California",19951.00,0.84,0.17,29.60
+6111,"Ventura County, California",402639.00,0.84,0.19,26.00
+6113,"Yolo County, California",100577.00,0.74,0.33,23.90
+6115,"Yuba County, California",33422.00,0.91,0.57,31.00
+8001,"Adams County, Colorado",271582.00,0.84,0.54,29.90
+8003,"Alamosa County, Colorado",7632.00,0.91,0.22,15.20
+8005,"Arapahoe County, Colorado",349283.00,0.78,0.45,27.80
+8007,"Archuleta County, Colorado",5858.00,0.81,0.09,22.20
+8009,"Baca County, Colorado",1468.00,0.88,0.08,11.90
+8011,"Bent County, Colorado",1674.00,0.90,0.33,17.70
+8013,"Boulder County, Colorado",175188.00,0.64,0.18,23.40
+8014,"Broomfield County, Colorado",41490.00,0.71,0.57,26.80
+8015,"Chaffee County, Colorado",8649.00,0.73,0.07,18.50
+8017,"Cheyenne County, Colorado",878.00,0.86,0.09,13.60
+8019,"Clear Creek County, Colorado",5360.00,0.70,0.42,27.20
+8021,"Conejos County, Colorado",2946.00,0.83,0.42,25.80
+8023,"Costilla County, Colorado",1129.00,0.85,0.41,26.50
+8025,"Crowley County, Colorado",1567.00,0.88,0.64,26.10
+8027,"Custer County, Colorado",2029.00,0.73,0.30,33.00
+8029,"Delta County, Colorado",11981.00,0.82,0.26,26.00
+8031,"Denver County, Colorado",409324.00,0.67,0.32,25.30
+8033,"Dolores County, Colorado",1043.00,0.78,0.27,18.00
+8035,"Douglas County, Colorado",195197.00,0.73,0.42,27.30
+8037,"Eagle County, Colorado",31408.00,0.78,0.16,22.10
+8039,"Elbert County, Colorado",13823.00,0.82,0.65,41.90
+8041,"El Paso County, Colorado",368980.00,0.81,0.06,23.50
+8043,"Fremont County, Colorado",16657.00,0.84,0.20,26.30
+8045,"Garfield County, Colorado",33232.00,0.81,0.21,30.90
+8047,"Gilpin County, Colorado",3557.00,0.85,0.51,34.20
+8049,"Grand County, Colorado",8728.00,0.69,0.12,23.70
+8051,"Gunnison County, Colorado",9984.00,0.67,0.06,17.50
+8053,"Hinsdale County, Colorado",408.00,0.61,0.16,7.90
+8055,"Huerfano County, Colorado",2498.00,0.80,0.16,22.90
+8057,"Jackson County, Colorado",660.00,0.58,0.07,15.50
+8059,"Jefferson County, Colorado",317312.00,0.76,0.43,27.00
+8061,"Kiowa County, Colorado",624.00,0.89,0.22,15.70
+8063,"Kit Carson County, Colorado",3444.00,0.87,0.10,14.80
+8065,"Lake County, Colorado",4390.00,0.81,0.39,29.70
+8067,"La Plata County, Colorado",28762.00,0.76,0.06,21.00
+8069,"Larimer County, Colorado",189742.00,0.75,0.16,23.30
+8071,"Las Animas County, Colorado",5703.00,0.82,0.08,18.50
+8073,"Lincoln County, Colorado",2169.00,0.87,0.17,18.10
+8075,"Logan County, Colorado",10183.00,0.88,0.13,17.40
+8077,"Mesa County, Colorado",72651.00,0.82,0.04,19.60
+8079,"Mineral County, Colorado",413.00,0.79,0.11,14.00
+8081,"Moffat County, Colorado",6062.00,0.92,0.35,25.40
+8083,"Montezuma County, Colorado",10741.00,0.84,0.13,21.60
+8085,"Montrose County, Colorado",18297.00,0.84,0.14,20.60
+8087,"Morgan County, Colorado",13360.00,0.89,0.15,20.90
+8089,"Otero County, Colorado",7033.00,0.89,0.14,22.00
+8091,"Ouray County, Colorado",2167.00,0.76,0.30,26.10
+8093,"Park County, Colorado",8580.00,0.78,0.53,38.20
+8095,"Phillips County, Colorado",2055.00,0.89,0.21,21.00
+8097,"Pitkin County, Colorado",10314.00,0.54,0.10,19.70
+8099,"Prowers County, Colorado",5353.00,0.91,0.16,14.40
+8101,"Pueblo County, Colorado",69850.00,0.91,0.11,22.40
+8103,"Rio Blanco County, Colorado",2852.00,0.86,0.11,16.30
+8105,"Rio Grande County, Colorado",4989.00,0.88,0.28,21.40
+8107,"Routt County, Colorado",13686.00,0.75,0.05,19.70
+8109,"Saguache County, Colorado",2660.00,0.78,0.28,19.50
+8111,"San Juan County, Colorado",372.00,0.72,0.10,13.80
+8113,"San Miguel County, Colorado",4897.00,0.53,0.02,16.90
+8115,"Sedgwick County, Colorado",1062.00,0.79,0.27,22.10
+8117,"Summit County, Colorado",18644.00,0.71,0.06,19.90
+8119,"Teller County, Colorado",11249.00,0.81,0.37,32.90
+8121,"Washington County, Colorado",2247.00,0.82,0.32,21.40
+8123,"Weld County, Colorado",166155.00,0.85,0.39,28.20
+8125,"Yuma County, Colorado",4617.00,0.87,0.09,14.50
+9110,"Capitol Planning Region, Connecticut",485812.00,0.81,0.14,23.50
+9120,"Greater Bridgeport Planning Region, Connecticut",156551.00,0.77,0.47,30.70
+9130,"Lower Connecticut River Valley Planning Region, Connecticut",93089.00,0.81,0.45,25.60
+9140,"Naugatuck Valley Planning Region, Connecticut",223763.00,0.85,0.49,27.90
+9150,"Northeastern Connecticut Planning Region, Connecticut",46788.00,0.89,0.46,28.20
+9160,"Northwest Hills Planning Region, Connecticut",56900.00,0.83,0.43,28.80
+9170,"South Central Connecticut Planning Region, Connecticut",282725.00,0.79,0.26,23.90
+9180,"Southeastern Connecticut Planning Region, Connecticut",137271.00,0.84,0.21,24.30
+9190,"Western Connecticut Planning Region, Connecticut",315294.00,0.71,0.28,30.90
+10001,"Kent County, Delaware",82419.00,0.89,0.28,26.70
+10003,"New Castle County, Delaware",284140.00,0.80,0.18,25.20
+10005,"Sussex County, Delaware",102322.00,0.87,0.22,27.10
+11001,"District of Columbia, District of Columbia",366965.00,0.34,0.20,30.50
+12001,"Alachua County, Florida",130463.00,0.80,0.06,21.60
+12003,"Baker County, Florida",11312.00,0.88,0.48,31.10
+12005,"Bay County, Florida",85923.00,0.89,0.06,24.40
+12007,"Bradford County, Florida",10616.00,0.86,0.51,32.20
+12009,"Brevard County, Florida",269483.00,0.85,0.09,25.60
+12011,"Broward County, Florida",965176.00,0.83,0.22,28.90
+12013,"Calhoun County, Florida",4482.00,0.94,0.53,29.60
+12015,"Charlotte County, Florida",66322.00,0.82,0.28,25.70
+12017,"Citrus County, Florida",48459.00,0.86,0.25,27.90
+12019,"Clay County, Florida",103613.00,0.84,0.52,32.40
+12021,"Collier County, Florida",158573.00,0.85,0.11,25.50
+12023,"Columbia County, Florida",26940.00,0.91,0.29,25.30
+12027,"DeSoto County, Florida",12092.00,0.88,0.30,27.70
+12029,"Dixie County, Florida",5345.00,0.90,0.40,22.00
+12031,"Duval County, Florida",489335.00,0.84,0.07,24.40
+12033,"Escambia County, Florida",146059.00,0.81,0.10,23.30
+12035,"Flagler County, Florida",47069.00,0.84,0.37,28.30
+12037,"Franklin County, Florida",4116.00,0.87,0.17,21.00
+12039,"Gadsden County, Florida",16195.00,0.90,0.55,30.10
+12041,"Gilchrist County, Florida",7396.00,0.95,0.65,30.00
+12043,"Glades County, Florida",3425.00,0.87,0.69,37.10
+12045,"Gulf County, Florida",5106.00,0.89,0.33,24.10
+12047,"Hamilton County, Florida",3588.00,0.88,0.53,24.30
+12049,"Hardee County, Florida",8845.00,0.94,0.33,27.60
+12051,"Hendry County, Florida",17935.00,0.85,0.30,30.20
+12053,"Hernando County, Florida",77385.00,0.85,0.36,29.40
+12055,"Highlands County, Florida",34686.00,0.89,0.12,22.10
+12057,"Hillsborough County, Florida",723695.00,0.80,0.13,28.30
+12059,"Holmes County, Florida",7533.00,0.93,0.60,32.30
+12061,"Indian River County, Florida",62037.00,0.85,0.17,23.50
+12063,"Jackson County, Florida",16059.00,0.91,0.34,27.00
+12065,"Jefferson County, Florida",5936.00,0.93,0.64,29.80
+12067,"Lafayette County, Florida",2894.00,0.95,0.41,24.30
+12069,"Lake County, Florida",160502.00,0.85,0.40,30.00
+12071,"Lee County, Florida",326302.00,0.85,0.12,27.90
+12073,"Leon County, Florida",147179.00,0.83,0.06,20.60
+12075,"Levy County, Florida",16885.00,0.91,0.57,30.40
+12077,"Liberty County, Florida",2492.00,0.94,0.51,31.00
+12079,"Madison County, Florida",6020.00,0.94,0.36,29.40
+12081,"Manatee County, Florida",172752.00,0.83,0.29,26.50
+12083,"Marion County, Florida",139755.00,0.89,0.19,26.40
+12085,"Martin County, Florida",65741.00,0.83,0.34,27.10
+12086,"Miami-Dade County, Florida",1319578.00,0.82,0.07,31.60
+12087,"Monroe County, Florida",42929.00,0.75,0.05,19.40
+12089,"Nassau County, Florida",41279.00,0.87,0.44,30.40
+12091,"Okaloosa County, Florida",104566.00,0.88,0.11,25.80
+12093,"Okeechobee County, Florida",15091.00,0.88,0.24,26.70
+12095,"Orange County, Florida",717790.00,0.82,0.14,28.40
+12097,"Osceola County, Florida",187046.00,0.86,0.49,35.10
+12099,"Palm Beach County, Florida",682181.00,0.83,0.11,26.50
+12101,"Pasco County, Florida",242883.00,0.81,0.41,31.20
+12103,"Pinellas County, Florida",454923.00,0.80,0.13,24.70
+12105,"Polk County, Florida",315558.00,0.88,0.23,29.50
+12107,"Putnam County, Florida",25550.00,0.89,0.38,31.70
+12109,"St. Johns County, Florida",128385.00,0.77,0.35,27.10
+12111,"St. Lucie County, Florida",142823.00,0.88,0.35,28.30
+12113,"Santa Rosa County, Florida",83822.00,0.86,0.49,30.40
+12115,"Sarasota County, Florida",178719.00,0.83,0.15,24.50
+12117,"Seminole County, Florida",243840.00,0.81,0.40,27.20
+12119,"Sumter County, Florida",27879.00,0.80,0.36,27.10
+12121,"Suwannee County, Florida",16938.00,0.90,0.33,26.90
+12123,"Taylor County, Florida",6593.00,0.92,0.15,21.60
+12125,"Union County, Florida",4225.00,0.93,0.54,34.00
+12127,"Volusia County, Florida",241735.00,0.84,0.20,26.60
+12129,"Wakulla County, Florida",15067.00,0.93,0.55,31.80
+12131,"Walton County, Florida",33781.00,0.83,0.24,28.00
+12133,"Washington County, Florida",8533.00,0.94,0.52,32.00
+13001,"Appling County, Georgia",7195.00,0.93,0.29,22.50
+13003,"Atkinson County, Georgia",3523.00,0.94,0.48,25.40
+13005,"Bacon County, Georgia",4213.00,0.95,0.39,22.00
+13007,"Baker County, Georgia",875.00,0.95,0.66,23.80
+13009,"Baldwin County, Georgia",16374.00,0.92,0.32,26.60
+13011,"Banks County, Georgia",8321.00,0.91,0.75,32.90
+13013,"Barrow County, Georgia",40978.00,0.92,0.66,33.60
+13015,"Bartow County, Georgia",51272.00,0.88,0.40,29.00
+13017,"Ben Hill County, Georgia",7099.00,0.96,0.26,15.60
+13019,"Berrien County, Georgia",7206.00,0.93,0.49,23.20
+13021,"Bibb County, Georgia",63811.00,0.89,0.20,21.70
+13023,"Bleckley County, Georgia",4963.00,0.94,0.61,25.00
+13025,"Brantley County, Georgia",6865.00,0.97,0.74,31.10
+13027,"Brooks County, Georgia",6521.00,0.93,0.62,23.30
+13029,"Bryan County, Georgia",21534.00,0.90,0.70,33.00
+13031,"Bulloch County, Georgia",34969.00,0.89,0.31,24.50
+13033,"Burke County, Georgia",10318.00,0.88,0.43,27.00
+13035,"Butts County, Georgia",10025.00,0.92,0.60,32.80
+13037,"Calhoun County, Georgia",1574.00,0.88,0.48,22.70
+13039,"Camden County, Georgia",25574.00,0.85,0.30,25.00
+13043,"Candler County, Georgia",4429.00,0.95,0.48,23.60
+13045,"Carroll County, Georgia",54488.00,0.89,0.38,29.10
+13047,"Catoosa County, Georgia",32259.00,0.92,0.65,24.40
+13049,"Charlton County, Georgia",4961.00,0.97,0.58,26.10
+13051,"Chatham County, Georgia",143265.00,0.86,0.07,22.40
+13053,"Chattahoochee County, Georgia",5719.00,0.65,0.29,10.00
+13055,"Chattooga County, Georgia",8879.00,0.96,0.49,27.40
+13057,"Cherokee County, Georgia",139111.00,0.80,0.48,32.70
+13059,"Clarke County, Georgia",62244.00,0.80,0.25,21.10
+13061,"Clay County, Georgia",1101.00,0.88,0.68,20.10
+13063,"Clayton County, Georgia",134762.00,0.87,0.59,32.20
+13065,"Clinch County, Georgia",2512.00,0.84,0.32,23.50
+13067,"Cobb County, Georgia",401114.00,0.78,0.36,29.70
+13069,"Coffee County, Georgia",17589.00,0.91,0.16,18.00
+13071,"Colquitt County, Georgia",19065.00,0.91,0.26,23.10
+13073,"Columbia County, Georgia",75125.00,0.91,0.59,26.20
+13075,"Cook County, Georgia",7706.00,0.96,0.46,26.70
+13077,"Coweta County, Georgia",72084.00,0.86,0.49,30.40
+13079,"Crawford County, Georgia",4844.00,0.89,0.76,32.70
+13081,"Crisp County, Georgia",8315.00,0.91,0.28,20.80
+13083,"Dade County, Georgia",6928.00,0.86,0.56,26.60
+13085,"Dawson County, Georgia",13367.00,0.84,0.53,30.70
+13087,"Decatur County, Georgia",10902.00,0.94,0.30,20.30
+13089,"DeKalb County, Georgia",378641.00,0.75,0.47,31.30
+13091,"Dodge County, Georgia",7620.00,0.92,0.47,30.00
+13093,"Dooly County, Georgia",3902.00,0.90,0.39,22.40
+13095,"Dougherty County, Georgia",32937.00,0.90,0.18,20.50
+13097,"Douglas County, Georgia",69337.00,0.85,0.57,32.80
+13099,"Early County, Georgia",4220.00,0.92,0.39,23.80
+13101,"Echols County, Georgia",1901.00,0.87,0.54,22.90
+13103,"Effingham County, Georgia",30689.00,0.94,0.64,30.00
+13105,"Elbert County, Georgia",8440.00,0.89,0.35,23.70
+13107,"Emanuel County, Georgia",8865.00,0.91,0.43,28.60
+13109,"Evans County, Georgia",4262.00,0.88,0.45,24.10
+13111,"Fannin County, Georgia",9711.00,0.88,0.28,26.50
+13113,"Fayette County, Georgia",54097.00,0.81,0.49,32.30
+13115,"Floyd County, Georgia",42651.00,0.90,0.24,23.40
+13117,"Forsyth County, Georgia",128130.00,0.72,0.42,31.60
+13119,"Franklin County, Georgia",9404.00,0.90,0.48,26.30
+13121,"Fulton County, Georgia",551789.00,0.67,0.24,28.50
+13123,"Gilmer County, Georgia",13217.00,0.91,0.40,29.00
+13125,"Glascock County, Georgia",1286.00,0.96,0.79,36.80
+13127,"Glynn County, Georgia",36929.00,0.89,0.07,19.40
+13129,"Gordon County, Georgia",26088.00,0.92,0.30,23.40
+13131,"Grady County, Georgia",10600.00,0.95,0.54,25.40
+13133,"Greene County, Georgia",7261.00,0.89,0.35,28.20
+13135,"Gwinnett County, Georgia",464985.00,0.83,0.37,33.30
+13137,"Habersham County, Georgia",20660.00,0.90,0.40,26.90
+13139,"Hall County, Georgia",97489.00,0.88,0.33,27.90
+13141,"Hancock County, Georgia",2445.00,0.90,0.63,36.90
+13143,"Haralson County, Georgia",13781.00,0.91,0.56,29.40
+13145,"Harris County, Georgia",15595.00,0.90,0.74,26.30
+13147,"Hart County, Georgia",10998.00,0.91,0.44,23.30
+13149,"Heard County, Georgia",4470.00,0.94,0.70,35.50
+13151,"Henry County, Georgia",115681.00,0.85,0.51,33.10
+13153,"Houston County, Georgia",78041.00,0.91,0.26,22.70
+13155,"Irwin County, Georgia",3897.00,0.92,0.60,27.10
+13157,"Jackson County, Georgia",36440.00,0.86,0.55,30.70
+13159,"Jasper County, Georgia",6326.00,0.92,0.63,34.70
+13161,"Jeff Davis County, Georgia",5757.00,0.93,0.39,23.20
+13163,"Jefferson County, Georgia",6165.00,0.95,0.50,29.80
+13165,"Jenkins County, Georgia",2859.00,0.86,0.39,24.10
+13167,"Johnson County, Georgia",3175.00,0.94,0.60,29.00
+13169,"Jones County, Georgia",12627.00,0.92,0.72,30.50
+13171,"Lamar County, Georgia",7952.00,0.93,0.61,30.30
+13173,"Lanier County, Georgia",3781.00,0.85,0.57,22.90
+13175,"Laurens County, Georgia",19037.00,0.95,0.21,25.90
+13177,"Lee County, Georgia",15619.00,0.94,0.78,22.80
+13179,"Liberty County, Georgia",29627.00,0.91,0.25,23.50
+13181,"Lincoln County, Georgia",3162.00,0.94,0.58,31.00
+13183,"Long County, Georgia",7445.00,0.90,0.77,31.00
+13185,"Lowndes County, Georgia",52388.00,0.92,0.09,19.80
+13187,"Lumpkin County, Georgia",15172.00,0.86,0.47,27.80
+13189,"McDuffie County, Georgia",9457.00,0.92,0.47,22.40
+13191,"McIntosh County, Georgia",4519.00,0.86,0.57,31.40
+13193,"Macon County, Georgia",3533.00,0.85,0.40,22.40
+13195,"Madison County, Georgia",12960.00,0.91,0.73,28.40
+13197,"Marion County, Georgia",2806.00,0.93,0.62,35.10
+13199,"Meriwether County, Georgia",7732.00,0.94,0.74,34.20
+13201,"Miller County, Georgia",2382.00,0.93,0.46,24.40
+13205,"Mitchell County, Georgia",7509.00,0.96,0.44,25.20
+13207,"Monroe County, Georgia",12742.00,0.95,0.57,27.60
+13209,"Montgomery County, Georgia",3395.00,0.90,0.71,27.20
+13211,"Morgan County, Georgia",9658.00,0.90,0.45,25.60
+13213,"Murray County, Georgia",17719.00,0.95,0.62,25.90
+13215,"Muscogee County, Georgia",88082.00,0.87,0.18,20.20
+13217,"Newton County, Georgia",52493.00,0.85,0.59,37.10
+13219,"Oconee County, Georgia",20456.00,0.82,0.55,25.50
+13221,"Oglethorpe County, Georgia",6959.00,0.94,0.75,31.90
+13223,"Paulding County, Georgia",82606.00,0.86,0.63,38.20
+13225,"Peach County, Georgia",11644.00,0.87,0.58,22.60
+13227,"Pickens County, Georgia",15293.00,0.86,0.50,32.50
+13229,"Pierce County, Georgia",8446.00,0.98,0.61,26.00
+13231,"Pike County, Georgia",8480.00,0.92,0.68,34.80
+13233,"Polk County, Georgia",17896.00,0.92,0.47,30.20
+13235,"Pulaski County, Georgia",3555.00,0.97,0.55,26.60
+13237,"Putnam County, Georgia",9295.00,0.90,0.53,32.00
+13239,"Quitman County, Georgia",525.00,0.99,0.77,32.90
+13241,"Rabun County, Georgia",6735.00,0.82,0.22,25.70
+13243,"Randolph County, Georgia",2390.00,0.92,0.44,23.00
+13245,"Richmond County, Georgia",91150.00,0.84,0.23,21.40
+13247,"Rockdale County, Georgia",42514.00,0.85,0.56,34.90
+13249,"Schley County, Georgia",1857.00,0.94,0.75,30.50
+13251,"Screven County, Georgia",5799.00,0.92,0.47,32.90
+13253,"Seminole County, Georgia",3239.00,0.94,0.46,28.10
+13255,"Spalding County, Georgia",27798.00,0.91,0.49,27.20
+13257,"Stephens County, Georgia",11191.00,0.90,0.33,23.20
+13259,"Stewart County, Georgia",1450.00,1.00,0.72,36.30
+13261,"Sumter County, Georgia",11843.00,0.89,0.25,19.30
+13263,"Talbot County, Georgia",2420.00,0.91,0.83,39.20
+13265,"Taliaferro County, Georgia",670.00,0.84,0.60,28.50
+13267,"Tattnall County, Georgia",7609.00,0.86,0.44,27.00
+13269,"Taylor County, Georgia",2827.00,0.94,0.52,30.10
+13271,"Telfair County, Georgia",3676.00,0.95,0.37,22.90
+13273,"Terrell County, Georgia",3275.00,0.89,0.52,24.90
+13275,"Thomas County, Georgia",20528.00,0.93,0.19,19.80
+13277,"Tift County, Georgia",17682.00,0.93,0.14,21.10
+13279,"Toombs County, Georgia",9940.00,0.92,0.30,24.60
+13281,"Towns County, Georgia",4510.00,0.88,0.44,20.10
+13283,"Treutlen County, Georgia",2163.00,0.98,0.63,32.80
+13285,"Troup County, Georgia",30516.00,0.92,0.21,23.20
+13287,"Turner County, Georgia",3301.00,0.90,0.48,23.60
+13289,"Twiggs County, Georgia",2727.00,0.91,0.76,26.60
+13291,"Union County, Georgia",9400.00,0.90,0.23,23.70
+13293,"Upson County, Georgia",11247.00,0.94,0.39,23.70
+13295,"Walker County, Georgia",29901.00,0.89,0.60,29.00
+13297,"Walton County, Georgia",45662.00,0.86,0.57,34.20
+13299,"Ware County, Georgia",12933.00,0.94,0.21,21.40
+13301,"Warren County, Georgia",1993.00,0.92,0.74,27.60
+13303,"Washington County, Georgia",7422.00,0.95,0.24,23.50
+13305,"Wayne County, Georgia",10946.00,0.93,0.28,26.80
+13307,"Webster County, Georgia",958.00,0.96,0.67,33.30
+13309,"Wheeler County, Georgia",2736.00,0.92,0.71,37.40
+13311,"White County, Georgia",12478.00,0.86,0.41,28.60
+13313,"Whitfield County, Georgia",47067.00,0.95,0.19,21.20
+13315,"Wilcox County, Georgia",2847.00,0.90,0.58,28.00
+13317,"Wilkes County, Georgia",3867.00,0.94,0.42,29.50
+13319,"Wilkinson County, Georgia",3231.00,0.94,0.53,26.90
+13321,"Worth County, Georgia",8629.00,0.92,0.62,27.60
+15001,"Hawaii County, Hawaii",87270.00,0.85,0.01,27.50
+15003,"Honolulu County, Hawaii",503138.00,0.79,0.01,27.40
+15005,"Kalawao County, Hawaii",36.00,0.64,0.42,5.20
+15007,"Kauai County, Hawaii",34033.00,0.87,0.01,21.10
+15009,"Maui County, Hawaii",79955.00,0.85,0.01,22.70
+16001,"Ada County, Idaho",252218.00,0.80,0.08,21.10
+16003,"Adams County, Idaho",1708.00,0.80,0.46,22.60
+16005,"Bannock County, Idaho",38777.00,0.86,0.13,18.00
+16007,"Bear Lake County, Idaho",2644.00,0.87,0.31,29.90
+16009,"Benewah County, Idaho",3734.00,0.87,0.28,23.60
+16011,"Bingham County, Idaho",21253.00,0.91,0.39,22.80
+16013,"Blaine County, Idaho",13268.00,0.78,0.04,18.10
+16015,"Boise County, Idaho",3322.00,0.77,0.47,36.00
+16017,"Bonner County, Idaho",19490.00,0.82,0.18,23.90
+16019,"Bonneville County, Idaho",55030.00,0.86,0.12,20.70
+16021,"Boundary County, Idaho",4743.00,0.87,0.20,24.30
+16023,"Butte County, Idaho",1047.00,0.76,0.11,18.30
+16025,"Camas County, Idaho",465.00,0.86,0.53,41.10
+16027,"Canyon County, Idaho",106912.00,0.86,0.36,25.10
+16029,"Caribou County, Idaho",3337.00,0.92,0.13,18.20
+16031,"Cassia County, Idaho",11236.00,0.90,0.27,17.00
+16033,"Clark County, Idaho",401.00,0.90,0.30,25.90
+16035,"Clearwater County, Idaho",3299.00,0.87,0.16,24.90
+16037,"Custer County, Idaho",1762.00,0.64,0.09,17.60
+16039,"Elmore County, Idaho",13077.00,0.93,0.18,22.00
+16041,"Franklin County, Idaho",6423.00,0.87,0.42,25.80
+16043,"Fremont County, Idaho",5718.00,0.87,0.50,25.30
+16045,"Gem County, Idaho",8321.00,0.88,0.43,30.20
+16047,"Gooding County, Idaho",7018.00,0.84,0.35,21.90
+16049,"Idaho County, Idaho",6403.00,0.84,0.20,18.90
+16051,"Jefferson County, Idaho",14151.00,0.88,0.57,24.40
+16053,"Jerome County, Idaho",11337.00,0.92,0.38,19.00
+16055,"Kootenai County, Idaho",80056.00,0.85,0.20,22.50
+16057,"Latah County, Idaho",18879.00,0.74,0.25,18.50
+16059,"Lemhi County, Idaho",3273.00,0.84,0.05,14.80
+16061,"Lewis County, Idaho",1307.00,0.86,0.43,22.10
+16063,"Lincoln County, Idaho",2514.00,0.91,0.52,34.00
+16065,"Madison County, Idaho",26209.00,0.75,0.19,15.20
+16067,"Minidoka County, Idaho",9867.00,0.93,0.38,15.60
+16069,"Nez Perce County, Idaho",19581.00,0.90,0.19,17.00
+16071,"Oneida County, Idaho",2145.00,0.88,0.33,27.00
+16073,"Owyhee County, Idaho",5214.00,0.85,0.56,26.30
+16075,"Payette County, Idaho",10627.00,0.93,0.49,20.30
+16077,"Power County, Idaho",3530.00,0.83,0.26,16.80
+16079,"Shoshone County, Idaho",5471.00,0.88,0.22,21.20
+16081,"Teton County, Idaho",6681.00,0.79,0.37,29.20
+16083,"Twin Falls County, Idaho",41514.00,0.90,0.14,18.90
+16085,"Valley County, Idaho",4848.00,0.71,0.03,11.60
+16087,"Washington County, Idaho",3897.00,0.82,0.26,18.10
+17001,"Adams County, Illinois",32863.00,0.90,0.11,17.00
+17003,"Alexander County, Illinois",1797.00,0.91,0.64,27.70
+17005,"Bond County, Illinois",6913.00,0.86,0.45,24.40
+17007,"Boone County, Illinois",25158.00,0.92,0.64,26.90
+17009,"Brown County, Illinois",2368.00,0.92,0.26,16.60
+17011,"Bureau County, Illinois",15611.00,0.92,0.42,21.20
+17013,"Calhoun County, Illinois",1746.00,0.84,0.55,48.70
+17015,"Carroll County, Illinois",6722.00,0.90,0.38,22.10
+17017,"Cass County, Illinois",5760.00,0.92,0.39,20.40
+17019,"Champaign County, Illinois",98994.00,0.74,0.06,17.10
+17021,"Christian County, Illinois",14557.00,0.92,0.38,22.00
+17023,"Clark County, Illinois",7074.00,0.94,0.46,25.60
+17025,"Clay County, Illinois",5711.00,0.90,0.30,24.00
+17027,"Clinton County, Illinois",18038.00,0.87,0.48,25.60
+17029,"Coles County, Illinois",22724.00,0.87,0.17,17.20
+17031,"Cook County, Illinois",2547260.00,0.65,0.12,32.30
+17033,"Crawford County, Illinois",8191.00,0.90,0.15,15.90
+17035,"Cumberland County, Illinois",5403.00,0.90,0.58,23.60
+17037,"DeKalb County, Illinois",50485.00,0.88,0.38,26.30
+17039,"De Witt County, Illinois",7552.00,0.91,0.48,23.00
+17041,"Douglas County, Illinois",9387.00,0.85,0.40,20.60
+17043,"DuPage County, Illinois",480623.00,0.75,0.35,28.40
+17045,"Edgar County, Illinois",7409.00,0.93,0.26,19.80
+17047,"Edwards County, Illinois",2655.00,0.89,0.55,25.70
+17049,"Effingham County, Illinois",17381.00,0.86,0.12,17.90
+17051,"Fayette County, Illinois",8886.00,0.91,0.42,22.80
+17053,"Ford County, Illinois",6338.00,0.89,0.43,23.90
+17055,"Franklin County, Illinois",15486.00,0.92,0.51,26.80
+17057,"Fulton County, Illinois",14264.00,0.93,0.42,25.70
+17059,"Gallatin County, Illinois",2074.00,0.97,0.66,26.30
+17061,"Greene County, Illinois",5447.00,0.90,0.53,30.50
+17063,"Grundy County, Illinois",26321.00,0.90,0.53,28.00
+17065,"Hamilton County, Illinois",3243.00,0.90,0.55,30.30
+17067,"Hancock County, Illinois",8112.00,0.89,0.53,25.40
+17069,"Hardin County, Illinois",1210.00,0.91,0.58,32.00
+17071,"Henderson County, Illinois",2896.00,0.93,0.71,28.80
+17073,"Henry County, Illinois",23067.00,0.90,0.46,23.10
+17075,"Iroquois County, Illinois",12171.00,0.90,0.43,24.40
+17077,"Jackson County, Illinois",22448.00,0.85,0.26,20.20
+17079,"Jasper County, Illinois",4584.00,0.90,0.49,28.30
+17081,"Jefferson County, Illinois",15993.00,0.93,0.19,19.70
+17083,"Jersey County, Illinois",10053.00,0.86,0.52,27.20
+17085,"Jo Daviess County, Illinois",10721.00,0.83,0.39,21.80
+17087,"Johnson County, Illinois",4316.00,0.91,0.60,26.90
+17089,"Kane County, Illinois",263420.00,0.83,0.43,28.70
+17091,"Kankakee County, Illinois",49040.00,0.88,0.24,24.70
+17093,"Kendall County, Illinois",68047.00,0.86,0.63,33.60
+17095,"Knox County, Illinois",20421.00,0.91,0.19,21.20
+17097,"Lake County, Illinois",360255.00,0.79,0.28,29.40
+17099,"LaSalle County, Illinois",51386.00,0.93,0.30,25.60
+17101,"Lawrence County, Illinois",5958.00,0.91,0.45,23.30
+17103,"Lee County, Illinois",15132.00,0.92,0.41,24.00
+17105,"Livingston County, Illinois",16394.00,0.88,0.26,21.60
+17107,"Logan County, Illinois",12076.00,0.89,0.34,21.10
+17109,"McDonough County, Illinois",12596.00,0.86,0.15,19.30
+17111,"McHenry County, Illinois",162822.00,0.83,0.43,31.30
+17113,"McLean County, Illinois",84210.00,0.81,0.11,18.30
+17115,"Macon County, Illinois",44302.00,0.90,0.10,18.70
+17117,"Macoupin County, Illinois",19857.00,0.90,0.54,27.80
+17119,"Madison County, Illinois",127321.00,0.88,0.36,25.40
+17121,"Marion County, Illinois",16031.00,0.93,0.29,19.80
+17123,"Marshall County, Illinois",5110.00,0.92,0.56,27.30
+17125,"Mason County, Illinois",5716.00,0.88,0.49,28.10
+17127,"Massac County, Illinois",5704.00,0.94,0.48,22.50
+17129,"Menard County, Illinois",5863.00,0.90,0.65,26.40
+17131,"Mercer County, Illinois",7255.00,0.90,0.55,28.60
+17133,"Monroe County, Illinois",18632.00,0.88,0.60,28.60
+17135,"Montgomery County, Illinois",11366.00,0.88,0.35,24.50
+17137,"Morgan County, Illinois",14173.00,0.89,0.23,20.70
+17139,"Moultrie County, Illinois",6511.00,0.86,0.45,21.60
+17141,"Ogle County, Illinois",24422.00,0.91,0.52,27.00
+17143,"Peoria County, Illinois",80437.00,0.87,0.18,18.80
+17145,"Perry County, Illinois",7830.00,0.92,0.50,23.50
+17147,"Piatt County, Illinois",8230.00,0.91,0.61,24.00
+17149,"Pike County, Illinois",6292.00,0.90,0.35,25.80
+17151,"Pope County, Illinois",1263.00,0.90,0.71,31.50
+17153,"Pulaski County, Illinois",1690.00,0.91,0.62,28.30
+17155,"Putnam County, Illinois",2598.00,0.93,0.65,26.30
+17157,"Randolph County, Illinois",12228.00,0.93,0.27,23.30
+17159,"Richland County, Illinois",7529.00,0.91,0.26,20.80
+17161,"Rock Island County, Illinois",65172.00,0.89,0.30,20.10
+17163,"St. Clair County, Illinois",121312.00,0.86,0.36,24.80
+17165,"Saline County, Illinois",9695.00,0.91,0.31,23.50
+17167,"Sangamon County, Illinois",91961.00,0.86,0.07,19.40
+17169,"Schuyler County, Illinois",2946.00,0.89,0.37,22.70
+17171,"Scott County, Illinois",2187.00,0.90,0.57,25.30
+17173,"Shelby County, Illinois",10097.00,0.90,0.50,22.20
+17175,"Stark County, Illinois",2384.00,0.90,0.56,25.80
+17177,"Stephenson County, Illinois",20106.00,0.86,0.24,22.20
+17179,"Tazewell County, Illinois",60929.00,0.89,0.38,21.10
+17181,"Union County, Illinois",6750.00,0.93,0.37,25.70
+17183,"Vermilion County, Illinois",29995.00,0.89,0.16,20.30
+17185,"Wabash County, Illinois",4981.00,0.91,0.49,23.00
+17187,"Warren County, Illinois",7485.00,0.88,0.33,19.30
+17189,"Washington County, Illinois",6716.00,0.91,0.42,26.20
+17191,"Wayne County, Illinois",7059.00,0.92,0.43,23.40
+17193,"White County, Illinois",5884.00,0.92,0.39,23.90
+17195,"Whiteside County, Illinois",26038.00,0.91,0.34,19.90
+17197,"Will County, Illinois",352432.00,0.84,0.44,32.10
+17199,"Williamson County, Illinois",29817.00,0.90,0.30,22.80
+17201,"Winnebago County, Illinois",127395.00,0.90,0.18,22.80
+17203,"Woodford County, Illinois",18421.00,0.88,0.54,24.30
+18001,"Adams County, Indiana",15265.00,0.91,0.31,22.70
+18003,"Allen County, Indiana",186470.00,0.89,0.11,21.60
+18005,"Bartholomew County, Indiana",40397.00,0.87,0.17,19.70
+18007,"Benton County, Indiana",3944.00,0.90,0.58,28.40
+18009,"Blackford County, Indiana",4852.00,0.90,0.55,25.20
+18011,"Boone County, Indiana",36583.00,0.80,0.49,24.80
+18013,"Brown County, Indiana",7134.00,0.88,0.61,35.20
+18015,"Carroll County, Indiana",9486.00,0.94,0.64,25.60
+18017,"Cass County, Indiana",17896.00,0.95,0.33,21.30
+18019,"Clark County, Indiana",61188.00,0.88,0.47,22.80
+18021,"Clay County, Indiana",11606.00,0.94,0.58,30.40
+18023,"Clinton County, Indiana",15322.00,0.91,0.41,20.70
+18025,"Crawford County, Indiana",4279.00,0.92,0.62,37.30
+18027,"Daviess County, Indiana",14983.00,0.89,0.31,23.10
+18029,"Dearborn County, Indiana",25312.00,0.91,0.58,30.10
+18031,"Decatur County, Indiana",13135.00,0.89,0.34,22.50
+18033,"DeKalb County, Indiana",21137.00,0.93,0.36,20.60
+18035,"Delaware County, Indiana",51601.00,0.88,0.22,21.00
+18037,"Dubois County, Indiana",22578.00,0.94,0.12,18.60
+18039,"Elkhart County, Indiana",97136.00,0.91,0.13,19.20
+18041,"Fayette County, Indiana",10093.00,0.94,0.44,27.70
+18043,"Floyd County, Indiana",38923.00,0.87,0.55,23.40
+18045,"Fountain County, Indiana",7531.00,0.90,0.52,23.70
+18047,"Franklin County, Indiana",11370.00,0.87,0.62,34.90
+18049,"Fulton County, Indiana",8674.00,0.91,0.47,24.30
+18051,"Gibson County, Indiana",15614.00,0.92,0.30,20.60
+18053,"Grant County, Indiana",28661.00,0.84,0.23,22.10
+18055,"Greene County, Indiana",13253.00,0.90,0.53,28.10
+18057,"Hamilton County, Indiana",184368.00,0.81,0.42,26.00
+18059,"Hancock County, Indiana",41586.00,0.85,0.56,26.60
+18061,"Harrison County, Indiana",18035.00,0.92,0.55,31.10
+18063,"Hendricks County, Indiana",91969.00,0.86,0.51,25.80
+18065,"Henry County, Indiana",20169.00,0.91,0.43,25.80
+18067,"Howard County, Indiana",36245.00,0.92,0.21,20.50
+18069,"Huntington County, Indiana",17611.00,0.91,0.40,22.20
+18071,"Jackson County, Indiana",22017.00,0.93,0.29,22.50
+18073,"Jasper County, Indiana",14923.00,0.93,0.45,28.40
+18075,"Jay County, Indiana",8776.00,0.89,0.38,21.30
+18077,"Jefferson County, Indiana",14833.00,0.92,0.24,22.30
+18079,"Jennings County, Indiana",12758.00,0.95,0.51,24.60
+18081,"Johnson County, Indiana",81130.00,0.87,0.51,26.40
+18083,"Knox County, Indiana",17699.00,0.93,0.20,20.60
+18085,"Kosciusko County, Indiana",39179.00,0.89,0.25,20.00
+18087,"LaGrange County, Indiana",17471.00,0.78,0.40,22.60
+18089,"Lake County, Indiana",221831.00,0.90,0.31,28.80
+18091,"LaPorte County, Indiana",48913.00,0.92,0.33,24.50
+18093,"Lawrence County, Indiana",21016.00,0.93,0.39,26.10
+18095,"Madison County, Indiana",58438.00,0.88,0.42,26.70
+18097,"Marion County, Indiana",474526.00,0.86,0.19,24.00
+18099,"Marshall County, Indiana",21335.00,0.89,0.37,22.90
+18101,"Martin County, Indiana",4688.00,0.90,0.48,28.20
+18103,"Miami County, Indiana",15136.00,0.93,0.52,24.80
+18105,"Monroe County, Indiana",68299.00,0.76,0.12,20.20
+18107,"Montgomery County, Indiana",17939.00,0.90,0.27,22.40
+18109,"Morgan County, Indiana",34416.00,0.90,0.60,31.70
+18111,"Newton County, Indiana",5738.00,0.92,0.62,28.30
+18113,"Noble County, Indiana",22483.00,0.92,0.46,24.40
+18115,"Ohio County, Indiana",2741.00,0.92,0.68,33.30
+18117,"Orange County, Indiana",9211.00,0.93,0.34,25.40
+18119,"Owen County, Indiana",9810.00,0.93,0.56,34.90
+18121,"Parke County, Indiana",6270.00,0.85,0.56,29.70
+18123,"Perry County, Indiana",8372.00,0.92,0.41,23.70
+18125,"Pike County, Indiana",5430.00,0.93,0.61,26.80
+18127,"Porter County, Indiana",81856.00,0.89,0.42,28.50
+18129,"Posey County, Indiana",12131.00,0.92,0.52,22.70
+18131,"Pulaski County, Indiana",5849.00,0.90,0.47,26.30
+18133,"Putnam County, Indiana",15990.00,0.85,0.38,26.90
+18135,"Randolph County, Indiana",10613.00,0.94,0.46,24.10
+18137,"Ripley County, Indiana",14452.00,0.91,0.40,27.70
+18139,"Rush County, Indiana",7343.00,0.92,0.56,25.80
+18141,"St. Joseph County, Indiana",128488.00,0.85,0.19,21.30
+18143,"Scott County, Indiana",10567.00,0.91,0.38,22.30
+18145,"Shelby County, Indiana",21541.00,0.89,0.42,24.50
+18147,"Spencer County, Indiana",9652.00,0.94,0.59,27.10
+18149,"Starke County, Indiana",9336.00,0.94,0.58,29.40
+18151,"Steuben County, Indiana",16098.00,0.92,0.33,21.80
+18153,"Sullivan County, Indiana",8694.00,0.96,0.45,25.40
+18155,"Switzerland County, Indiana",4361.00,0.92,0.61,34.70
+18157,"Tippecanoe County, Indiana",88935.00,0.82,0.09,17.80
+18159,"Tipton County, Indiana",7268.00,0.91,0.61,25.40
+18161,"Union County, Indiana",3533.00,0.94,0.68,26.90
+18163,"Vanderburgh County, Indiana",87736.00,0.90,0.17,19.60
+18165,"Vermillion County, Indiana",6710.00,0.90,0.58,27.30
+18167,"Vigo County, Indiana",47887.00,0.89,0.13,19.40
+18169,"Wabash County, Indiana",14096.00,0.91,0.33,20.50
+18171,"Warren County, Indiana",3978.00,0.92,0.62,25.90
+18173,"Warrick County, Indiana",31207.00,0.89,0.59,23.20
+18175,"Washington County, Indiana",12768.00,0.91,0.53,32.20
+18177,"Wayne County, Indiana",29789.00,0.90,0.17,20.10
+18179,"Wells County, Indiana",14158.00,0.93,0.45,23.80
+18181,"White County, Indiana",11067.00,0.92,0.39,23.20
+18183,"Whitley County, Indiana",16934.00,0.90,0.49,24.00
+19001,"Adair County, Iowa",3573.00,0.88,0.40,23.00
+19003,"Adams County, Iowa",1730.00,0.87,0.45,20.60
+19005,"Allamakee County, Iowa",6758.00,0.85,0.37,22.80
+19007,"Appanoose County, Iowa",4916.00,0.92,0.31,22.10
+19009,"Audubon County, Iowa",2806.00,0.86,0.36,19.00
+19011,"Benton County, Iowa",13111.00,0.88,0.58,25.60
+19013,"Black Hawk County, Iowa",65260.00,0.87,0.07,16.70
+19015,"Boone County, Iowa",14054.00,0.88,0.47,22.10
+19017,"Bremer County, Iowa",12544.00,0.84,0.41,19.80
+19019,"Buchanan County, Iowa",10291.00,0.87,0.44,22.00
+19021,"Buena Vista County, Iowa",10171.00,0.87,0.12,14.80
+19023,"Butler County, Iowa",6733.00,0.91,0.56,23.50
+19025,"Calhoun County, Iowa",4196.00,0.90,0.47,21.00
+19027,"Carroll County, Iowa",10600.00,0.90,0.12,14.30
+19029,"Cass County, Iowa",6486.00,0.86,0.15,16.10
+19031,"Cedar County, Iowa",9612.00,0.88,0.60,25.80
+19033,"Cerro Gordo County, Iowa",21675.00,0.89,0.13,16.40
+19035,"Cherokee County, Iowa",5847.00,0.86,0.22,18.00
+19037,"Chickasaw County, Iowa",6088.00,0.90,0.27,19.80
+19039,"Clarke County, Iowa",4416.00,0.88,0.31,23.80
+19041,"Clay County, Iowa",8259.00,0.87,0.19,17.60
+19043,"Clayton County, Iowa",8523.00,0.83,0.36,22.80
+19045,"Clinton County, Iowa",21251.00,0.90,0.28,20.00
+19047,"Crawford County, Iowa",7703.00,0.88,0.23,17.00
+19049,"Dallas County, Iowa",54746.00,0.81,0.53,21.20
+19051,"Davis County, Iowa",4002.00,0.77,0.34,23.90
+19053,"Decatur County, Iowa",3437.00,0.85,0.39,23.80
+19055,"Delaware County, Iowa",9504.00,0.88,0.32,20.70
+19057,"Des Moines County, Iowa",18215.00,0.91,0.14,16.70
+19059,"Dickinson County, Iowa",9231.00,0.87,0.19,16.20
+19061,"Dubuque County, Iowa",50680.00,0.86,0.08,17.10
+19063,"Emmet County, Iowa",4843.00,0.86,0.33,20.30
+19065,"Fayette County, Iowa",9082.00,0.87,0.32,22.30
+19067,"Floyd County, Iowa",7256.00,0.89,0.31,19.00
+19069,"Franklin County, Iowa",4670.00,0.89,0.39,19.60
+19071,"Fremont County, Iowa",3089.00,0.89,0.48,22.10
+19073,"Greene County, Iowa",4337.00,0.89,0.37,22.90
+19075,"Grundy County, Iowa",6159.00,0.87,0.53,22.50
+19077,"Guthrie County, Iowa",5221.00,0.87,0.48,27.70
+19079,"Hamilton County, Iowa",7201.00,0.89,0.40,21.90
+19081,"Hancock County, Iowa",5556.00,0.88,0.37,20.70
+19083,"Hardin County, Iowa",8199.00,0.85,0.26,20.20
+19085,"Harrison County, Iowa",7301.00,0.88,0.49,27.10
+19087,"Henry County, Iowa",9653.00,0.92,0.27,17.80
+19089,"Howard County, Iowa",4560.00,0.83,0.29,21.40
+19091,"Humboldt County, Iowa",4706.00,0.86,0.28,17.40
+19093,"Ida County, Iowa",3435.00,0.87,0.19,17.80
+19095,"Iowa County, Iowa",8302.00,0.89,0.43,22.60
+19097,"Jackson County, Iowa",9135.00,0.89,0.37,24.10
+19099,"Jasper County, Iowa",18050.00,0.87,0.47,23.40
+19101,"Jefferson County, Iowa",7486.00,0.76,0.20,16.20
+19103,"Johnson County, Iowa",82604.00,0.74,0.15,19.70
+19105,"Jones County, Iowa",9730.00,0.85,0.45,25.40
+19107,"Keokuk County, Iowa",4501.00,0.88,0.52,24.80
+19109,"Kossuth County, Iowa",6915.00,0.86,0.16,15.20
+19111,"Lee County, Iowa",14867.00,0.90,0.22,19.10
+19113,"Linn County, Iowa",119071.00,0.85,0.10,18.80
+19115,"Louisa County, Iowa",5341.00,0.93,0.55,22.30
+19117,"Lucas County, Iowa",4024.00,0.92,0.29,22.60
+19119,"Lyon County, Iowa",5790.00,0.87,0.37,20.70
+19121,"Madison County, Iowa",8899.00,0.82,0.47,26.10
+19123,"Mahaska County, Iowa",11000.00,0.89,0.36,18.20
+19125,"Marion County, Iowa",16435.00,0.86,0.22,20.50
+19127,"Marshall County, Iowa",19134.00,0.91,0.22,19.90
+19129,"Mills County, Iowa",6839.00,0.86,0.58,24.40
+19131,"Mitchell County, Iowa",5611.00,0.82,0.28,19.50
+19133,"Monona County, Iowa",4057.00,0.86,0.32,22.90
+19135,"Monroe County, Iowa",3579.00,0.85,0.43,25.70
+19137,"Montgomery County, Iowa",4722.00,0.91,0.23,19.50
+19139,"Muscatine County, Iowa",20877.00,0.92,0.23,19.20
+19141,"O'Brien County, Iowa",6811.00,0.92,0.33,17.00
+19143,"Osceola County, Iowa",3035.00,0.84,0.41,20.50
+19145,"Page County, Iowa",6772.00,0.91,0.22,19.30
+19147,"Palo Alto County, Iowa",4401.00,0.89,0.32,17.20
+19149,"Plymouth County, Iowa",13441.00,0.87,0.33,18.90
+19151,"Pocahontas County, Iowa",3283.00,0.89,0.35,19.40
+19153,"Polk County, Iowa",257254.00,0.84,0.11,19.80
+19155,"Pottawattamie County, Iowa",45090.00,0.89,0.42,20.40
+19157,"Poweshiek County, Iowa",8988.00,0.76,0.21,18.40
+19159,"Ringgold County, Iowa",2269.00,0.80,0.30,24.10
+19161,"Sac County, Iowa",4875.00,0.90,0.39,20.10
+19163,"Scott County, Iowa",85855.00,0.89,0.25,19.70
+19165,"Shelby County, Iowa",5912.00,0.82,0.24,17.60
+19167,"Sioux County, Iowa",18709.00,0.83,0.12,12.80
+19169,"Story County, Iowa",51376.00,0.77,0.17,17.90
+19171,"Tama County, Iowa",8090.00,0.89,0.41,23.00
+19173,"Taylor County, Iowa",2856.00,0.92,0.41,20.20
+19175,"Union County, Iowa",5485.00,0.88,0.16,15.30
+19177,"Van Buren County, Iowa",2918.00,0.81,0.37,22.80
+19179,"Wapello County, Iowa",16045.00,0.92,0.20,19.60
+19181,"Warren County, Iowa",26985.00,0.85,0.59,25.10
+19183,"Washington County, Iowa",11443.00,0.88,0.39,22.90
+19185,"Wayne County, Iowa",2827.00,0.86,0.35,25.00
+19187,"Webster County, Iowa",17470.00,0.90,0.12,18.30
+19189,"Winnebago County, Iowa",5338.00,0.87,0.31,16.20
+19191,"Winneshiek County, Iowa",10797.00,0.75,0.15,18.10
+19193,"Woodbury County, Iowa",52032.00,0.92,0.23,17.70
+19195,"Worth County, Iowa",3906.00,0.88,0.57,22.70
+19197,"Wright County, Iowa",5740.00,0.87,0.20,17.50
+20001,"Allen County, Kansas",5637.00,0.91,0.29,20.60
+20003,"Anderson County, Kansas",3378.00,0.86,0.39,23.40
+20005,"Atchison County, Kansas",7614.00,0.88,0.31,20.70
+20007,"Barber County, Kansas",1906.00,0.94,0.23,16.40
+20009,"Barton County, Kansas",12256.00,0.89,0.10,15.20
+20011,"Bourbon County, Kansas",6404.00,0.87,0.24,20.60
+20013,"Brown County, Kansas",4464.00,0.87,0.25,16.50
+20015,"Butler County, Kansas",31549.00,0.90,0.51,24.50
+20017,"Chase County, Kansas",1146.00,0.87,0.40,21.70
+20019,"Chautauqua County, Kansas",1318.00,0.87,0.38,22.30
+20021,"Cherokee County, Kansas",8682.00,0.92,0.58,19.70
+20023,"Cheyenne County, Kansas",1261.00,0.83,0.14,13.70
+20025,"Clark County, Kansas",912.00,0.83,0.30,17.50
+20027,"Clay County, Kansas",3851.00,0.90,0.32,21.40
+20029,"Cloud County, Kansas",4076.00,0.91,0.18,16.00
+20031,"Coffey County, Kansas",3832.00,0.94,0.30,21.80
+20033,"Comanche County, Kansas",855.00,0.90,0.13,13.80
+20035,"Cowley County, Kansas",15037.00,0.91,0.20,20.60
+20037,"Crawford County, Kansas",19152.00,0.92,0.13,16.70
+20039,"Decatur County, Kansas",1303.00,0.71,0.29,15.90
+20041,"Dickinson County, Kansas",8752.00,0.86,0.41,20.70
+20043,"Doniphan County, Kansas",3677.00,0.87,0.56,21.60
+20045,"Douglas County, Kansas",65718.00,0.79,0.27,20.20
+20047,"Edwards County, Kansas",1342.00,0.85,0.30,21.40
+20049,"Elk County, Kansas",943.00,0.91,0.34,31.40
+20051,"Ellis County, Kansas",16473.00,0.87,0.07,13.20
+20053,"Ellsworth County, Kansas",2589.00,0.90,0.26,19.70
+20055,"Finney County, Kansas",18361.00,0.95,0.07,14.50
+20057,"Ford County, Kansas",16893.00,0.96,0.08,12.90
+20059,"Franklin County, Kansas",12700.00,0.88,0.39,24.10
+20061,"Geary County, Kansas",17723.00,0.90,0.24,17.50
+20063,"Gove County, Kansas",1279.00,0.81,0.19,16.10
+20065,"Graham County, Kansas",1132.00,0.79,0.15,11.70
+20067,"Grant County, Kansas",3587.00,0.94,0.28,24.20
+20069,"Gray County, Kansas",2907.00,0.91,0.31,17.80
+20071,"Greeley County, Kansas",709.00,0.74,0.11,11.80
+20073,"Greenwood County, Kansas",2818.00,0.88,0.36,24.00
+20075,"Hamilton County, Kansas",1161.00,0.84,0.17,15.50
+20077,"Harper County, Kansas",2140.00,0.89,0.18,16.20
+20079,"Harvey County, Kansas",16396.00,0.88,0.33,20.20
+20081,"Haskell County, Kansas",1779.00,0.90,0.25,20.20
+20083,"Hodgeman County, Kansas",842.00,0.89,0.29,15.00
+20085,"Jackson County, Kansas",6378.00,0.87,0.49,28.90
+20087,"Jefferson County, Kansas",9022.00,0.90,0.62,28.80
+20089,"Jewell County, Kansas",1272.00,0.86,0.39,17.50
+20091,"Johnson County, Kansas",329681.00,0.80,0.26,20.90
+20093,"Kearny County, Kansas",1680.00,0.85,0.35,20.00
+20095,"Kingman County, Kansas",3486.00,0.93,0.44,23.10
+20097,"Kiowa County, Kansas",1232.00,0.81,0.13,11.80
+20099,"Labette County, Kansas",9028.00,0.92,0.13,14.90
+20101,"Lane County, Kansas",782.00,0.82,0.13,15.70
+20103,"Leavenworth County, Kansas",36661.00,0.88,0.40,23.40
+20105,"Lincoln County, Kansas",1406.00,0.85,0.34,19.80
+20107,"Linn County, Kansas",4188.00,0.88,0.50,33.50
+20109,"Logan County, Kansas",1433.00,0.81,0.21,19.70
+20111,"Lyon County, Kansas",16237.00,0.90,0.09,14.90
+20113,"McPherson County, Kansas",15427.00,0.89,0.21,15.00
+20115,"Marion County, Kansas",5588.00,0.86,0.37,22.70
+20117,"Marshall County, Kansas",4827.00,0.88,0.17,16.30
+20119,"Meade County, Kansas",2000.00,0.91,0.33,16.80
+20121,"Miami County, Kansas",16970.00,0.87,0.61,30.10
+20123,"Mitchell County, Kansas",2661.00,0.86,0.12,13.80
+20125,"Montgomery County, Kansas",13540.00,0.92,0.16,17.50
+20127,"Morris County, Kansas",2541.00,0.91,0.37,25.30
+20129,"Morton County, Kansas",1143.00,0.91,0.20,16.60
+20131,"Nemaha County, Kansas",5073.00,0.90,0.19,13.80
+20133,"Neosho County, Kansas",6901.00,0.92,0.21,15.50
+20135,"Ness County, Kansas",1395.00,0.86,0.14,15.70
+20137,"Norton County, Kansas",2071.00,0.78,0.14,12.20
+20139,"Osage County, Kansas",7325.00,0.90,0.62,29.60
+20141,"Osborne County, Kansas",1815.00,0.87,0.18,14.50
+20143,"Ottawa County, Kansas",2894.00,0.88,0.48,23.90
+20145,"Pawnee County, Kansas",2774.00,0.82,0.14,16.80
+20147,"Phillips County, Kansas",2260.00,0.92,0.21,18.10
+20149,"Pottawatomie County, Kansas",12366.00,0.91,0.54,24.70
+20151,"Pratt County, Kansas",4180.00,0.88,0.11,12.20
+20153,"Rawlins County, Kansas",1294.00,0.83,0.13,13.30
+20155,"Reno County, Kansas",28709.00,0.91,0.16,18.10
+20157,"Republic County, Kansas",2166.00,0.91,0.27,21.70
+20159,"Rice County, Kansas",4323.00,0.89,0.29,19.70
+20161,"Riley County, Kansas",41152.00,0.74,0.30,15.50
+20163,"Rooks County, Kansas",2412.00,0.91,0.20,16.90
+20165,"Rush County, Kansas",1424.00,0.87,0.40,22.20
+20167,"Russell County, Kansas",3123.00,0.87,0.26,18.20
+20169,"Saline County, Kansas",26767.00,0.91,0.08,15.20
+20171,"Scott County, Kansas",2642.00,0.90,0.13,10.70
+20173,"Sedgwick County, Kansas",250143.00,0.90,0.06,19.60
+20175,"Seward County, Kansas",10455.00,0.93,0.14,14.90
+20177,"Shawnee County, Kansas",83882.00,0.88,0.08,18.10
+20179,"Sheridan County, Kansas",1349.00,0.75,0.22,15.40
+20181,"Sherman County, Kansas",3030.00,0.77,0.10,12.40
+20183,"Smith County, Kansas",1693.00,0.89,0.20,13.90
+20185,"Stafford County, Kansas",1943.00,0.87,0.36,21.80
+20187,"Stanton County, Kansas",978.00,0.88,0.20,11.30
+20189,"Stevens County, Kansas",2386.00,0.91,0.20,18.00
+20191,"Sumner County, Kansas",9872.00,0.89,0.46,23.80
+20193,"Thomas County, Kansas",4089.00,0.91,0.14,12.20
+20195,"Trego County, Kansas",1404.00,0.91,0.26,16.10
+20197,"Wabaunsee County, Kansas",3246.00,0.84,0.60,27.40
+20199,"Wallace County, Kansas",701.00,0.83,0.15,13.10
+20201,"Washington County, Kansas",2588.00,0.90,0.31,21.00
+20203,"Wichita County, Kansas",923.00,0.87,0.12,12.40
+20205,"Wilson County, Kansas",3860.00,0.93,0.27,18.50
+20207,"Woodson County, Kansas",1271.00,0.88,0.44,20.60
+20209,"Wyandotte County, Kansas",76861.00,0.89,0.48,21.70
+21001,"Adair County, Kentucky",7592.00,0.86,0.43,25.70
+21003,"Allen County, Kentucky",8711.00,0.89,0.51,27.10
+21005,"Anderson County, Kentucky",10865.00,0.90,0.64,28.50
+21007,"Ballard County, Kentucky",3224.00,0.95,0.59,25.00
+21009,"Barren County, Kentucky",18337.00,0.90,0.29,23.10
+21011,"Bath County, Kentucky",4661.00,0.92,0.69,31.30
+21013,"Bell County, Kentucky",6848.00,0.91,0.22,24.40
+21015,"Boone County, Kentucky",69275.00,0.87,0.39,24.40
+21017,"Bourbon County, Kentucky",8999.00,0.87,0.50,24.50
+21019,"Boyd County, Kentucky",18840.00,0.91,0.33,22.30
+21021,"Boyle County, Kentucky",12192.00,0.88,0.31,22.10
+21023,"Bracken County, Kentucky",3557.00,0.92,0.67,35.70
+21025,"Breathitt County, Kentucky",4508.00,0.92,0.44,28.80
+21027,"Breckinridge County, Kentucky",7611.00,0.92,0.55,34.40
+21029,"Bullitt County, Kentucky",40309.00,0.92,0.65,28.00
+21031,"Butler County, Kentucky",4548.00,0.96,0.51,28.60
+21033,"Caldwell County, Kentucky",5305.00,0.94,0.46,26.10
+21035,"Calloway County, Kentucky",17096.00,0.87,0.19,16.60
+21037,"Campbell County, Kentucky",47046.00,0.82,0.57,24.00
+21039,"Carlisle County, Kentucky",1792.00,0.92,0.67,27.30
+21041,"Carroll County, Kentucky",4464.00,0.90,0.33,23.20
+21043,"Carter County, Kentucky",8799.00,0.92,0.46,27.70
+21045,"Casey County, Kentucky",5331.00,0.90,0.43,30.30
+21047,"Christian County, Kentucky",30102.00,0.85,0.17,18.90
+21049,"Clark County, Kentucky",16615.00,0.89,0.47,25.70
+21051,"Clay County, Kentucky",6120.00,0.91,0.35,29.20
+21053,"Clinton County, Kentucky",3710.00,0.92,0.22,18.60
+21055,"Crittenden County, Kentucky",3374.00,0.91,0.46,27.10
+21057,"Cumberland County, Kentucky",2193.00,0.94,0.31,21.30
+21059,"Daviess County, Kentucky",46641.00,0.93,0.15,20.00
+21061,"Edmonson County, Kentucky",4518.00,0.90,0.67,34.20
+21063,"Elliott County, Kentucky",1818.00,0.91,0.60,42.60
+21065,"Estill County, Kentucky",4572.00,0.90,0.55,34.70
+21067,"Fayette County, Kentucky",165422.00,0.84,0.16,20.80
+21069,"Fleming County, Kentucky",5874.00,0.90,0.48,33.30
+21071,"Floyd County, Kentucky",10890.00,0.95,0.47,24.90
+21073,"Franklin County, Kentucky",24289.00,0.85,0.21,20.00
+21075,"Fulton County, Kentucky",2160.00,0.93,0.49,19.70
+21077,"Gallatin County, Kentucky",3908.00,0.95,0.66,26.50
+21079,"Garrard County, Kentucky",7139.00,0.89,0.67,34.10
+21081,"Grant County, Kentucky",10990.00,0.92,0.63,29.00
+21083,"Graves County, Kentucky",15060.00,0.91,0.37,21.00
+21085,"Grayson County, Kentucky",10404.00,0.93,0.33,28.10
+21087,"Green County, Kentucky",3961.00,0.89,0.58,29.40
+21089,"Greenup County, Kentucky",13549.00,0.94,0.64,24.60
+21091,"Hancock County, Kentucky",3917.00,0.98,0.48,25.30
+21093,"Hardin County, Kentucky",49975.00,0.89,0.22,22.40
+21095,"Harlan County, Kentucky",7271.00,0.91,0.18,23.40
+21097,"Harrison County, Kentucky",8227.00,0.91,0.46,28.40
+21099,"Hart County, Kentucky",7675.00,0.93,0.43,30.30
+21101,"Henderson County, Kentucky",19291.00,0.93,0.34,22.40
+21103,"Henry County, Kentucky",6857.00,0.89,0.63,29.70
+21105,"Hickman County, Kentucky",1810.00,0.78,0.47,19.70
+21107,"Hopkins County, Kentucky",17727.00,0.95,0.25,22.10
+21109,"Jackson County, Kentucky",4274.00,0.90,0.60,41.70
+21111,"Jefferson County, Kentucky",384235.00,0.84,0.09,22.30
+21113,"Jessamine County, Kentucky",24518.00,0.88,0.49,23.90
+21115,"Johnson County, Kentucky",7168.00,0.93,0.41,26.70
+21117,"Kenton County, Kentucky",87466.00,0.85,0.55,23.00
+21119,"Knott County, Kentucky",4104.00,0.88,0.50,28.60
+21121,"Knox County, Kentucky",8941.00,0.91,0.43,25.00
+21123,"Larue County, Kentucky",6371.00,0.95,0.71,29.10
+21125,"Laurel County, Kentucky",25559.00,0.92,0.23,22.10
+21127,"Lawrence County, Kentucky",4394.00,0.96,0.51,29.60
+21129,"Lee County, Kentucky",2232.00,0.87,0.41,41.00
+21131,"Leslie County, Kentucky",3236.00,0.96,0.51,37.00
+21133,"Letcher County, Kentucky",6866.00,0.84,0.37,27.10
+21135,"Lewis County, Kentucky",3977.00,0.88,0.58,45.20
+21137,"Lincoln County, Kentucky",9532.00,0.90,0.61,31.40
+21139,"Livingston County, Kentucky",3797.00,0.90,0.69,26.90
+21141,"Logan County, Kentucky",11345.00,0.94,0.42,26.60
+21143,"Lyon County, Kentucky",3086.00,0.92,0.43,23.20
+21145,"McCracken County, Kentucky",29475.00,0.90,0.12,17.00
+21147,"McCreary County, Kentucky",4724.00,0.91,0.49,32.60
+21149,"McLean County, Kentucky",3687.00,0.92,0.59,28.50
+21151,"Madison County, Kentucky",43928.00,0.88,0.30,24.60
+21153,"Magoffin County, Kentucky",2859.00,0.93,0.51,35.80
+21155,"Marion County, Kentucky",7362.00,0.94,0.29,19.60
+21157,"Marshall County, Kentucky",13664.00,0.91,0.40,23.40
+21159,"Martin County, Kentucky",2992.00,0.96,0.33,30.30
+21161,"Mason County, Kentucky",7236.00,0.92,0.29,25.40
+21163,"Meade County, Kentucky",13684.00,0.91,0.60,32.40
+21165,"Menifee County, Kentucky",1989.00,0.88,0.61,41.30
+21167,"Mercer County, Kentucky",9949.00,0.93,0.49,28.00
+21169,"Metcalfe County, Kentucky",4206.00,0.92,0.50,22.30
+21171,"Monroe County, Kentucky",4782.00,0.93,0.32,30.00
+21173,"Montgomery County, Kentucky",11427.00,0.94,0.40,25.30
+21175,"Morgan County, Kentucky",4323.00,0.90,0.32,31.60
+21177,"Muhlenberg County, Kentucky",12094.00,0.95,0.35,25.60
+21179,"Nelson County, Kentucky",22182.00,0.93,0.39,25.40
+21181,"Nicholas County, Kentucky",2897.00,0.91,0.70,38.60
+21183,"Ohio County, Kentucky",9620.00,0.94,0.42,27.50
+21185,"Oldham County, Kentucky",32388.00,0.84,0.60,26.10
+21187,"Owen County, Kentucky",4839.00,0.87,0.62,39.40
+21189,"Owsley County, Kentucky",1091.00,0.90,0.37,37.90
+21191,"Pendleton County, Kentucky",6637.00,0.91,0.67,34.90
+21193,"Perry County, Kentucky",9916.00,0.92,0.17,25.00
+21195,"Pike County, Kentucky",18901.00,0.93,0.18,25.20
+21197,"Powell County, Kentucky",4637.00,0.95,0.56,29.90
+21199,"Pulaski County, Kentucky",26510.00,0.95,0.15,22.70
+21201,"Robertson County, Kentucky",816.00,0.95,0.59,33.50
+21203,"Rockcastle County, Kentucky",5875.00,0.90,0.47,26.30
+21205,"Rowan County, Kentucky",10525.00,0.86,0.23,21.80
+21207,"Russell County, Kentucky",7306.00,0.95,0.26,20.40
+21209,"Scott County, Kentucky",28795.00,0.90,0.39,21.40
+21211,"Shelby County, Kentucky",23908.00,0.88,0.47,26.30
+21213,"Simpson County, Kentucky",8711.00,0.95,0.38,22.40
+21215,"Spencer County, Kentucky",9528.00,0.89,0.74,32.70
+21217,"Taylor County, Kentucky",11795.00,0.86,0.24,23.10
+21219,"Todd County, Kentucky",4967.00,0.85,0.49,24.20
+21221,"Trigg County, Kentucky",5676.00,0.89,0.45,24.00
+21223,"Trimble County, Kentucky",3515.00,0.94,0.75,29.90
+21225,"Union County, Kentucky",5643.00,0.93,0.34,24.60
+21227,"Warren County, Kentucky",65956.00,0.90,0.14,20.60
+21229,"Washington County, Kentucky",5686.00,0.89,0.42,23.60
+21231,"Wayne County, Kentucky",6769.00,0.91,0.30,23.30
+21233,"Webster County, Kentucky",5288.00,0.96,0.60,27.80
+21235,"Whitley County, Kentucky",12974.00,0.90,0.33,21.70
+21237,"Wolfe County, Kentucky",1505.00,0.92,0.47,27.40
+21239,"Woodford County, Kentucky",13540.00,0.87,0.50,24.20
+22001,"Acadia Parish, Louisiana",22432.00,0.92,0.50,28.70
+22003,"Allen Parish, Louisiana",7720.00,0.92,0.35,27.40
+22005,"Ascension Parish, Louisiana",61876.00,0.91,0.50,30.60
+22007,"Assumption Parish, Louisiana",8361.00,0.90,0.56,30.80
+22009,"Avoyelles Parish, Louisiana",14535.00,0.91,0.33,35.10
+22011,"Beauregard Parish, Louisiana",14499.00,0.94,0.46,32.70
+22013,"Bienville Parish, Louisiana",4426.00,0.91,0.55,29.10
+22015,"Bossier Parish, Louisiana",57584.00,0.90,0.42,22.90
+22017,"Caddo Parish, Louisiana",95321.00,0.91,0.18,20.90
+22019,"Calcasieu Parish, Louisiana",90879.00,0.92,0.08,21.90
+22021,"Caldwell Parish, Louisiana",3085.00,0.91,0.39,29.30
+22023,"Cameron Parish, Louisiana",2531.00,0.94,0.40,33.70
+22025,"Catahoula Parish, Louisiana",2877.00,0.87,0.57,32.80
+22027,"Claiborne Parish, Louisiana",4112.00,0.94,0.40,28.30
+22029,"Concordia Parish, Louisiana",5287.00,0.91,0.43,24.20
+22031,"De Soto Parish, Louisiana",10193.00,0.92,0.50,25.30
+22033,"East Baton Rouge Parish, Louisiana",213013.00,0.89,0.14,23.90
+22035,"East Carroll Parish, Louisiana",1623.00,0.92,0.25,14.60
+22037,"East Feliciana Parish, Louisiana",6530.00,0.95,0.61,33.70
+22039,"Evangeline Parish, Louisiana",11046.00,0.89,0.40,30.90
+22041,"Franklin Parish, Louisiana",6500.00,0.91,0.37,26.50
+22043,"Grant Parish, Louisiana",7706.00,0.94,0.69,32.30
+22045,"Iberia Parish, Louisiana",28561.00,0.91,0.34,25.50
+22047,"Iberville Parish, Louisiana",12009.00,0.92,0.47,24.90
+22049,"Jackson Parish, Louisiana",4867.00,0.92,0.39,24.60
+22051,"Jefferson Parish, Louisiana",204156.00,0.90,0.37,24.30
+22053,"Jefferson Davis Parish, Louisiana",12900.00,0.94,0.52,31.40
+22055,"Lafayette Parish, Louisiana",116494.00,0.89,0.15,23.60
+22057,"Lafourche Parish, Louisiana",41074.00,0.91,0.37,28.30
+22059,"LaSalle Parish, Louisiana",6278.00,0.88,0.33,35.10
+22061,"Lincoln Parish, Louisiana",20920.00,0.87,0.19,18.40
+22063,"Livingston Parish, Louisiana",64898.00,0.93,0.63,34.70
+22065,"Madison Parish, Louisiana",2902.00,0.94,0.23,18.10
+22067,"Morehouse Parish, Louisiana",9196.00,0.93,0.38,27.00
+22069,"Natchitoches Parish, Louisiana",14014.00,0.93,0.15,24.00
+22071,"Orleans Parish, Louisiana",171424.00,0.73,0.23,23.40
+22073,"Ouachita Parish, Louisiana",67312.00,0.90,0.10,22.00
+22075,"Plaquemines Parish, Louisiana",10962.00,0.94,0.38,28.40
+22077,"Pointe Coupee Parish, Louisiana",7836.00,0.94,0.57,28.50
+22079,"Rapides Parish, Louisiana",54593.00,0.88,0.12,23.40
+22081,"Red River Parish, Louisiana",2849.00,0.97,0.30,28.20
+22083,"Richland Parish, Louisiana",7436.00,0.92,0.38,25.20
+22085,"Sabine Parish, Louisiana",7234.00,0.89,0.28,33.30
+22087,"St. Bernard Parish, Louisiana",18507.00,0.91,0.54,29.10
+22089,"St. Charles Parish, Louisiana",23995.00,0.92,0.51,26.80
+22091,"St. Helena Parish, Louisiana",3668.00,0.89,0.73,35.10
+22093,"St. James Parish, Louisiana",8729.00,0.91,0.57,28.70
+22095,"St. John the Baptist Parish, Louisiana",17519.00,0.93,0.60,28.40
+22097,"St. Landry Parish, Louisiana",29973.00,0.91,0.40,29.80
+22099,"St. Martin Parish, Louisiana",21696.00,0.92,0.58,29.90
+22101,"St. Mary Parish, Louisiana",19136.00,0.94,0.20,22.50
+22103,"St. Tammany Parish, Louisiana",121358.00,0.87,0.33,31.60
+22105,"Tangipahoa Parish, Louisiana",56297.00,0.92,0.36,29.60
+22107,"Tensas Parish, Louisiana",1154.00,0.96,0.31,26.80
+22109,"Terrebonne Parish, Louisiana",46254.00,0.92,0.18,25.20
+22111,"Union Parish, Louisiana",7984.00,0.95,0.58,32.30
+22113,"Vermilion Parish, Louisiana",22422.00,0.90,0.51,29.90
+22115,"Vernon Parish, Louisiana",20966.00,0.89,0.16,22.80
+22117,"Washington Parish, Louisiana",16324.00,0.90,0.32,32.80
+22119,"Webster Parish, Louisiana",12853.00,0.90,0.28,28.80
+22121,"West Baton Rouge Parish, Louisiana",12469.00,0.96,0.64,25.80
+22123,"West Carroll Parish, Louisiana",3554.00,0.98,0.37,22.80
+22125,"West Feliciana Parish, Louisiana",5572.00,0.95,0.52,34.30
+22127,"Winn Parish, Louisiana",4788.00,0.89,0.34,32.00
+23001,"Androscoggin County, Maine",54700.00,0.85,0.30,24.40
+23003,"Aroostook County, Maine",28276.00,0.89,0.03,18.80
+23005,"Cumberland County, Maine",164899.00,0.75,0.12,23.40
+23007,"Franklin County, Maine",13669.00,0.84,0.27,27.50
+23009,"Hancock County, Maine",27161.00,0.83,0.17,24.60
+23011,"Kennebec County, Maine",59235.00,0.84,0.20,23.90
+23013,"Knox County, Maine",18931.00,0.81,0.13,20.20
+23015,"Lincoln County, Maine",16466.00,0.87,0.36,24.00
+23017,"Oxford County, Maine",25576.00,0.86,0.37,29.00
+23019,"Penobscot County, Maine",72207.00,0.85,0.09,22.60
+23021,"Piscataquis County, Maine",6957.00,0.86,0.27,26.00
+23023,"Sagadahoc County, Maine",18551.00,0.84,0.50,25.40
+23025,"Somerset County, Maine",22146.00,0.87,0.37,28.40
+23027,"Waldo County, Maine",18015.00,0.82,0.36,25.70
+23029,"Washington County, Maine",12356.00,0.88,0.08,21.80
+23031,"York County, Maine",111025.00,0.84,0.34,27.20
+24001,"Allegany County, Maryland",26115.00,0.89,0.15,22.60
+24003,"Anne Arundel County, Maryland",306689.00,0.80,0.36,30.30
+24005,"Baltimore County, Maryland",422546.00,0.82,0.45,28.70
+24009,"Calvert County, Maryland",48004.00,0.83,0.51,40.90
+24011,"Caroline County, Maryland",15769.00,0.89,0.60,31.60
+24013,"Carroll County, Maryland",90034.00,0.84,0.50,35.40
+24015,"Cecil County, Maryland",49384.00,0.88,0.48,29.10
+24017,"Charles County, Maryland",84812.00,0.83,0.56,44.20
+24019,"Dorchester County, Maryland",14681.00,0.91,0.41,26.50
+24021,"Frederick County, Maryland",143078.00,0.80,0.36,33.70
+24023,"Garrett County, Maryland",13283.00,0.87,0.22,25.00
+24025,"Harford County, Maryland",134818.00,0.85,0.41,32.30
+24027,"Howard County, Maryland",173546.00,0.76,0.49,29.50
+24029,"Kent County, Maryland",9119.00,0.79,0.26,25.80
+24031,"Montgomery County, Maryland",551214.00,0.65,0.31,33.00
+24033,"Prince George's County, Maryland",492653.00,0.72,0.53,36.00
+24035,"Queen Anne's County, Maryland",25693.00,0.86,0.50,34.90
+24037,"St. Mary's County, Maryland",58080.00,0.82,0.20,30.10
+24039,"Somerset County, Maryland",9396.00,0.85,0.47,24.00
+24041,"Talbot County, Maryland",16883.00,0.80,0.24,26.40
+24043,"Washington County, Maryland",70057.00,0.86,0.35,29.70
+24045,"Wicomico County, Maryland",50503.00,0.90,0.28,23.10
+24047,"Worcester County, Maryland",24119.00,0.85,0.28,23.80
+24510,"Baltimore city, Maryland",270605.00,0.65,0.35,30.10
+25001,"Barnstable County, Massachusetts",111344.00,0.82,0.14,25.00
+25003,"Berkshire County, Massachusetts",62128.00,0.82,0.08,21.00
+25005,"Bristol County, Massachusetts",285132.00,0.87,0.38,28.20
+25007,"Dukes County, Massachusetts",10084.00,0.75,0.02,15.70
+25009,"Essex County, Massachusetts",412030.00,0.78,0.35,29.10
+25011,"Franklin County, Massachusetts",35365.00,0.80,0.35,24.00
+25013,"Hampden County, Massachusetts",209900.00,0.86,0.18,22.80
+25015,"Hampshire County, Massachusetts",75077.00,0.74,0.34,23.60
+25017,"Middlesex County, Massachusetts",881099.00,0.65,0.27,30.50
+25019,"Nantucket County, Massachusetts",7418.00,0.79,0.03,13.70
+25021,"Norfolk County, Massachusetts",379344.00,0.66,0.47,33.20
+25023,"Plymouth County, Massachusetts",268672.00,0.80,0.40,32.60
+25025,"Suffolk County, Massachusetts",424949.00,0.44,0.26,31.10
+25027,"Worcester County, Massachusetts",432718.00,0.81,0.26,29.30
+26001,"Alcona County, Michigan",3446.00,0.88,0.49,26.50
+26003,"Alger County, Michigan",2856.00,0.83,0.25,25.10
+26005,"Allegan County, Michigan",56188.00,0.89,0.52,23.90
+26007,"Alpena County, Michigan",11893.00,0.87,0.11,17.70
+26009,"Antrim County, Michigan",10480.00,0.85,0.45,24.60
+26011,"Arenac County, Michigan",6023.00,0.89,0.45,28.70
+26013,"Baraga County, Michigan",2935.00,0.93,0.18,19.20
+26015,"Barry County, Michigan",28461.00,0.89,0.58,28.10
+26017,"Bay County, Michigan",47237.00,0.90,0.39,23.10
+26019,"Benzie County, Michigan",7895.00,0.87,0.51,25.60
+26021,"Berrien County, Michigan",69571.00,0.87,0.23,21.50
+26023,"Branch County, Michigan",18889.00,0.91,0.34,22.10
+26025,"Calhoun County, Michigan",58169.00,0.89,0.20,20.60
+26027,"Cass County, Michigan",23505.00,0.91,0.61,25.00
+26029,"Charlevoix County, Michigan",12426.00,0.87,0.31,20.10
+26031,"Cheboygan County, Michigan",10225.00,0.88,0.36,24.30
+26033,"Chippewa County, Michigan",15504.00,0.87,0.07,17.90
+26035,"Clare County, Michigan",10714.00,0.86,0.46,27.90
+26037,"Clinton County, Michigan",38854.00,0.85,0.61,24.20
+26039,"Crawford County, Michigan",5115.00,0.90,0.36,25.20
+26041,"Delta County, Michigan",14790.00,0.90,0.15,19.00
+26043,"Dickinson County, Michigan",11750.00,0.88,0.10,16.10
+26045,"Eaton County, Michigan",52669.00,0.85,0.47,23.20
+26047,"Emmet County, Michigan",16802.00,0.86,0.15,20.20
+26049,"Genesee County, Michigan",170085.00,0.90,0.27,26.80
+26051,"Gladwin County, Michigan",9131.00,0.89,0.46,30.00
+26053,"Gogebic County, Michigan",6038.00,0.90,0.23,19.60
+26055,"Grand Traverse County, Michigan",47745.00,0.83,0.12,20.90
+26057,"Gratiot County, Michigan",16782.00,0.88,0.37,24.60
+26059,"Hillsdale County, Michigan",19694.00,0.85,0.38,24.70
+26061,"Houghton County, Michigan",16375.00,0.75,0.08,15.80
+26063,"Huron County, Michigan",13374.00,0.87,0.15,21.00
+26065,"Ingham County, Michigan",137987.00,0.78,0.21,20.40
+26067,"Ionia County, Michigan",29980.00,0.89,0.50,27.40
+26069,"Iosco County, Michigan",9130.00,0.89,0.14,21.00
+26071,"Iron County, Michigan",4427.00,0.87,0.18,20.90
+26073,"Isabella County, Michigan",30645.00,0.86,0.22,18.60
+26075,"Jackson County, Michigan",68511.00,0.89,0.24,22.70
+26077,"Kalamazoo County, Michigan",129059.00,0.86,0.15,20.40
+26079,"Kalkaska County, Michigan",7438.00,0.92,0.54,29.00
+26081,"Kent County, Michigan",336075.00,0.84,0.11,21.40
+26083,"Keweenaw County, Michigan",774.00,0.81,0.58,22.50
+26085,"Lake County, Michigan",3935.00,0.87,0.58,31.30
+26087,"Lapeer County, Michigan",40090.00,0.90,0.55,34.60
+26089,"Leelanau County, Michigan",9470.00,0.82,0.42,24.30
+26091,"Lenawee County, Michigan",42860.00,0.89,0.37,26.80
+26093,"Livingston County, Michigan",97209.00,0.86,0.49,31.00
+26095,"Luce County, Michigan",1417.00,0.86,0.14,15.50
+26097,"Mackinac County, Michigan",4287.00,0.71,0.24,20.80
+26099,"Macomb County, Michigan",422678.00,0.88,0.39,27.20
+26101,"Manistee County, Michigan",9535.00,0.89,0.24,21.40
+26103,"Marquette County, Michigan",30498.00,0.86,0.04,18.30
+26105,"Mason County, Michigan",12200.00,0.90,0.16,19.40
+26107,"Mecosta County, Michigan",16342.00,0.87,0.31,23.50
+26109,"Menominee County, Michigan",10557.00,0.88,0.44,20.70
+26111,"Midland County, Michigan",37379.00,0.88,0.33,24.70
+26113,"Missaukee County, Michigan",6424.00,0.91,0.55,24.20
+26115,"Monroe County, Michigan",69702.00,0.91,0.53,26.60
+26117,"Montcalm County, Michigan",28450.00,0.92,0.48,29.80
+26119,"Montmorency County, Michigan",3115.00,0.88,0.36,24.70
+26121,"Muskegon County, Michigan",75385.00,0.93,0.28,22.30
+26123,"Newaygo County, Michigan",21259.00,0.90,0.46,29.80
+26125,"Oakland County, Michigan",646051.00,0.82,0.26,26.20
+26127,"Oceana County, Michigan",11214.00,0.91,0.39,23.40
+26129,"Ogemaw County, Michigan",7482.00,0.90,0.31,28.00
+26131,"Ontonagon County, Michigan",1992.00,0.86,0.28,26.90
+26133,"Osceola County, Michigan",8921.00,0.91,0.45,25.20
+26135,"Oscoda County, Michigan",2719.00,0.79,0.27,21.70
+26137,"Otsego County, Michigan",11517.00,0.90,0.17,19.60
+26139,"Ottawa County, Michigan",150765.00,0.88,0.37,20.70
+26141,"Presque Isle County, Michigan",4614.00,0.86,0.37,26.00
+26143,"Roscommon County, Michigan",7879.00,0.86,0.31,25.40
+26145,"Saginaw County, Michigan",79772.00,0.90,0.21,22.00
+26147,"St. Clair County, Michigan",71975.00,0.92,0.38,29.10
+26149,"St. Joseph County, Michigan",27239.00,0.90,0.30,20.90
+26151,"Sanilac County, Michigan",17035.00,0.88,0.35,28.40
+26153,"Schoolcraft County, Michigan",3155.00,0.91,0.17,18.90
+26155,"Shiawassee County, Michigan",31454.00,0.91,0.50,27.50
+26157,"Tuscola County, Michigan",22372.00,0.93,0.51,29.60
+26159,"Van Buren County, Michigan",33874.00,0.89,0.45,24.10
+26161,"Washtenaw County, Michigan",184417.00,0.70,0.19,23.60
+26163,"Wayne County, Michigan",742431.00,0.83,0.23,25.20
+26165,"Wexford County, Michigan",13849.00,0.90,0.26,22.40
+27001,"Aitkin County, Minnesota",5940.00,0.85,0.31,28.60
+27003,"Anoka County, Minnesota",190371.00,0.83,0.52,26.40
+27005,"Becker County, Minnesota",16252.00,0.85,0.24,22.10
+27007,"Beltrami County, Minnesota",21007.00,0.86,0.17,21.10
+27009,"Benton County, Minnesota",22016.00,0.89,0.65,22.60
+27011,"Big Stone County, Minnesota",2256.00,0.84,0.34,18.30
+27013,"Blue Earth County, Minnesota",37318.00,0.86,0.24,17.40
+27015,"Brown County, Minnesota",13314.00,0.88,0.15,15.70
+27017,"Carlton County, Minnesota",16454.00,0.89,0.41,21.70
+27019,"Carver County, Minnesota",58029.00,0.78,0.50,25.90
+27021,"Cass County, Minnesota",12703.00,0.84,0.44,23.80
+27023,"Chippewa County, Minnesota",5806.00,0.89,0.29,19.20
+27025,"Chisago County, Minnesota",29403.00,0.86,0.59,32.00
+27027,"Clay County, Minnesota",33554.00,0.85,0.56,20.00
+27029,"Clearwater County, Minnesota",3576.00,0.86,0.39,26.30
+27031,"Cook County, Minnesota",2758.00,0.69,0.04,16.30
+27033,"Cottonwood County, Minnesota",5231.00,0.85,0.21,16.10
+27035,"Crow Wing County, Minnesota",30545.00,0.87,0.15,22.80
+27037,"Dakota County, Minnesota",235955.00,0.80,0.45,24.50
+27039,"Dodge County, Minnesota",11295.00,0.87,0.59,25.30
+27041,"Douglas County, Minnesota",19442.00,0.87,0.14,20.20
+27043,"Faribault County, Minnesota",6728.00,0.87,0.31,19.40
+27045,"Fillmore County, Minnesota",10541.00,0.83,0.47,26.40
+27047,"Freeborn County, Minnesota",14440.00,0.89,0.25,20.30
+27049,"Goodhue County, Minnesota",23597.00,0.87,0.36,25.00
+27051,"Grant County, Minnesota",2864.00,0.82,0.45,23.50
+27053,"Hennepin County, Minnesota",690929.00,0.71,0.17,22.90
+27055,"Houston County, Minnesota",9853.00,0.86,0.56,23.50
+27057,"Hubbard County, Minnesota",9402.00,0.85,0.43,25.50
+27059,"Isanti County, Minnesota",20699.00,0.87,0.56,32.80
+27061,"Itasca County, Minnesota",18780.00,0.87,0.17,24.20
+27063,"Jackson County, Minnesota",5193.00,0.85,0.32,17.50
+27065,"Kanabec County, Minnesota",7466.00,0.88,0.51,31.00
+27067,"Kandiyohi County, Minnesota",21810.00,0.89,0.12,17.50
+27069,"Kittson County, Minnesota",2030.00,0.82,0.29,20.90
+27071,"Koochiching County, Minnesota",5539.00,0.83,0.08,16.40
+27073,"Lac qui Parle County, Minnesota",3142.00,0.81,0.28,17.00
+27075,"Lake County, Minnesota",4850.00,0.84,0.27,24.30
+27077,"Lake of the Woods County, Minnesota",1912.00,0.85,0.24,19.50
+27079,"Le Sueur County, Minnesota",15133.00,0.88,0.59,25.80
+27081,"Lincoln County, Minnesota",2761.00,0.80,0.46,22.80
+27083,"Lyon County, Minnesota",12595.00,0.85,0.09,15.20
+27085,"McLeod County, Minnesota",18781.00,0.89,0.32,23.80
+27087,"Mahnomen County, Minnesota",1963.00,0.85,0.30,20.40
+27089,"Marshall County, Minnesota",4245.00,0.84,0.44,24.40
+27091,"Martin County, Minnesota",9657.00,0.88,0.16,17.60
+27093,"Meeker County, Minnesota",11624.00,0.89,0.45,24.20
+27095,"Mille Lacs County, Minnesota",12727.00,0.87,0.51,31.00
+27097,"Morrison County, Minnesota",16347.00,0.88,0.40,27.70
+27099,"Mower County, Minnesota",19181.00,0.89,0.28,19.60
+27101,"Murray County, Minnesota",3979.00,0.87,0.39,21.00
+27103,"Nicollet County, Minnesota",18663.00,0.79,0.48,17.20
+27105,"Nobles County, Minnesota",10420.00,0.88,0.21,18.90
+27107,"Norman County, Minnesota",3046.00,0.86,0.40,24.00
+27109,"Olmsted County, Minnesota",85332.00,0.80,0.08,18.70
+27111,"Otter Tail County, Minnesota",27776.00,0.84,0.23,21.50
+27113,"Pennington County, Minnesota",7317.00,0.84,0.07,13.60
+27115,"Pine County, Minnesota",12619.00,0.87,0.42,32.20
+27117,"Pipestone County, Minnesota",4368.00,0.88,0.21,17.10
+27119,"Polk County, Minnesota",14969.00,0.86,0.37,18.30
+27121,"Pope County, Minnesota",5730.00,0.85,0.38,21.80
+27123,"Ramsey County, Minnesota",277111.00,0.75,0.41,22.90
+27125,"Red Lake County, Minnesota",1945.00,0.84,0.53,24.30
+27127,"Redwood County, Minnesota",7246.00,0.84,0.22,17.70
+27129,"Renville County, Minnesota",7014.00,0.86,0.35,20.20
+27131,"Rice County, Minnesota",32398.00,0.79,0.32,22.40
+27133,"Rock County, Minnesota",4914.00,0.86,0.36,18.10
+27135,"Roseau County, Minnesota",7760.00,0.85,0.05,16.90
+27137,"St. Louis County, Minnesota",95204.00,0.85,0.10,19.70
+27139,"Scott County, Minnesota",83336.00,0.81,0.52,25.60
+27141,"Sherburne County, Minnesota",52791.00,0.87,0.63,31.60
+27143,"Sibley County, Minnesota",7742.00,0.87,0.53,25.70
+27145,"Stearns County, Minnesota",82627.00,0.84,0.19,21.70
+27147,"Steele County, Minnesota",18758.00,0.88,0.22,18.10
+27149,"Stevens County, Minnesota",4965.00,0.84,0.10,13.40
+27151,"Swift County, Minnesota",4576.00,0.85,0.31,20.80
+27153,"Todd County, Minnesota",11052.00,0.84,0.45,24.80
+27155,"Traverse County, Minnesota",1569.00,0.79,0.28,19.00
+27157,"Wabasha County, Minnesota",11055.00,0.85,0.49,24.70
+27159,"Wadena County, Minnesota",6104.00,0.88,0.36,21.40
+27161,"Waseca County, Minnesota",9427.00,0.89,0.49,22.40
+27163,"Washington County, Minnesota",139002.00,0.79,0.52,25.20
+27165,"Watonwan County, Minnesota",5196.00,0.87,0.35,21.50
+27167,"Wilkin County, Minnesota",3139.00,0.84,0.61,19.00
+27169,"Winona County, Minnesota",27040.00,0.82,0.20,17.50
+27171,"Wright County, Minnesota",75733.00,0.87,0.52,30.40
+27173,"Yellow Medicine County, Minnesota",4644.00,0.88,0.44,20.90
+28001,"Adams County, Mississippi",9965.00,0.97,0.23,20.60
+28003,"Alcorn County, Mississippi",14245.00,0.96,0.29,22.80
+28005,"Amite County, Mississippi",3724.00,0.91,0.65,41.20
+28007,"Attala County, Mississippi",6886.00,0.92,0.41,35.60
+28009,"Benton County, Mississippi",3225.00,0.96,0.71,35.20
+28011,"Bolivar County, Mississippi",10635.00,0.95,0.18,19.20
+28013,"Calhoun County, Mississippi",5599.00,0.96,0.48,27.80
+28015,"Carroll County, Mississippi",3525.00,0.92,0.69,32.70
+28017,"Chickasaw County, Mississippi",6566.00,0.92,0.47,22.50
+28019,"Choctaw County, Mississippi",3131.00,0.95,0.58,30.00
+28021,"Claiborne County, Mississippi",2466.00,0.88,0.44,24.50
+28023,"Clarke County, Mississippi",5980.00,0.95,0.62,31.20
+28025,"Clay County, Mississippi",6979.00,0.90,0.40,22.20
+28027,"Coahoma County, Mississippi",7411.00,0.89,0.23,19.90
+28029,"Copiah County, Mississippi",10527.00,0.95,0.55,31.20
+28031,"Covington County, Mississippi",7108.00,0.95,0.54,26.40
+28033,"DeSoto County, Mississippi",92131.00,0.93,0.53,26.00
+28035,"Forrest County, Mississippi",35362.00,0.90,0.31,20.80
+28037,"Franklin County, Mississippi",2529.00,0.95,0.66,36.20
+28039,"George County, Mississippi",8328.00,0.93,0.51,34.10
+28041,"Greene County, Mississippi",3214.00,0.86,0.63,45.10
+28043,"Grenada County, Mississippi",8902.00,0.97,0.22,21.20
+28045,"Hancock County, Mississippi",20582.00,0.85,0.45,32.80
+28047,"Harrison County, Mississippi",91384.00,0.90,0.15,23.60
+28049,"Hinds County, Mississippi",96567.00,0.91,0.32,22.90
+28051,"Holmes County, Mississippi",5279.00,0.93,0.59,35.90
+28053,"Humphreys County, Mississippi",2518.00,0.92,0.41,24.90
+28055,"Issaquena County, Mississippi",174.00,0.99,0.69,22.70
+28057,"Itawamba County, Mississippi",10630.00,0.94,0.56,24.10
+28059,"Jackson County, Mississippi",61439.00,0.94,0.36,25.60
+28061,"Jasper County, Mississippi",6314.00,0.96,0.63,33.60
+28063,"Jefferson County, Mississippi",2102.00,0.98,0.59,25.20
+28065,"Jefferson Davis County, Mississippi",4431.00,0.94,0.68,35.50
+28067,"Jones County, Mississippi",27751.00,0.95,0.23,25.50
+28069,"Kemper County, Mississippi",3192.00,0.95,0.67,33.10
+28071,"Lafayette County, Mississippi",24693.00,0.90,0.18,21.70
+28073,"Lamar County, Mississippi",29912.00,0.92,0.56,26.40
+28075,"Lauderdale County, Mississippi",29647.00,0.91,0.11,23.00
+28077,"Lawrence County, Mississippi",4037.00,0.96,0.53,34.10
+28079,"Leake County, Mississippi",8014.00,0.92,0.48,31.80
+28081,"Lee County, Mississippi",38045.00,0.95,0.19,20.80
+28083,"Leflore County, Mississippi",10240.00,0.95,0.16,18.30
+28085,"Lincoln County, Mississippi",13497.00,0.94,0.35,27.60
+28087,"Lowndes County, Mississippi",24604.00,0.93,0.20,20.80
+28089,"Madison County, Mississippi",53113.00,0.91,0.43,24.00
+28091,"Marion County, Mississippi",8800.00,0.94,0.33,38.60
+28093,"Marshall County, Mississippi",13832.00,0.95,0.65,28.30
+28095,"Monroe County, Mississippi",13500.00,0.93,0.42,24.10
+28097,"Montgomery County, Mississippi",3384.00,0.92,0.50,28.80
+28099,"Neshoba County, Mississippi",10776.00,0.91,0.25,25.00
+28101,"Newton County, Mississippi",8429.00,0.94,0.53,27.80
+28103,"Noxubee County, Mississippi",3788.00,0.95,0.46,28.30
+28105,"Oktibbeha County, Mississippi",21814.00,0.89,0.24,18.90
+28107,"Panola County, Mississippi",11587.00,0.93,0.45,26.20
+28109,"Pearl River County, Mississippi",22433.00,0.89,0.50,35.10
+28111,"Perry County, Mississippi",3972.00,0.94,0.60,27.60
+28113,"Pike County, Mississippi",14632.00,0.93,0.22,25.50
+28115,"Pontotoc County, Mississippi",13607.00,0.97,0.50,27.20
+28117,"Prentiss County, Mississippi",10261.00,0.97,0.45,24.70
+28119,"Quitman County, Mississippi",2126.00,0.95,0.66,30.70
+28121,"Rankin County, Mississippi",76431.00,0.93,0.43,26.00
+28123,"Scott County, Mississippi",11275.00,0.91,0.30,25.30
+28125,"Sharkey County, Mississippi",1474.00,0.94,0.39,21.80
+28127,"Simpson County, Mississippi",10225.00,0.91,0.48,29.20
+28129,"Smith County, Mississippi",5298.00,0.92,0.64,29.60
+28131,"Stone County, Mississippi",6656.00,0.95,0.49,35.00
+28133,"Sunflower County, Mississippi",8599.00,0.93,0.29,19.20
+28135,"Tallahatchie County, Mississippi",4407.00,0.90,0.47,27.40
+28137,"Tate County, Mississippi",11725.00,0.96,0.64,32.70
+28139,"Tippah County, Mississippi",9100.00,0.94,0.35,24.40
+28141,"Tishomingo County, Mississippi",7399.00,0.97,0.44,22.70
+28143,"Tunica County, Mississippi",3954.00,0.97,0.50,27.20
+28145,"Union County, Mississippi",12007.00,0.98,0.46,24.50
+28147,"Walthall County, Mississippi",4834.00,0.89,0.55,36.30
+28149,"Warren County, Mississippi",19159.00,0.95,0.16,21.10
+28151,"Washington County, Mississippi",16403.00,0.94,0.13,19.70
+28153,"Wayne County, Mississippi",7398.00,0.91,0.35,30.50
+28155,"Webster County, Mississippi",3990.00,0.94,0.65,31.40
+28157,"Wilkinson County, Mississippi",2773.00,0.85,0.58,35.20
+28159,"Winston County, Mississippi",6340.00,0.92,0.34,25.50
+28161,"Yalobusha County, Mississippi",4991.00,0.97,0.60,28.00
+28163,"Yazoo County, Mississippi",8844.00,0.91,0.45,27.00
+29001,"Adair County, Missouri",10035.00,0.88,0.13,17.50
+29003,"Andrew County, Missouri",8499.00,0.94,0.77,21.70
+29005,"Atchison County, Missouri",2521.00,0.89,0.29,21.10
+29007,"Audrain County, Missouri",10706.00,0.93,0.33,22.60
+29009,"Barry County, Missouri",14783.00,0.90,0.32,23.20
+29011,"Barton County, Missouri",4603.00,0.88,0.41,23.10
+29013,"Bates County, Missouri",6860.00,0.88,0.50,34.10
+29015,"Benton County, Missouri",6959.00,0.91,0.41,31.00
+29017,"Bollinger County, Missouri",4464.00,0.90,0.64,33.40
+29019,"Boone County, Missouri",95304.00,0.86,0.10,18.80
+29021,"Buchanan County, Missouri",38201.00,0.92,0.13,17.00
+29023,"Butler County, Missouri",17147.00,0.93,0.14,18.80
+29025,"Caldwell County, Missouri",3747.00,0.90,0.59,32.80
+29027,"Callaway County, Missouri",20411.00,0.90,0.48,23.50
+29029,"Camden County, Missouri",17783.00,0.87,0.23,23.50
+29031,"Cape Girardeau County, Missouri",40636.00,0.90,0.14,20.00
+29033,"Carroll County, Missouri",3823.00,0.88,0.35,25.30
+29035,"Carter County, Missouri",2311.00,0.86,0.34,23.90
+29037,"Cass County, Missouri",53652.00,0.88,0.56,29.20
+29039,"Cedar County, Missouri",5168.00,0.86,0.35,26.30
+29041,"Chariton County, Missouri",3172.00,0.89,0.49,24.70
+29043,"Christian County, Missouri",43032.00,0.90,0.63,25.60
+29045,"Clark County, Missouri",2832.00,0.89,0.52,29.90
+29047,"Clay County, Missouri",131772.00,0.86,0.45,23.30
+29049,"Clinton County, Missouri",9070.00,0.90,0.70,29.10
+29051,"Cole County, Missouri",37693.00,0.90,0.13,18.40
+29053,"Cooper County, Missouri",7186.00,0.91,0.52,27.60
+29055,"Crawford County, Missouri",9009.00,0.93,0.43,27.30
+29057,"Dade County, Missouri",3055.00,0.88,0.41,25.50
+29059,"Dallas County, Missouri",6291.00,0.87,0.59,31.90
+29061,"Daviess County, Missouri",3625.00,0.83,0.52,32.10
+29063,"DeKalb County, Missouri",4208.00,0.86,0.59,28.70
+29065,"Dent County, Missouri",5917.00,0.92,0.28,21.90
+29067,"Douglas County, Missouri",4272.00,0.89,0.41,25.00
+29069,"Dunklin County, Missouri",10860.00,0.93,0.34,23.00
+29071,"Franklin County, Missouri",49186.00,0.89,0.36,29.10
+29073,"Gasconade County, Missouri",6988.00,0.93,0.39,28.20
+29075,"Gentry County, Missouri",2781.00,0.84,0.32,22.60
+29077,"Greene County, Missouri",142571.00,0.88,0.08,20.10
+29079,"Grundy County, Missouri",3979.00,0.86,0.28,17.50
+29081,"Harrison County, Missouri",3335.00,0.87,0.28,27.20
+29083,"Henry County, Missouri",9114.00,0.91,0.28,24.40
+29085,"Hickory County, Missouri",2478.00,0.89,0.54,32.20
+29087,"Holt County, Missouri",1918.00,0.89,0.39,22.90
+29089,"Howard County, Missouri",4286.00,0.87,0.51,26.90
+29091,"Howell County, Missouri",15459.00,0.94,0.11,20.70
+29093,"Iron County, Missouri",3879.00,0.91,0.49,27.10
+29095,"Jackson County, Missouri",355790.00,0.84,0.25,23.60
+29097,"Jasper County, Missouri",56502.00,0.90,0.23,18.70
+29099,"Jefferson County, Missouri",113879.00,0.90,0.60,30.70
+29101,"Johnson County, Missouri",26671.00,0.90,0.29,23.10
+29103,"Knox County, Missouri",1630.00,0.75,0.32,22.40
+29105,"Laclede County, Missouri",15409.00,0.91,0.19,20.00
+29107,"Lafayette County, Missouri",15360.00,0.90,0.47,27.50
+29109,"Lawrence County, Missouri",16375.00,0.88,0.48,23.70
+29111,"Lewis County, Missouri",4296.00,0.90,0.46,23.40
+29113,"Lincoln County, Missouri",28259.00,0.90,0.65,32.20
+29115,"Linn County, Missouri",5457.00,0.90,0.31,20.80
+29117,"Livingston County, Missouri",6131.00,0.92,0.15,17.20
+29119,"McDonald County, Missouri",9528.00,0.90,0.48,25.70
+29121,"Macon County, Missouri",6511.00,0.91,0.34,23.10
+29123,"Madison County, Missouri",5399.00,0.91,0.34,25.80
+29125,"Maries County, Missouri",3441.00,0.91,0.67,33.10
+29127,"Marion County, Missouri",13135.00,0.89,0.26,18.30
+29129,"Mercer County, Missouri",1484.00,0.84,0.34,23.40
+29131,"Miller County, Missouri",11107.00,0.91,0.49,27.60
+29133,"Mississippi County, Missouri",4271.00,0.92,0.44,20.00
+29135,"Moniteau County, Missouri",6708.00,0.90,0.53,28.00
+29137,"Monroe County, Missouri",3592.00,0.91,0.54,26.70
+29139,"Montgomery County, Missouri",5004.00,0.89,0.46,27.60
+29141,"Morgan County, Missouri",7673.00,0.85,0.34,27.00
+29143,"New Madrid County, Missouri",6385.00,0.95,0.46,20.10
+29145,"Newton County, Missouri",26066.00,0.91,0.46,22.40
+29147,"Nodaway County, Missouri",9880.00,0.92,0.20,15.80
+29149,"Oregon County, Missouri",3205.00,0.86,0.30,22.50
+29151,"Osage County, Missouri",6686.00,0.90,0.49,25.10
+29153,"Ozark County, Missouri",2892.00,0.82,0.48,29.90
+29155,"Pemiscot County, Missouri",5504.00,0.94,0.35,19.30
+29157,"Perry County, Missouri",8936.00,0.96,0.26,20.70
+29159,"Pettis County, Missouri",19837.00,0.91,0.15,19.00
+29161,"Phelps County, Missouri",18728.00,0.89,0.14,20.30
+29163,"Pike County, Missouri",6653.00,0.93,0.29,23.20
+29165,"Platte County, Missouri",56479.00,0.85,0.56,24.10
+29167,"Polk County, Missouri",13854.00,0.88,0.40,26.90
+29169,"Pulaski County, Missouri",26813.00,0.71,0.12,18.50
+29171,"Putnam County, Missouri",2064.00,0.93,0.37,21.60
+29173,"Ralls County, Missouri",4518.00,0.91,0.64,21.80
+29175,"Randolph County, Missouri",10602.00,0.92,0.24,22.10
+29177,"Ray County, Missouri",10894.00,0.89,0.57,31.00
+29179,"Reynolds County, Missouri",2365.00,0.93,0.28,23.90
+29181,"Ripley County, Missouri",4194.00,0.88,0.41,35.80
+29183,"St. Charles County, Missouri",215074.00,0.84,0.43,25.20
+29185,"St. Clair County, Missouri",3728.00,0.90,0.51,28.40
+29186,"Ste. Genevieve County, Missouri",8261.00,0.93,0.51,32.50
+29187,"St. Francois County, Missouri",26358.00,0.92,0.28,25.50
+29189,"St. Louis County, Missouri",491731.00,0.82,0.26,23.50
+29195,"Saline County, Missouri",10279.00,0.90,0.20,17.20
+29197,"Schuyler County, Missouri",1591.00,0.90,0.59,29.00
+29199,"Scotland County, Missouri",1923.00,0.89,0.25,18.70
+29201,"Scott County, Missouri",17157.00,0.94,0.41,20.20
+29203,"Shannon County, Missouri",2672.00,0.90,0.35,26.70
+29205,"Shelby County, Missouri",2665.00,0.90,0.35,21.20
+29207,"Stoddard County, Missouri",11774.00,0.94,0.31,22.80
+29209,"Stone County, Missouri",11736.00,0.90,0.49,27.90
+29211,"Sullivan County, Missouri",2621.00,0.93,0.26,20.10
+29213,"Taney County, Missouri",24653.00,0.89,0.13,23.80
+29215,"Texas County, Missouri",8980.00,0.92,0.36,25.50
+29217,"Vernon County, Missouri",8229.00,0.81,0.18,20.60
+29219,"Warren County, Missouri",16913.00,0.92,0.66,31.00
+29221,"Washington County, Missouri",9003.00,0.94,0.59,35.50
+29223,"Wayne County, Missouri",3658.00,0.89,0.43,30.80
+29225,"Webster County, Missouri",15919.00,0.91,0.55,27.10
+29227,"Worth County, Missouri",888.00,0.86,0.38,32.10
+29229,"Wright County, Missouri",6803.00,0.93,0.43,27.90
+29510,"St. Louis city, Missouri",151829.00,0.75,0.40,23.00
+30001,"Beaverhead County, Montana",4559.00,0.83,0.11,19.70
+30003,"Big Horn County, Montana",4664.00,0.84,0.18,18.90
+30005,"Blaine County, Montana",2563.00,0.75,0.10,15.00
+30007,"Broadwater County, Montana",3138.00,0.86,0.47,25.40
+30009,"Carbon County, Montana",5137.00,0.80,0.36,26.70
+30011,"Carter County, Montana",648.00,0.58,0.13,14.70
+30013,"Cascade County, Montana",40313.00,0.89,0.03,17.00
+30015,"Chouteau County, Montana",2495.00,0.77,0.27,19.90
+30017,"Custer County, Montana",6150.00,0.88,0.04,12.50
+30019,"Daniels County, Montana",762.00,0.78,0.07,13.00
+30021,"Dawson County, Montana",4405.00,0.87,0.09,16.40
+30023,"Deer Lodge County, Montana",4088.00,0.80,0.26,18.60
+30025,"Fallon County, Montana",1423.00,0.88,0.06,17.20
+30027,"Fergus County, Montana",5584.00,0.72,0.07,19.70
+30029,"Flathead County, Montana",51262.00,0.82,0.02,19.00
+30031,"Gallatin County, Montana",67336.00,0.76,0.04,18.50
+30033,"Garfield County, Montana",517.00,0.52,0.02,16.30
+30035,"Glacier County, Montana",4830.00,0.77,0.08,15.60
+30037,"Golden Valley County, Montana",377.00,0.64,0.32,33.70
+30039,"Granite County, Montana",1282.00,0.76,0.30,22.50
+30041,"Hill County, Montana",7348.00,0.89,0.03,13.20
+30043,"Jefferson County, Montana",5433.00,0.86,0.60,22.80
+30045,"Judith Basin County, Montana",971.00,0.61,0.29,22.60
+30047,"Lake County, Montana",12938.00,0.83,0.18,21.10
+30049,"Lewis and Clark County, Montana",35944.00,0.81,0.04,17.30
+30051,"Liberty County, Montana",743.00,0.53,0.09,16.90
+30053,"Lincoln County, Montana",7350.00,0.81,0.10,20.50
+30055,"McCone County, Montana",904.00,0.70,0.21,20.60
+30057,"Madison County, Montana",3962.00,0.73,0.24,26.10
+30059,"Meagher County, Montana",1007.00,0.82,0.22,20.30
+30061,"Mineral County, Montana",1890.00,0.83,0.43,26.80
+30063,"Missoula County, Montana",64821.00,0.80,0.04,17.90
+30065,"Musselshell County, Montana",1919.00,0.80,0.28,28.40
+30067,"Park County, Montana",8950.00,0.77,0.27,24.20
+30069,"Petroleum County, Montana",235.00,0.59,0.09,16.50
+30071,"Phillips County, Montana",1866.00,0.73,0.11,14.00
+30073,"Pondera County, Montana",2570.00,0.78,0.20,16.50
+30075,"Powder River County, Montana",894.00,0.59,0.09,18.70
+30077,"Powell County, Montana",2415.00,0.86,0.20,16.40
+30079,"Prairie County, Montana",555.00,0.57,0.27,15.40
+30081,"Ravalli County, Montana",19483.00,0.82,0.22,23.60
+30083,"Richland County, Montana",5451.00,0.84,0.12,20.00
+30085,"Roosevelt County, Montana",3650.00,0.86,0.14,18.10
+30087,"Rosebud County, Montana",3207.00,0.89,0.10,15.10
+30089,"Sanders County, Montana",4045.00,0.75,0.12,21.60
+30091,"Sheridan County, Montana",1728.00,0.83,0.16,15.90
+30093,"Silver Bow County, Montana",16296.00,0.89,0.11,16.60
+30095,"Stillwater County, Montana",4243.00,0.82,0.33,28.40
+30097,"Sweet Grass County, Montana",1793.00,0.83,0.20,23.10
+30099,"Teton County, Montana",2842.00,0.76,0.22,21.20
+30101,"Toole County, Montana",2086.00,0.81,0.11,15.00
+30103,"Treasure County, Montana",361.00,0.73,0.19,15.40
+30105,"Valley County, Montana",3358.00,0.77,0.09,15.00
+30107,"Wheatland County, Montana",820.00,0.60,0.12,15.80
+30109,"Wibaux County, Montana",489.00,0.85,0.35,19.50
+30111,"Yellowstone County, Montana",82869.00,0.89,0.04,18.90
+31001,"Adams County, Nebraska",15172.00,0.91,0.18,16.80
+31003,"Antelope County, Nebraska",3227.00,0.83,0.26,17.00
+31005,"Arthur County, Nebraska",219.00,0.80,0.24,21.30
+31007,"Banner County, Nebraska",348.00,0.76,0.47,29.60
+31009,"Blaine County, Nebraska",200.00,0.57,0.33,21.20
+31011,"Boone County, Nebraska",2748.00,0.84,0.16,16.50
+31013,"Box Butte County, Nebraska",5148.00,0.89,0.06,10.70
+31015,"Boyd County, Nebraska",848.00,0.80,0.21,21.60
+31017,"Brown County, Nebraska",1253.00,0.88,0.07,9.50
+31019,"Buffalo County, Nebraska",27193.00,0.93,0.11,16.30
+31021,"Burt County, Nebraska",2979.00,0.87,0.45,25.40
+31023,"Butler County, Nebraska",4408.00,0.87,0.51,24.20
+31025,"Cass County, Nebraska",13699.00,0.88,0.66,29.10
+31027,"Cedar County, Nebraska",4226.00,0.88,0.39,19.70
+31029,"Chase County, Nebraska",1688.00,0.81,0.14,15.20
+31031,"Cherry County, Nebraska",2804.00,0.78,0.14,12.50
+31033,"Cheyenne County, Nebraska",4536.00,0.87,0.08,13.90
+31035,"Clay County, Nebraska",3030.00,0.87,0.46,22.20
+31037,"Colfax County, Nebraska",5301.00,0.87,0.40,18.30
+31039,"Cuming County, Nebraska",4618.00,0.91,0.26,16.50
+31041,"Custer County, Nebraska",5072.00,0.89,0.12,16.60
+31043,"Dakota County, Nebraska",10396.00,0.92,0.42,14.60
+31045,"Dawes County, Nebraska",4292.00,0.80,0.11,13.80
+31047,"Dawson County, Nebraska",12263.00,0.94,0.20,19.10
+31049,"Deuel County, Nebraska",876.00,0.87,0.45,24.30
+31051,"Dixon County, Nebraska",2734.00,0.86,0.60,23.10
+31053,"Dodge County, Nebraska",17862.00,0.92,0.28,18.30
+31055,"Douglas County, Nebraska",301107.00,0.84,0.14,19.80
+31057,"Dundy County, Nebraska",945.00,0.84,0.12,13.70
+31059,"Fillmore County, Nebraska",2929.00,0.86,0.27,17.00
+31061,"Franklin County, Nebraska",1347.00,0.87,0.43,20.50
+31063,"Frontier County, Nebraska",1171.00,0.84,0.41,21.80
+31065,"Furnas County, Nebraska",2189.00,0.88,0.23,15.70
+31067,"Gage County, Nebraska",10513.00,0.90,0.27,22.50
+31069,"Garden County, Nebraska",696.00,0.74,0.15,13.30
+31071,"Garfield County, Nebraska",944.00,0.84,0.15,14.30
+31073,"Gosper County, Nebraska",915.00,0.90,0.63,21.40
+31075,"Grant County, Nebraska",344.00,0.72,0.19,22.40
+31077,"Greeley County, Nebraska",986.00,0.82,0.32,19.80
+31079,"Hall County, Nebraska",30635.00,0.94,0.11,18.00
+31081,"Hamilton County, Nebraska",4694.00,0.88,0.42,21.40
+31083,"Harlan County, Nebraska",1479.00,0.91,0.35,21.20
+31085,"Hayes County, Nebraska",427.00,0.78,0.34,18.10
+31087,"Hitchcock County, Nebraska",1126.00,0.87,0.42,21.00
+31089,"Holt County, Nebraska",5183.00,0.83,0.06,14.90
+31091,"Hooker County, Nebraska",306.00,0.65,0.24,18.20
+31093,"Howard County, Nebraska",3189.00,0.90,0.52,26.80
+31095,"Jefferson County, Nebraska",3428.00,0.90,0.19,17.40
+31097,"Johnson County, Nebraska",2129.00,0.88,0.43,22.50
+31099,"Kearney County, Nebraska",3464.00,0.89,0.50,19.80
+31101,"Keith County, Nebraska",3995.00,0.88,0.13,14.00
+31103,"Keya Paha County, Nebraska",441.00,0.66,0.24,18.80
+31105,"Kimball County, Nebraska",1616.00,0.89,0.12,14.70
+31107,"Knox County, Nebraska",3930.00,0.85,0.24,19.10
+31109,"Lancaster County, Nebraska",173171.00,0.86,0.06,19.00
+31111,"Lincoln County, Nebraska",16387.00,0.93,0.06,15.30
+31113,"Logan County, Nebraska",434.00,0.77,0.36,21.30
+31115,"Loup County, Nebraska",320.00,0.81,0.43,24.90
+31117,"McPherson County, Nebraska",252.00,0.70,0.20,19.90
+31119,"Madison County, Nebraska",17964.00,0.91,0.13,14.30
+31121,"Merrick County, Nebraska",3800.00,0.91,0.45,21.50
+31123,"Morrill County, Nebraska",2063.00,0.88,0.34,22.20
+31125,"Nance County, Nebraska",1607.00,0.82,0.34,25.60
+31127,"Nemaha County, Nebraska",3187.00,0.90,0.29,16.70
+31129,"Nuckolls County, Nebraska",2134.00,0.87,0.23,17.70
+31131,"Otoe County, Nebraska",7967.00,0.90,0.39,23.80
+31133,"Pawnee County, Nebraska",1051.00,0.82,0.35,23.00
+31135,"Perkins County, Nebraska",1414.00,0.88,0.24,14.60
+31137,"Phelps County, Nebraska",4446.00,0.93,0.19,15.60
+31139,"Pierce County, Nebraska",3685.00,0.86,0.48,20.90
+31141,"Platte County, Nebraska",17594.00,0.89,0.10,14.10
+31143,"Polk County, Nebraska",2683.00,0.85,0.48,22.70
+31145,"Red Willow County, Nebraska",5284.00,0.94,0.13,12.50
+31147,"Richardson County, Nebraska",3650.00,0.89,0.26,16.30
+31149,"Rock County, Nebraska",650.00,0.82,0.11,13.40
+31151,"Saline County, Nebraska",6999.00,0.91,0.31,22.00
+31153,"Sarpy County, Nebraska",103080.00,0.88,0.51,20.90
+31155,"Saunders County, Nebraska",11676.00,0.89,0.58,25.40
+31157,"Scotts Bluff County, Nebraska",16964.00,0.91,0.07,13.60
+31159,"Seward County, Nebraska",9229.00,0.88,0.41,20.80
+31161,"Sheridan County, Nebraska",2375.00,0.85,0.19,18.10
+31163,"Sherman County, Nebraska",1419.00,0.88,0.42,21.70
+31165,"Sioux County, Nebraska",506.00,0.82,0.34,20.60
+31167,"Stanton County, Nebraska",3079.00,0.89,0.70,22.80
+31169,"Thayer County, Nebraska",2405.00,0.90,0.20,14.20
+31171,"Thomas County, Nebraska",352.00,0.71,0.26,17.60
+31173,"Thurston County, Nebraska",2632.00,0.86,0.28,20.00
+31175,"Valley County, Nebraska",2009.00,0.90,0.14,14.40
+31177,"Washington County, Nebraska",10853.00,0.86,0.51,23.30
+31179,"Wayne County, Nebraska",5080.00,0.80,0.28,15.90
+31181,"Webster County, Nebraska",1745.00,0.89,0.41,20.50
+31183,"Wheeler County, Nebraska",357.00,0.72,0.20,15.10
+31185,"York County, Nebraska",6866.00,0.89,0.18,16.10
+32001,"Churchill County, Nevada",11611.00,0.88,0.19,22.80
+32003,"Clark County, Nevada",1040510.00,0.84,0.02,25.10
+32005,"Douglas County, Nevada",21142.00,0.84,0.38,25.20
+32007,"Elko County, Nevada",25906.00,0.81,0.09,29.00
+32009,"Esmeralda County, Nevada",397.00,0.73,0.09,15.50
+32011,"Eureka County, Nevada",579.00,0.83,0.25,25.80
+32013,"Humboldt County, Nevada",8176.00,0.76,0.08,27.90
+32015,"Lander County, Nevada",2335.00,0.80,0.29,26.20
+32017,"Lincoln County, Nevada",1651.00,0.79,0.15,23.60
+32019,"Lyon County, Nevada",25834.00,0.90,0.54,29.80
+32021,"Mineral County, Nevada",1648.00,0.88,0.14,14.90
+32023,"Nye County, Nevada",16552.00,0.87,0.21,28.40
+32027,"Pershing County, Nevada",1993.00,0.84,0.33,25.80
+32029,"Storey County, Nevada",1352.00,0.82,0.69,32.70
+32031,"Washoe County, Nevada",244367.00,0.84,0.07,22.30
+32033,"White Pine County, Nevada",3387.00,0.84,0.02,15.20
+32510,"Carson City, Nevada",26695.00,0.88,0.33,21.10
+33001,"Belknap County, New Hampshire",32144.00,0.86,0.36,26.00
+33003,"Carroll County, New Hampshire",24419.00,0.85,0.25,26.80
+33005,"Cheshire County, New Hampshire",38344.00,0.85,0.23,23.30
+33007,"Coos County, New Hampshire",14066.00,0.87,0.20,22.30
+33009,"Grafton County, New Hampshire",45358.00,0.80,0.19,22.60
+33011,"Hillsborough County, New Hampshire",231932.00,0.83,0.29,27.40
+33013,"Merrimack County, New Hampshire",78773.00,0.84,0.34,26.80
+33015,"Rockingham County, New Hampshire",171850.00,0.82,0.40,29.60
+33017,"Strafford County, New Hampshire",69543.00,0.82,0.39,26.20
+33019,"Sullivan County, New Hampshire",19817.00,0.89,0.42,26.10
+34001,"Atlantic County, New Jersey",126468.00,0.84,0.22,25.50
+34003,"Bergen County, New Jersey",482857.00,0.69,0.39,31.80
+34005,"Burlington County, New Jersey",234607.00,0.83,0.42,29.50
+34007,"Camden County, New Jersey",250162.00,0.79,0.44,28.00
+34009,"Cape May County, New Jersey",42154.00,0.85,0.24,22.40
+34011,"Cumberland County, New Jersey",61388.00,0.91,0.29,24.40
+34013,"Essex County, New Jersey",396088.00,0.63,0.46,33.80
+34015,"Gloucester County, New Jersey",152194.00,0.84,0.49,29.40
+34017,"Hudson County, New Jersey",375393.00,0.41,0.48,35.70
+34019,"Hunterdon County, New Jersey",66185.00,0.78,0.48,33.70
+34021,"Mercer County, New Jersey",181170.00,0.74,0.29,27.50
+34023,"Middlesex County, New Jersey",420626.00,0.73,0.40,33.00
+34025,"Monmouth County, New Jersey",325055.00,0.76,0.34,33.60
+34027,"Morris County, New Jersey",262320.00,0.76,0.37,30.20
+34029,"Ocean County, New Jersey",269436.00,0.86,0.36,30.80
+34031,"Passaic County, New Jersey",246290.00,0.79,0.51,27.20
+34033,"Salem County, New Jersey",28330.00,0.89,0.53,26.60
+34035,"Somerset County, New Jersey",180486.00,0.75,0.45,31.30
+34037,"Sussex County, New Jersey",75861.00,0.85,0.52,36.60
+34039,"Union County, New Jersey",285292.00,0.72,0.49,30.60
+34041,"Warren County, New Jersey",55352.00,0.85,0.56,34.00
+35001,"Bernalillo County, New Mexico",320828.00,0.84,0.07,22.70
+35003,"Catron County, New Mexico",961.00,0.66,0.10,21.40
+35005,"Chaves County, New Mexico",25977.00,0.93,0.12,18.30
+35006,"Cibola County, New Mexico",8842.00,0.87,0.17,22.60
+35007,"Colfax County, New Mexico",4949.00,0.83,0.10,18.40
+35009,"Curry County, New Mexico",21564.00,0.94,0.10,16.60
+35011,"De Baca County, New Mexico",722.00,0.91,0.08,11.20
+35013,"Doña Ana County, New Mexico",91502.00,0.88,0.20,22.50
+35015,"Eddy County, New Mexico",27002.00,0.92,0.06,19.90
+35017,"Grant County, New Mexico",9731.00,0.85,0.07,19.30
+35019,"Guadalupe County, New Mexico",1526.00,0.88,0.07,16.80
+35021,"Harding County, New Mexico",271.00,0.80,0.36,25.10
+35023,"Hidalgo County, New Mexico",1629.00,0.90,0.21,23.10
+35025,"Lea County, New Mexico",30122.00,0.94,0.10,24.50
+35027,"Lincoln County, New Mexico",8220.00,0.83,0.10,20.80
+35028,"Los Alamos County, New Mexico",10197.00,0.82,0.04,16.00
+35029,"Luna County, New Mexico",8172.00,0.91,0.16,21.60
+35031,"McKinley County, New Mexico",23701.00,0.85,0.16,25.10
+35033,"Mora County, New Mexico",1312.00,0.77,0.61,53.50
+35035,"Otero County, New Mexico",26803.00,0.91,0.12,22.20
+35037,"Quay County, New Mexico",3422.00,0.89,0.15,15.90
+35039,"Rio Arriba County, New Mexico",15331.00,0.88,0.43,28.60
+35041,"Roosevelt County, New Mexico",8672.00,0.92,0.29,17.20
+35043,"Sandoval County, New Mexico",66313.00,0.84,0.48,29.10
+35045,"San Juan County, New Mexico",44516.00,0.92,0.09,24.20
+35047,"San Miguel County, New Mexico",10620.00,0.83,0.17,20.20
+35049,"Santa Fe County, New Mexico",70746.00,0.80,0.15,23.60
+35051,"Sierra County, New Mexico",3546.00,0.78,0.05,14.80
+35053,"Socorro County, New Mexico",5045.00,0.70,0.12,18.30
+35055,"Taos County, New Mexico",13876.00,0.80,0.12,22.60
+35057,"Torrance County, New Mexico",5431.00,0.86,0.56,36.50
+35059,"Union County, New Mexico",1315.00,0.85,0.13,21.80
+35061,"Valencia County, New Mexico",28823.00,0.89,0.44,29.90
+36001,"Albany County, New York",157506.00,0.78,0.20,21.10
+36003,"Allegany County, New York",18985.00,0.85,0.33,22.60
+36005,"Bronx County, New York",564284.00,0.28,0.52,44.60
+36007,"Broome County, New York",84789.00,0.84,0.10,19.70
+36009,"Cattaraugus County, New York",32488.00,0.86,0.29,22.40
+36011,"Cayuga County, New York",34081.00,0.88,0.36,23.10
+36013,"Chautauqua County, New York",53861.00,0.88,0.12,19.00
+36015,"Chemung County, New York",35625.00,0.88,0.24,20.00
+36017,"Chenango County, New York",20856.00,0.89,0.32,23.40
+36019,"Clinton County, New York",35098.00,0.88,0.09,19.70
+36021,"Columbia County, New York",29002.00,0.77,0.35,25.80
+36023,"Cortland County, New York",22643.00,0.86,0.32,21.70
+36025,"Delaware County, New York",18859.00,0.80,0.26,25.70
+36027,"Dutchess County, New York",145279.00,0.79,0.33,32.30
+36029,"Erie County, New York",455254.00,0.83,0.06,21.20
+36031,"Essex County, New York",16875.00,0.84,0.27,23.50
+36033,"Franklin County, New York",18873.00,0.86,0.20,20.30
+36035,"Fulton County, New York",23844.00,0.91,0.38,24.60
+36037,"Genesee County, New York",28247.00,0.89,0.38,23.40
+36039,"Greene County, New York",21390.00,0.83,0.40,28.00
+36041,"Hamilton County, New York",2223.00,0.76,0.29,22.70
+36043,"Herkimer County, New York",27448.00,0.87,0.46,24.60
+36045,"Jefferson County, New York",54156.00,0.87,0.07,19.60
+36047,"Kings County, New York",1222797.00,0.22,0.43,42.70
+36049,"Lewis County, New York",11676.00,0.87,0.36,24.60
+36051,"Livingston County, New York",28236.00,0.85,0.43,24.60
+36053,"Madison County, New York",30850.00,0.84,0.48,23.60
+36055,"Monroe County, New York",365663.00,0.82,0.07,19.90
+36057,"Montgomery County, New York",21665.00,0.86,0.43,24.50
+36059,"Nassau County, New York",689613.00,0.71,0.39,36.30
+36061,"New York County, New York",870794.00,0.07,0.13,31.80
+36063,"Niagara County, New York",98566.00,0.87,0.39,22.80
+36065,"Oneida County, New York",100408.00,0.86,0.13,20.40
+36067,"Onondaga County, New York",222274.00,0.82,0.07,20.10
+36069,"Ontario County, New York",54283.00,0.86,0.37,22.90
+36071,"Orange County, New York",183472.00,0.80,0.30,34.10
+36073,"Orleans County, New York",17535.00,0.85,0.45,26.70
+36075,"Oswego County, New York",53261.00,0.87,0.38,24.60
+36077,"Otsego County, New York",26908.00,0.83,0.22,23.10
+36079,"Putnam County, New York",49087.00,0.79,0.63,39.90
+36081,"Queens County, New York",1112766.00,0.39,0.51,43.60
+36083,"Rensselaer County, New York",78978.00,0.82,0.50,23.80
+36085,"Richmond County, New York",221119.00,0.62,0.46,43.80
+36087,"Rockland County, New York",144661.00,0.78,0.37,31.00
+36089,"St. Lawrence County, New York",43767.00,0.86,0.09,20.50
+36091,"Saratoga County, New York",123295.00,0.84,0.38,25.60
+36093,"Schenectady County, New York",75018.00,0.82,0.44,23.10
+36095,"Schoharie County, New York",13550.00,0.85,0.43,31.20
+36097,"Schuyler County, New York",7982.00,0.87,0.49,27.20
+36099,"Seneca County, New York",14480.00,0.87,0.39,21.20
+36101,"Steuben County, New York",41256.00,0.88,0.24,22.10
+36103,"Suffolk County, New York",765877.00,0.82,0.22,32.00
+36105,"Sullivan County, New York",33267.00,0.85,0.28,28.10
+36107,"Tioga County, New York",22405.00,0.89,0.56,24.00
+36109,"Tompkins County, New York",48267.00,0.64,0.08,20.20
+36111,"Ulster County, New York",83839.00,0.78,0.30,28.10
+36113,"Warren County, New York",31577.00,0.87,0.28,21.70
+36115,"Washington County, New York",27765.00,0.88,0.53,26.00
+36117,"Wayne County, New York",42736.00,0.89,0.47,24.40
+36119,"Westchester County, New York",485163.00,0.60,0.34,34.80
+36121,"Wyoming County, New York",17810.00,0.88,0.45,24.90
+36123,"Yates County, New York",10662.00,0.81,0.32,22.20
+37001,"Alamance County, North Carolina",80839.00,0.90,0.36,25.90
+37003,"Alexander County, North Carolina",15849.00,0.94,0.53,25.70
+37005,"Alleghany County, North Carolina",4345.00,0.90,0.26,26.10
+37007,"Anson County, North Carolina",8565.00,0.93,0.50,26.80
+37009,"Ashe County, North Carolina",11435.00,0.89,0.23,25.00
+37011,"Avery County, North Carolina",6209.00,0.88,0.23,20.70
+37013,"Beaufort County, North Carolina",19091.00,0.91,0.30,24.10
+37015,"Bertie County, North Carolina",6177.00,0.93,0.55,27.60
+37017,"Bladen County, North Carolina",10567.00,0.91,0.41,26.80
+37019,"Brunswick County, North Carolina",55354.00,0.86,0.37,25.20
+37021,"Buncombe County, North Carolina",130073.00,0.81,0.09,20.60
+37023,"Burke County, North Carolina",38812.00,0.93,0.37,23.80
+37025,"Cabarrus County, North Carolina",111840.00,0.83,0.45,27.60
+37027,"Caldwell County, North Carolina",35284.00,0.92,0.40,26.10
+37029,"Camden County, North Carolina",4860.00,0.85,0.73,31.70
+37031,"Carteret County, North Carolina",30080.00,0.88,0.27,24.00
+37033,"Caswell County, North Carolina",9225.00,0.93,0.74,31.50
+37035,"Catawba County, North Carolina",74280.00,0.91,0.23,22.40
+37037,"Chatham County, North Carolina",34963.00,0.78,0.51,28.00
+37039,"Cherokee County, North Carolina",11047.00,0.87,0.24,26.20
+37041,"Chowan County, North Carolina",5623.00,0.93,0.36,30.90
+37043,"Clay County, North Carolina",4364.00,0.88,0.42,24.50
+37045,"Cleveland County, North Carolina",42455.00,0.91,0.34,24.80
+37047,"Columbus County, North Carolina",18489.00,0.94,0.36,28.30
+37049,"Craven County, North Carolina",44932.00,0.90,0.19,20.30
+37051,"Cumberland County, North Carolina",153731.00,0.88,0.12,21.40
+37053,"Currituck County, North Carolina",14296.00,0.92,0.67,35.80
+37055,"Dare County, North Carolina",18731.00,0.84,0.11,23.00
+37057,"Davidson County, North Carolina",75568.00,0.90,0.51,24.30
+37059,"Davie County, North Carolina",19362.00,0.92,0.54,27.00
+37061,"Duplin County, North Carolina",21072.00,0.93,0.42,28.60
+37063,"Durham County, North Carolina",168520.00,0.76,0.28,22.50
+37065,"Edgecombe County, North Carolina",20021.00,0.89,0.49,22.50
+37067,"Forsyth County, North Carolina",175739.00,0.86,0.23,22.70
+37069,"Franklin County, North Carolina",32053.00,0.90,0.68,33.90
+37071,"Gaston County, North Carolina",106701.00,0.90,0.42,26.50
+37073,"Gates County, North Carolina",4479.00,0.96,0.74,38.60
+37075,"Graham County, North Carolina",3048.00,0.94,0.26,24.10
+37077,"Granville County, North Carolina",26260.00,0.89,0.54,30.10
+37079,"Greene County, North Carolina",8021.00,0.95,0.61,26.70
+37081,"Guilford County, North Carolina",257749.00,0.85,0.16,22.00
+37083,"Halifax County, North Carolina",17869.00,0.91,0.33,23.70
+37085,"Harnett County, North Carolina",57835.00,0.92,0.64,32.10
+37087,"Haywood County, North Carolina",27174.00,0.90,0.32,23.10
+37089,"Henderson County, North Carolina",53627.00,0.89,0.33,22.30
+37091,"Hertford County, North Carolina",8435.00,0.90,0.32,28.30
+37093,"Hoke County, North Carolina",21569.00,0.91,0.69,29.40
+37095,"Hyde County, North Carolina",1325.00,0.92,0.33,25.10
+37097,"Iredell County, North Carolina",90895.00,0.85,0.30,25.10
+37099,"Jackson County, North Carolina",18158.00,0.90,0.23,19.80
+37101,"Johnston County, North Carolina",106454.00,0.87,0.53,32.70
+37103,"Jones County, North Carolina",3815.00,0.94,0.78,30.50
+37105,"Lee County, North Carolina",28339.00,0.93,0.37,25.80
+37107,"Lenoir County, North Carolina",22131.00,0.95,0.28,23.60
+37109,"Lincoln County, North Carolina",41524.00,0.88,0.51,29.60
+37111,"McDowell County, North Carolina",18297.00,0.94,0.28,24.60
+37113,"Macon County, North Carolina",15362.00,0.91,0.20,22.30
+37115,"Madison County, North Carolina",9348.00,0.85,0.56,32.10
+37117,"Martin County, North Carolina",8885.00,0.90,0.47,25.40
+37119,"Mecklenburg County, North Carolina",590774.00,0.73,0.12,25.60
+37121,"Mitchell County, North Carolina",6316.00,0.92,0.41,23.70
+37123,"Montgomery County, North Carolina",10716.00,0.94,0.42,24.30
+37125,"Moore County, North Carolina",44256.00,0.84,0.31,26.20
+37127,"Nash County, North Carolina",42444.00,0.90,0.34,24.20
+37129,"New Hanover County, North Carolina",115016.00,0.82,0.09,20.50
+37131,"Northampton County, North Carolina",6529.00,0.91,0.57,26.40
+37133,"Onslow County, North Carolina",104468.00,0.82,0.12,22.00
+37135,"Orange County, North Carolina",69679.00,0.67,0.35,23.80
+37137,"Pamlico County, North Carolina",4402.00,0.88,0.40,23.60
+37139,"Pasquotank County, North Carolina",18395.00,0.88,0.34,28.30
+37141,"Pender County, North Carolina",27872.00,0.88,0.57,31.20
+37143,"Perquimans County, North Carolina",5011.00,0.91,0.66,36.20
+37145,"Person County, North Carolina",18393.00,0.86,0.43,30.60
+37147,"Pitt County, North Carolina",80221.00,0.87,0.13,21.30
+37149,"Polk County, North Carolina",8355.00,0.85,0.43,27.20
+37151,"Randolph County, North Carolina",65475.00,0.92,0.41,24.30
+37153,"Richmond County, North Carolina",17681.00,0.95,0.33,24.80
+37155,"Robeson County, North Carolina",43118.00,0.94,0.28,24.80
+37157,"Rockingham County, North Carolina",38800.00,0.92,0.44,26.40
+37159,"Rowan County, North Carolina",65043.00,0.91,0.40,26.10
+37161,"Rutherford County, North Carolina",26021.00,0.91,0.32,25.40
+37163,"Sampson County, North Carolina",24170.00,0.94,0.39,29.40
+37165,"Scotland County, North Carolina",12134.00,0.93,0.38,24.40
+37167,"Stanly County, North Carolina",28124.00,0.92,0.41,28.20
+37169,"Stokes County, North Carolina",19243.00,0.94,0.69,30.90
+37171,"Surry County, North Carolina",31099.00,0.95,0.31,25.90
+37173,"Swain County, North Carolina",5620.00,0.89,0.36,20.50
+37175,"Transylvania County, North Carolina",13645.00,0.87,0.22,22.10
+37177,"Tyrrell County, North Carolina",1176.00,0.90,0.37,28.80
+37179,"Union County, North Carolina",119069.00,0.83,0.44,29.60
+37181,"Vance County, North Carolina",17668.00,0.89,0.40,25.30
+37183,"Wake County, North Carolina",591910.00,0.74,0.15,25.40
+37185,"Warren County, North Carolina",6896.00,0.89,0.50,27.70
+37187,"Washington County, North Carolina",3906.00,0.91,0.45,27.50
+37189,"Watauga County, North Carolina",25360.00,0.84,0.11,20.00
+37191,"Wayne County, North Carolina",52846.00,0.94,0.24,21.80
+37193,"Wilkes County, North Carolina",28177.00,0.91,0.28,27.60
+37195,"Wilson County, North Carolina",34109.00,0.92,0.28,22.60
+37197,"Yadkin County, North Carolina",16725.00,0.93,0.54,28.80
+37199,"Yancey County, North Carolina",7632.00,0.89,0.41,27.10
+38001,"Adams County, North Dakota",1030.00,0.78,0.20,15.60
+38003,"Barnes County, North Dakota",5416.00,0.90,0.20,18.30
+38005,"Benson County, North Dakota",2014.00,0.84,0.28,15.10
+38007,"Billings County, North Dakota",418.00,0.76,0.47,22.30
+38009,"Bottineau County, North Dakota",2976.00,0.84,0.25,20.30
+38011,"Bowman County, North Dakota",1413.00,0.81,0.12,16.70
+38013,"Burke County, North Dakota",1039.00,0.81,0.33,24.20
+38015,"Burleigh County, North Dakota",50478.00,0.90,0.13,17.80
+38017,"Cass County, North Dakota",107914.00,0.87,0.09,17.50
+38019,"Cavalier County, North Dakota",1691.00,0.90,0.13,16.20
+38021,"Dickey County, North Dakota",2511.00,0.80,0.26,17.70
+38023,"Divide County, North Dakota",971.00,0.86,0.10,16.80
+38025,"Dunn County, North Dakota",1881.00,0.79,0.27,23.30
+38027,"Eddy County, North Dakota",1098.00,0.80,0.28,16.90
+38029,"Emmons County, North Dakota",1536.00,0.77,0.19,19.10
+38031,"Foster County, North Dakota",1794.00,0.87,0.17,13.00
+38033,"Golden Valley County, North Dakota",808.00,0.90,0.27,25.20
+38035,"Grand Forks County, North Dakota",39811.00,0.89,0.09,15.60
+38037,"Grant County, North Dakota",1034.00,0.76,0.21,19.50
+38039,"Griggs County, North Dakota",1106.00,0.82,0.20,16.00
+38041,"Hettinger County, North Dakota",1121.00,0.80,0.23,16.40
+38043,"Kidder County, North Dakota",1009.00,0.82,0.32,24.20
+38045,"LaMoure County, North Dakota",2036.00,0.79,0.21,18.00
+38047,"Logan County, North Dakota",846.00,0.74,0.18,14.40
+38049,"McHenry County, North Dakota",2501.00,0.80,0.42,27.60
+38051,"McIntosh County, North Dakota",1293.00,0.81,0.09,10.60
+38053,"McKenzie County, North Dakota",6700.00,0.89,0.18,20.40
+38055,"McLean County, North Dakota",4413.00,0.88,0.28,23.70
+38057,"Mercer County, North Dakota",3756.00,0.91,0.14,18.80
+38059,"Morton County, North Dakota",18192.00,0.91,0.56,19.90
+38061,"Mountrail County, North Dakota",4339.00,0.89,0.21,19.50
+38063,"Nelson County, North Dakota",1350.00,0.79,0.24,20.60
+38065,"Oliver County, North Dakota",775.00,0.80,0.44,23.20
+38067,"Pembina County, North Dakota",3169.00,0.89,0.16,17.70
+38069,"Pierce County, North Dakota",1831.00,0.85,0.16,13.10
+38071,"Ramsey County, North Dakota",5889.00,0.91,0.13,16.60
+38073,"Ransom County, North Dakota",2688.00,0.89,0.29,20.10
+38075,"Renville County, North Dakota",1156.00,0.92,0.53,32.50
+38077,"Richland County, North Dakota",8341.00,0.86,0.26,20.60
+38079,"Rolette County, North Dakota",4429.00,0.94,0.10,17.30
+38081,"Sargent County, North Dakota",2051.00,0.84,0.18,17.50
+38083,"Sheridan County, North Dakota",624.00,0.82,0.31,25.40
+38085,"Sioux County, North Dakota",1037.00,0.86,0.09,16.20
+38087,"Slope County, North Dakota",412.00,0.59,0.39,19.50
+38089,"Stark County, North Dakota",16528.00,0.90,0.09,17.10
+38091,"Steele County, North Dakota",832.00,0.82,0.33,16.80
+38093,"Stutsman County, North Dakota",10640.00,0.89,0.08,15.60
+38095,"Towner County, North Dakota",1037.00,0.88,0.17,14.30
+38097,"Traill County, North Dakota",4077.00,0.90,0.27,18.90
+38099,"Walsh County, North Dakota",5127.00,0.92,0.16,17.40
+38101,"Ward County, North Dakota",37132.00,0.93,0.09,19.40
+38103,"Wells County, North Dakota",1840.00,0.80,0.13,16.50
+38105,"Williams County, North Dakota",19950.00,0.93,0.04,16.90
+39001,"Adams County, Ohio",10284.00,0.92,0.44,36.80
+39003,"Allen County, Ohio",45300.00,0.92,0.22,19.00
+39005,"Ashland County, Ohio",24322.00,0.89,0.38,23.30
+39007,"Ashtabula County, Ohio",40922.00,0.92,0.33,25.80
+39009,"Athens County, Ohio",27395.00,0.75,0.22,22.80
+39011,"Auglaize County, Ohio",23580.00,0.91,0.41,18.70
+39013,"Belmont County, Ohio",28090.00,0.94,0.41,26.00
+39015,"Brown County, Ohio",18800.00,0.93,0.62,33.70
+39017,"Butler County, Ohio",182553.00,0.87,0.40,25.10
+39019,"Carroll County, Ohio",11572.00,0.87,0.55,30.10
+39021,"Champaign County, Ohio",18144.00,0.90,0.54,26.50
+39023,"Clark County, Ohio",59345.00,0.90,0.37,22.50
+39025,"Clermont County, Ohio",103116.00,0.88,0.54,27.80
+39027,"Clinton County, Ohio",19725.00,0.90,0.40,26.10
+39029,"Columbiana County, Ohio",45689.00,0.91,0.42,24.70
+39031,"Coshocton County, Ohio",15264.00,0.86,0.37,25.30
+39033,"Crawford County, Ohio",18790.00,0.92,0.47,24.10
+39035,"Cuyahoga County, Ohio",592913.00,0.81,0.11,23.90
+39037,"Darke County, Ohio",24358.00,0.91,0.38,22.30
+39039,"Defiance County, Ohio",18548.00,0.93,0.40,21.10
+39041,"Delaware County, Ohio",112256.00,0.77,0.46,25.70
+39043,"Erie County, Ohio",35164.00,0.93,0.31,20.90
+39045,"Fairfield County, Ohio",77254.00,0.86,0.55,27.70
+39047,"Fayette County, Ohio",12678.00,0.94,0.41,26.80
+39049,"Franklin County, Ohio",682147.00,0.80,0.11,22.00
+39051,"Fulton County, Ohio",20337.00,0.94,0.43,23.70
+39053,"Gallia County, Ohio",11616.00,0.90,0.24,26.50
+39055,"Geauga County, Ohio",47198.00,0.84,0.49,27.50
+39057,"Greene County, Ohio",80299.00,0.86,0.42,21.80
+39059,"Guernsey County, Ohio",16560.00,0.94,0.25,22.90
+39061,"Hamilton County, Ohio",408079.00,0.81,0.19,23.50
+39063,"Hancock County, Ohio",36806.00,0.90,0.17,17.90
+39065,"Hardin County, Ohio",13593.00,0.89,0.43,23.20
+39067,"Harrison County, Ohio",5605.00,0.90,0.56,29.60
+39069,"Henry County, Ohio",13385.00,0.92,0.47,22.30
+39071,"Highland County, Ohio",18581.00,0.91,0.46,28.90
+39073,"Hocking County, Ohio",12424.00,0.92,0.46,30.20
+39075,"Holmes County, Ohio",20276.00,0.71,0.23,21.70
+39077,"Huron County, Ohio",26975.00,0.92,0.39,22.90
+39079,"Jackson County, Ohio",13433.00,0.90,0.32,28.30
+39081,"Jefferson County, Ohio",27544.00,0.88,0.36,23.30
+39083,"Knox County, Ohio",28192.00,0.85,0.33,27.50
+39085,"Lake County, Ohio",118513.00,0.87,0.36,23.40
+39087,"Lawrence County, Ohio",23216.00,0.94,0.58,22.00
+39089,"Licking County, Ohio",85420.00,0.85,0.39,26.70
+39091,"Logan County, Ohio",20974.00,0.90,0.34,22.20
+39093,"Lorain County, Ohio",144410.00,0.88,0.38,25.40
+39095,"Lucas County, Ohio",195444.00,0.90,0.20,20.60
+39097,"Madison County, Ohio",19749.00,0.88,0.52,24.80
+39099,"Mahoning County, Ohio",100983.00,0.89,0.26,22.30
+39101,"Marion County, Ohio",26661.00,0.92,0.26,23.60
+39103,"Medina County, Ohio",94868.00,0.86,0.48,26.80
+39105,"Meigs County, Ohio",8159.00,0.94,0.58,31.10
+39107,"Mercer County, Ohio",21473.00,0.95,0.30,19.00
+39109,"Miami County, Ohio",53983.00,0.90,0.40,21.50
+39111,"Monroe County, Ohio",5318.00,0.93,0.47,34.80
+39113,"Montgomery County, Ohio",248049.00,0.86,0.24,22.20
+39115,"Morgan County, Ohio",5347.00,0.93,0.47,37.70
+39117,"Morrow County, Ohio",17173.00,0.85,0.61,32.10
+39119,"Muskingum County, Ohio",38989.00,0.93,0.25,25.00
+39121,"Noble County, Ohio",4135.00,0.92,0.49,24.70
+39123,"Ottawa County, Ohio",18665.00,0.90,0.49,24.50
+39125,"Paulding County, Ohio",8367.00,0.93,0.55,24.30
+39127,"Perry County, Ohio",14819.00,0.93,0.65,33.10
+39129,"Pickaway County, Ohio",25292.00,0.89,0.58,28.00
+39131,"Pike County, Ohio",10067.00,0.92,0.46,28.90
+39133,"Portage County, Ohio",80900.00,0.84,0.47,25.40
+39135,"Preble County, Ohio",19524.00,0.92,0.51,25.90
+39137,"Putnam County, Ohio",17056.00,0.93,0.44,21.70
+39139,"Richland County, Ohio",53293.00,0.93,0.21,22.60
+39141,"Ross County, Ohio",30977.00,0.94,0.29,27.40
+39143,"Sandusky County, Ohio",27071.00,0.94,0.35,19.60
+39145,"Scioto County, Ohio",26345.00,0.91,0.25,26.80
+39147,"Seneca County, Ohio",26313.00,0.89,0.40,21.20
+39149,"Shelby County, Ohio",23620.00,0.94,0.29,18.90
+39151,"Stark County, Ohio",177007.00,0.87,0.24,21.50
+39153,"Summit County, Ohio",264826.00,0.86,0.27,23.30
+39155,"Trumbull County, Ohio",84556.00,0.91,0.37,23.60
+39157,"Tuscarawas County, Ohio",42276.00,0.90,0.27,23.20
+39159,"Union County, Ohio",31865.00,0.79,0.45,26.30
+39161,"Van Wert County, Ohio",13971.00,0.93,0.39,20.20
+39163,"Vinton County, Ohio",5010.00,0.89,0.60,36.60
+39165,"Warren County, Ohio",120107.00,0.84,0.51,25.70
+39167,"Washington County, Ohio",26577.00,0.89,0.32,23.30
+39169,"Wayne County, Ohio",53961.00,0.86,0.26,20.20
+39171,"Williams County, Ohio",17356.00,0.94,0.26,18.10
+39173,"Wood County, Ohio",66642.00,0.89,0.43,20.80
+39175,"Wyandot County, Ohio",10849.00,0.93,0.42,22.20
+40001,"Adair County, Oklahoma",7067.00,0.92,0.37,26.70
+40003,"Alfalfa County, Oklahoma",2078.00,0.90,0.32,20.60
+40005,"Atoka County, Oklahoma",4937.00,0.89,0.37,26.00
+40007,"Beaver County, Oklahoma",2309.00,0.90,0.36,15.40
+40009,"Beckham County, Oklahoma",8281.00,0.87,0.22,19.00
+40011,"Blaine County, Oklahoma",3028.00,0.95,0.38,23.60
+40013,"Bryan County, Oklahoma",19983.00,0.91,0.21,20.10
+40015,"Caddo County, Oklahoma",10624.00,0.91,0.36,23.50
+40017,"Canadian County, Oklahoma",78324.00,0.90,0.57,25.10
+40019,"Carter County, Oklahoma",21047.00,0.93,0.13,19.90
+40021,"Cherokee County, Oklahoma",20118.00,0.89,0.29,24.80
+40023,"Choctaw County, Oklahoma",5454.00,0.92,0.32,22.50
+40025,"Cimarron County, Oklahoma",1082.00,0.76,0.08,9.20
+40027,"Cleveland County, Oklahoma",147489.00,0.87,0.45,23.80
+40029,"Coal County, Oklahoma",1959.00,0.86,0.44,23.20
+40031,"Comanche County, Oklahoma",53915.00,0.85,0.07,18.30
+40033,"Cotton County, Oklahoma",2353.00,0.93,0.53,26.90
+40035,"Craig County, Oklahoma",5246.00,0.87,0.29,22.60
+40037,"Creek County, Oklahoma",30846.00,0.91,0.59,25.80
+40039,"Custer County, Oklahoma",14054.00,0.94,0.20,18.70
+40041,"Delaware County, Oklahoma",15849.00,0.88,0.42,29.00
+40043,"Dewey County, Oklahoma",1836.00,0.88,0.31,20.70
+40045,"Ellis County, Oklahoma",1559.00,0.89,0.34,20.50
+40047,"Garfield County, Oklahoma",28409.00,0.93,0.09,18.50
+40049,"Garvin County, Oklahoma",10699.00,0.91,0.33,24.90
+40051,"Grady County, Oklahoma",24743.00,0.91,0.48,26.40
+40053,"Grant County, Oklahoma",1798.00,0.91,0.37,25.00
+40055,"Greer County, Oklahoma",1926.00,0.92,0.41,20.50
+40057,"Harmon County, Oklahoma",1069.00,0.88,0.30,19.90
+40059,"Harper County, Oklahoma",1403.00,0.95,0.30,18.10
+40061,"Haskell County, Oklahoma",4404.00,0.91,0.36,25.60
+40063,"Hughes County, Oklahoma",4260.00,0.87,0.39,28.30
+40065,"Jackson County, Oklahoma",11658.00,0.93,0.09,13.80
+40067,"Jefferson County, Oklahoma",2048.00,0.88,0.47,26.60
+40069,"Johnston County, Oklahoma",3736.00,0.91,0.44,26.00
+40071,"Kay County, Oklahoma",18612.00,0.92,0.12,17.80
+40073,"Kingfisher County, Oklahoma",6850.00,0.93,0.29,21.50
+40075,"Kiowa County, Oklahoma",3253.00,0.89,0.35,23.20
+40077,"Latimer County, Oklahoma",3509.00,0.94,0.36,25.80
+40079,"Le Flore County, Oklahoma",18627.00,0.94,0.34,25.10
+40081,"Lincoln County, Oklahoma",14320.00,0.89,0.54,31.00
+40083,"Logan County, Oklahoma",22183.00,0.88,0.62,29.10
+40085,"Love County, Oklahoma",4203.00,0.94,0.39,22.30
+40087,"McClain County, Oklahoma",20149.00,0.90,0.66,28.60
+40089,"McCurtain County, Oklahoma",12201.00,0.94,0.11,22.10
+40091,"McIntosh County, Oklahoma",6183.00,0.83,0.40,28.20
+40093,"Major County, Oklahoma",3387.00,0.94,0.43,22.50
+40095,"Marshall County, Oklahoma",5890.00,0.91,0.37,23.80
+40097,"Mayes County, Oklahoma",16439.00,0.90,0.34,25.30
+40099,"Murray County, Oklahoma",5893.00,0.96,0.33,21.70
+40101,"Muskogee County, Oklahoma",25734.00,0.90,0.20,21.40
+40103,"Noble County, Oklahoma",4712.00,0.94,0.37,21.20
+40105,"Nowata County, Oklahoma",3905.00,0.88,0.56,27.40
+40107,"Okfuskee County, Oklahoma",3780.00,0.86,0.50,25.00
+40109,"Oklahoma County, Oklahoma",381419.00,0.88,0.09,21.80
+40111,"Okmulgee County, Oklahoma",14677.00,0.90,0.39,26.10
+40113,"Osage County, Oklahoma",18825.00,0.91,0.62,24.30
+40115,"Ottawa County, Oklahoma",12105.00,0.94,0.27,20.10
+40117,"Pawnee County, Oklahoma",6520.00,0.92,0.55,29.30
+40119,"Payne County, Oklahoma",36655.00,0.84,0.14,18.60
+40121,"Pittsburg County, Oklahoma",16848.00,0.91,0.13,20.90
+40123,"Pontotoc County, Oklahoma",17006.00,0.91,0.11,17.90
+40125,"Pottawatomie County, Oklahoma",29303.00,0.92,0.35,24.40
+40127,"Pushmataha County, Oklahoma",3588.00,0.92,0.37,27.60
+40129,"Roger Mills County, Oklahoma",1469.00,0.85,0.35,23.80
+40131,"Rogers County, Oklahoma",45762.00,0.90,0.58,25.80
+40133,"Seminole County, Oklahoma",8453.00,0.91,0.36,23.40
+40135,"Sequoyah County, Oklahoma",15212.00,0.94,0.42,24.30
+40137,"Stephens County, Oklahoma",17283.00,0.93,0.20,23.70
+40139,"Texas County, Oklahoma",10085.00,0.93,0.14,15.20
+40141,"Tillman County, Oklahoma",2709.00,0.88,0.36,20.70
+40143,"Tulsa County, Oklahoma",318243.00,0.88,0.08,19.90
+40145,"Wagoner County, Oklahoma",38272.00,0.90,0.73,25.90
+40147,"Washington County, Oklahoma",22900.00,0.91,0.20,20.20
+40149,"Washita County, Oklahoma",4710.00,0.89,0.58,24.70
+40151,"Woods County, Oklahoma",4044.00,0.90,0.15,14.60
+40153,"Woodward County, Oklahoma",9248.00,0.95,0.10,21.80
+41001,"Baker County, Oregon",6136.00,0.81,0.07,15.20
+41003,"Benton County, Oregon",45707.00,0.69,0.21,19.80
+41005,"Clackamas County, Oregon",202643.00,0.78,0.43,27.30
+41007,"Clatsop County, Oregon",18276.00,0.79,0.09,21.10
+41009,"Columbia County, Oregon",23814.00,0.87,0.53,34.30
+41011,"Coos County, Oregon",25253.00,0.86,0.07,19.60
+41013,"Crook County, Oregon",11025.00,0.88,0.35,27.30
+41015,"Curry County, Oregon",8625.00,0.80,0.14,17.10
+41017,"Deschutes County, Oregon",96606.00,0.76,0.06,19.90
+41019,"Douglas County, Oregon",42065.00,0.87,0.07,19.60
+41021,"Gilliam County, Oregon",777.00,0.80,0.17,16.30
+41023,"Grant County, Oregon",2883.00,0.79,0.05,18.00
+41025,"Harney County, Oregon",3124.00,0.80,0.06,14.50
+41027,"Hood River County, Oregon",12605.00,0.74,0.17,18.40
+41029,"Jackson County, Oregon",97138.00,0.83,0.05,18.80
+41031,"Jefferson County, Oregon",9917.00,0.88,0.33,27.80
+41033,"Josephine County, Oregon",32841.00,0.85,0.12,20.20
+41035,"Klamath County, Oregon",26823.00,0.89,0.05,16.90
+41037,"Lake County, Oregon",3037.00,0.78,0.04,13.80
+41039,"Lane County, Oregon",178879.00,0.77,0.04,20.00
+41041,"Lincoln County, Oregon",19621.00,0.83,0.09,21.20
+41043,"Linn County, Oregon",56684.00,0.87,0.34,25.00
+41045,"Malheur County, Oregon",11394.00,0.85,0.23,18.80
+41047,"Marion County, Oregon",155647.00,0.84,0.23,24.10
+41049,"Morrow County, Oregon",4900.00,0.89,0.25,20.30
+41051,"Multnomah County, Oregon",438555.00,0.63,0.18,25.30
+41053,"Polk County, Oregon",39897.00,0.80,0.52,26.80
+41055,"Sherman County, Oregon",789.00,0.82,0.19,21.70
+41057,"Tillamook County, Oregon",10750.00,0.80,0.08,18.10
+41059,"Umatilla County, Oregon",33310.00,0.91,0.21,19.00
+41061,"Union County, Oregon",11304.00,0.85,0.05,16.90
+41063,"Wallowa County, Oregon",3284.00,0.76,0.02,15.70
+41065,"Wasco County, Oregon",11567.00,0.87,0.23,17.60
+41067,"Washington County, Oregon",312020.00,0.73,0.23,24.50
+41069,"Wheeler County, Oregon",484.00,0.74,0.17,21.30
+41071,"Yamhill County, Oregon",48875.00,0.81,0.34,26.90
+42001,"Adams County, Pennsylvania",50568.00,0.87,0.48,28.30
+42003,"Allegheny County, Pennsylvania",627652.00,0.72,0.09,26.20
+42005,"Armstrong County, Pennsylvania",29788.00,0.89,0.52,29.20
+42007,"Beaver County, Pennsylvania",78748.00,0.85,0.43,25.70
+42009,"Bedford County, Pennsylvania",21872.00,0.90,0.33,26.50
+42011,"Berks County, Pennsylvania",206685.00,0.84,0.26,25.00
+42013,"Blair County, Pennsylvania",56376.00,0.90,0.15,20.40
+42015,"Bradford County, Pennsylvania",25435.00,0.88,0.25,23.70
+42017,"Bucks County, Pennsylvania",334130.00,0.81,0.39,29.90
+42019,"Butler County, Pennsylvania",94590.00,0.85,0.33,27.10
+42021,"Cambria County, Pennsylvania",56653.00,0.87,0.25,23.90
+42023,"Cameron County, Pennsylvania",1777.00,0.92,0.21,18.50
+42025,"Carbon County, Pennsylvania",29552.00,0.91,0.59,31.60
+42027,"Centre County, Pennsylvania",73011.00,0.74,0.09,20.40
+42029,"Chester County, Pennsylvania",278038.00,0.76,0.32,27.60
+42031,"Clarion County, Pennsylvania",17008.00,0.86,0.30,24.80
+42033,"Clearfield County, Pennsylvania",34235.00,0.89,0.27,25.90
+42035,"Clinton County, Pennsylvania",17268.00,0.87,0.33,23.80
+42037,"Columbia County, Pennsylvania",29912.00,0.86,0.32,21.40
+42039,"Crawford County, Pennsylvania",35404.00,0.86,0.24,22.50
+42041,"Cumberland County, Pennsylvania",128792.00,0.82,0.31,22.40
+42043,"Dauphin County, Pennsylvania",142055.00,0.81,0.24,21.80
+42045,"Delaware County, Pennsylvania",279844.00,0.75,0.43,28.70
+42047,"Elk County, Pennsylvania",14790.00,0.93,0.13,17.70
+42049,"Erie County, Pennsylvania",122518.00,0.87,0.04,19.90
+42051,"Fayette County, Pennsylvania",53239.00,0.90,0.39,27.30
+42053,"Forest County, Pennsylvania",1589.00,0.85,0.39,25.90
+42055,"Franklin County, Pennsylvania",74492.00,0.87,0.29,24.10
+42057,"Fulton County, Pennsylvania",6793.00,0.91,0.46,32.00
+42059,"Greene County, Pennsylvania",13771.00,0.90,0.40,28.20
+42061,"Huntingdon County, Pennsylvania",18037.00,0.87,0.38,30.50
+42063,"Indiana County, Pennsylvania",35567.00,0.85,0.26,24.50
+42065,"Jefferson County, Pennsylvania",19578.00,0.89,0.33,24.30
+42067,"Juniata County, Pennsylvania",10838.00,0.88,0.44,32.50
+42069,"Lackawanna County, Pennsylvania",100713.00,0.86,0.22,21.40
+42071,"Lancaster County, Pennsylvania",274411.00,0.85,0.16,23.80
+42073,"Lawrence County, Pennsylvania",38089.00,0.87,0.39,23.70
+42075,"Lebanon County, Pennsylvania",68005.00,0.87,0.33,22.20
+42077,"Lehigh County, Pennsylvania",180104.00,0.84,0.29,24.70
+42079,"Luzerne County, Pennsylvania",150800.00,0.87,0.16,23.80
+42081,"Lycoming County, Pennsylvania",51688.00,0.89,0.16,20.70
+42083,"McKean County, Pennsylvania",17283.00,0.89,0.23,20.70
+42085,"Mercer County, Pennsylvania",47137.00,0.88,0.24,21.40
+42087,"Mifflin County, Pennsylvania",21056.00,0.92,0.30,24.80
+42089,"Monroe County, Pennsylvania",77614.00,0.85,0.36,39.80
+42091,"Montgomery County, Pennsylvania",443958.00,0.75,0.31,28.20
+42093,"Montour County, Pennsylvania",8683.00,0.84,0.39,18.70
+42095,"Northampton County, Pennsylvania",153491.00,0.84,0.39,27.30
+42097,"Northumberland County, Pennsylvania",40657.00,0.89,0.46,25.40
+42099,"Perry County, Pennsylvania",22091.00,0.87,0.62,32.30
+42101,"Philadelphia County, Pennsylvania",717569.00,0.55,0.23,32.80
+42103,"Pike County, Pennsylvania",25645.00,0.85,0.58,43.90
+42105,"Potter County, Pennsylvania",6670.00,0.84,0.28,25.20
+42107,"Schuylkill County, Pennsylvania",63364.00,0.90,0.32,26.70
+42109,"Snyder County, Pennsylvania",19142.00,0.85,0.35,23.50
+42111,"Somerset County, Pennsylvania",31886.00,0.90,0.32,24.80
+42113,"Sullivan County, Pennsylvania",2507.00,0.86,0.42,29.50
+42115,"Susquehanna County, Pennsylvania",16495.00,0.86,0.46,27.40
+42117,"Tioga County, Pennsylvania",18275.00,0.87,0.23,25.10
+42119,"Union County, Pennsylvania",16432.00,0.82,0.35,18.90
+42121,"Venango County, Pennsylvania",21359.00,0.89,0.27,24.20
+42123,"Warren County, Pennsylvania",16977.00,0.90,0.19,20.10
+42125,"Washington County, Pennsylvania",100001.00,0.84,0.36,26.60
+42127,"Wayne County, Pennsylvania",20812.00,0.87,0.36,27.80
+42129,"Westmoreland County, Pennsylvania",169014.00,0.86,0.32,27.20
+42131,"Wyoming County, Pennsylvania",11892.00,0.90,0.45,26.80
+42133,"York County, Pennsylvania",225878.00,0.88,0.28,26.80
+44001,"Bristol County, Rhode Island",25343.00,0.81,0.57,26.00
+44003,"Kent County, Rhode Island",88403.00,0.88,0.52,25.40
+44005,"Newport County, Rhode Island",43577.00,0.80,0.29,23.10
+44007,"Providence County, Rhode Island",319802.00,0.84,0.29,25.20
+44009,"Washington County, Rhode Island",65562.00,0.84,0.38,26.70
+45001,"Abbeville County, South Carolina",9815.00,0.92,0.58,28.60
+45003,"Aiken County, South Carolina",73609.00,0.91,0.32,24.50
+45005,"Allendale County, South Carolina",2606.00,0.93,0.64,37.50
+45007,"Anderson County, South Carolina",91484.00,0.92,0.36,26.00
+45009,"Bamberg County, South Carolina",4756.00,0.88,0.46,30.40
+45011,"Barnwell County, South Carolina",8688.00,0.94,0.43,29.70
+45013,"Beaufort County, South Carolina",84685.00,0.85,0.10,22.80
+45015,"Berkeley County, South Carolina",113737.00,0.88,0.53,29.00
+45017,"Calhoun County, South Carolina",6093.00,0.92,0.66,28.60
+45019,"Charleston County, South Carolina",210569.00,0.82,0.11,24.50
+45021,"Cherokee County, South Carolina",23919.00,0.93,0.40,25.00
+45023,"Chester County, South Carolina",13438.00,0.93,0.54,30.70
+45025,"Chesterfield County, South Carolina",17675.00,0.92,0.39,24.70
+45027,"Clarendon County, South Carolina",10781.00,0.91,0.48,30.40
+45029,"Colleton County, South Carolina",15466.00,0.92,0.34,33.70
+45031,"Darlington County, South Carolina",25776.00,0.92,0.42,22.90
+45033,"Dillon County, South Carolina",11149.00,0.95,0.36,23.60
+45035,"Dorchester County, South Carolina",77259.00,0.90,0.60,31.00
+45037,"Edgefield County, South Carolina",11020.00,0.90,0.62,26.70
+45039,"Fairfield County, South Carolina",9136.00,0.93,0.60,30.60
+45041,"Florence County, South Carolina",59787.00,0.90,0.17,22.60
+45043,"Georgetown County, South Carolina",25553.00,0.87,0.32,28.40
+45045,"Greenville County, South Carolina",257265.00,0.85,0.16,23.90
+45047,"Greenwood County, South Carolina",28878.00,0.95,0.20,19.80
+45049,"Hampton County, South Carolina",7180.00,0.97,0.49,35.20
+45051,"Horry County, South Carolina",152128.00,0.88,0.08,22.80
+45053,"Jasper County, South Carolina",11940.00,0.94,0.60,28.40
+45055,"Kershaw County, South Carolina",28936.00,0.92,0.49,28.70
+45057,"Lancaster County, South Carolina",43090.00,0.85,0.48,30.30
+45059,"Laurens County, South Carolina",28596.00,0.92,0.41,25.70
+45061,"Lee County, South Carolina",5504.00,0.96,0.59,28.30
+45063,"Lexington County, South Carolina",142954.00,0.89,0.38,26.20
+45065,"McCormick County, South Carolina",3174.00,0.93,0.61,34.60
+45067,"Marion County, South Carolina",10681.00,0.96,0.50,31.30
+45069,"Marlboro County, South Carolina",8693.00,0.94,0.44,26.10
+45071,"Newberry County, South Carolina",16467.00,0.93,0.36,26.00
+45073,"Oconee County, South Carolina",31671.00,0.90,0.30,25.40
+45075,"Orangeburg County, South Carolina",31563.00,0.92,0.32,29.50
+45077,"Pickens County, South Carolina",58591.00,0.87,0.45,27.10
+45079,"Richland County, South Carolina",202979.00,0.82,0.22,23.10
+45081,"Saluda County, South Carolina",7725.00,0.89,0.58,33.70
+45083,"Spartanburg County, South Carolina",151753.00,0.91,0.22,24.20
+45085,"Sumter County, South Carolina",45080.00,0.93,0.18,22.40
+45087,"Union County, South Carolina",10591.00,0.95,0.45,27.80
+45089,"Williamsburg County, South Carolina",11755.00,0.92,0.45,31.90
+45091,"York County, South Carolina",139955.00,0.84,0.36,27.40
+46003,"Aurora County, South Dakota",1384.00,0.82,0.35,18.50
+46005,"Beadle County, South Dakota",9186.00,0.88,0.11,14.00
+46007,"Bennett County, South Dakota",1072.00,0.84,0.19,11.10
+46009,"Bon Homme County, South Dakota",2611.00,0.86,0.39,20.90
+46011,"Brookings County, South Dakota",18827.00,0.85,0.10,14.30
+46013,"Brown County, South Dakota",20522.00,0.89,0.04,13.40
+46015,"Brule County, South Dakota",2608.00,0.80,0.13,13.10
+46017,"Buffalo County, South Dakota",583.00,0.82,0.33,14.70
+46019,"Butte County, South Dakota",4977.00,0.81,0.41,21.20
+46021,"Campbell County, South Dakota",761.00,0.64,0.19,16.90
+46023,"Charles Mix County, South Dakota",3780.00,0.82,0.09,13.90
+46025,"Clark County, South Dakota",1525.00,0.76,0.31,20.10
+46027,"Clay County, South Dakota",7330.00,0.79,0.25,16.90
+46029,"Codington County, South Dakota",15203.00,0.92,0.08,14.40
+46031,"Corson County, South Dakota",1156.00,0.65,0.26,21.10
+46033,"Custer County, South Dakota",3786.00,0.84,0.48,31.10
+46035,"Davison County, South Dakota",10274.00,0.88,0.07,12.80
+46037,"Day County, South Dakota",2449.00,0.84,0.21,19.50
+46039,"Deuel County, South Dakota",2085.00,0.89,0.51,27.20
+46041,"Dewey County, South Dakota",1927.00,0.84,0.10,16.80
+46043,"Douglas County, South Dakota",1433.00,0.79,0.26,18.90
+46045,"Edmunds County, South Dakota",1855.00,0.77,0.32,20.60
+46047,"Fall River County, South Dakota",2858.00,0.83,0.15,19.80
+46049,"Faulk County, South Dakota",947.00,0.78,0.24,17.10
+46051,"Grant County, South Dakota",3685.00,0.90,0.18,15.40
+46053,"Gregory County, South Dakota",1895.00,0.85,0.16,16.60
+46055,"Haakon County, South Dakota",798.00,0.74,0.15,20.00
+46057,"Hamlin County, South Dakota",2927.00,0.87,0.41,21.10
+46059,"Hand County, South Dakota",1609.00,0.77,0.12,13.20
+46061,"Hanson County, South Dakota",1839.00,0.85,0.55,23.00
+46063,"Harding County, South Dakota",691.00,0.60,0.05,13.90
+46065,"Hughes County, South Dakota",9176.00,0.90,0.10,13.50
+46067,"Hutchinson County, South Dakota",3649.00,0.85,0.22,17.30
+46069,"Hyde County, South Dakota",727.00,0.81,0.11,14.80
+46071,"Jackson County, South Dakota",817.00,0.79,0.16,15.30
+46073,"Jerauld County, South Dakota",961.00,0.77,0.20,17.10
+46075,"Jones County, South Dakota",477.00,0.72,0.18,14.70
+46077,"Kingsbury County, South Dakota",2505.00,0.84,0.32,17.50
+46079,"Lake County, South Dakota",6017.00,0.85,0.21,16.40
+46081,"Lawrence County, South Dakota",14124.00,0.89,0.21,19.10
+46083,"Lincoln County, South Dakota",36779.00,0.88,0.60,18.60
+46085,"Lyman County, South Dakota",1456.00,0.76,0.22,14.40
+46087,"McCook County, South Dakota",2927.00,0.86,0.50,25.50
+46089,"McPherson County, South Dakota",1072.00,0.79,0.25,20.80
+46091,"Marshall County, South Dakota",2184.00,0.87,0.23,17.80
+46093,"Meade County, South Dakota",15919.00,0.86,0.57,20.70
+46095,"Mellette County, South Dakota",587.00,0.87,0.27,15.60
+46097,"Miner County, South Dakota",1111.00,0.84,0.27,19.50
+46099,"Minnehaha County, South Dakota",108862.00,0.88,0.12,17.90
+46101,"Moody County, South Dakota",3013.00,0.79,0.35,19.10
+46102,"Oglala Lakota County, South Dakota",3123.00,0.78,0.05,15.20
+46103,"Pennington County, South Dakota",54623.00,0.88,0.07,18.40
+46105,"Perkins County, South Dakota",1569.00,0.65,0.08,16.80
+46107,"Potter County, South Dakota",1212.00,0.87,0.07,12.60
+46109,"Roberts County, South Dakota",4243.00,0.86,0.26,16.50
+46111,"Sanborn County, South Dakota",1225.00,0.74,0.41,20.30
+46115,"Spink County, South Dakota",2939.00,0.77,0.22,16.90
+46117,"Stanley County, South Dakota",1714.00,0.91,0.67,15.70
+46119,"Sully County, South Dakota",777.00,0.82,0.18,16.70
+46121,"Todd County, South Dakota",2290.00,0.90,0.07,16.00
+46123,"Tripp County, South Dakota",2599.00,0.84,0.08,14.40
+46125,"Turner County, South Dakota",4411.00,0.89,0.55,26.30
+46127,"Union County, South Dakota",8435.00,0.90,0.45,18.80
+46129,"Walworth County, South Dakota",2516.00,0.88,0.16,14.00
+46135,"Yankton County, South Dakota",11674.00,0.90,0.10,14.70
+46137,"Ziebach County, South Dakota",822.00,0.65,0.41,24.10
+47001,"Anderson County, Tennessee",32457.00,0.89,0.43,25.80
+47003,"Bedford County, Tennessee",22971.00,0.92,0.38,26.40
+47005,"Benton County, Tennessee",5834.00,0.89,0.46,25.70
+47007,"Bledsoe County, Tennessee",5497.00,0.92,0.61,34.80
+47009,"Blount County, Tennessee",64637.00,0.88,0.34,25.10
+47011,"Bradley County, Tennessee",49631.00,0.92,0.28,23.20
+47013,"Campbell County, Tennessee",14927.00,0.92,0.43,31.70
+47015,"Cannon County, Tennessee",6287.00,0.93,0.69,33.40
+47017,"Carroll County, Tennessee",11616.00,0.87,0.49,28.00
+47019,"Carter County, Tennessee",22795.00,0.91,0.55,23.90
+47021,"Cheatham County, Tennessee",20410.00,0.88,0.64,34.40
+47023,"Chester County, Tennessee",6995.00,0.92,0.59,29.30
+47025,"Claiborne County, Tennessee",12619.00,0.93,0.34,25.80
+47027,"Clay County, Tennessee",2592.00,0.92,0.47,29.10
+47029,"Cocke County, Tennessee",14604.00,0.93,0.50,29.50
+47031,"Coffee County, Tennessee",25023.00,0.91,0.31,24.90
+47033,"Crockett County, Tennessee",6377.00,0.96,0.60,24.30
+47035,"Cumberland County, Tennessee",22039.00,0.89,0.16,22.40
+47037,"Davidson County, Tennessee",390556.00,0.79,0.16,24.70
+47039,"Decatur County, Tennessee",4370.00,0.92,0.39,23.80
+47041,"DeKalb County, Tennessee",8153.00,0.94,0.44,28.40
+47043,"Dickson County, Tennessee",25497.00,0.91,0.43,33.10
+47045,"Dyer County, Tennessee",15817.00,0.94,0.23,20.40
+47047,"Fayette County, Tennessee",18894.00,0.89,0.68,34.40
+47049,"Fentress County, Tennessee",7127.00,0.92,0.29,24.70
+47051,"Franklin County, Tennessee",18881.00,0.89,0.38,23.70
+47053,"Gibson County, Tennessee",21155.00,0.93,0.49,24.90
+47055,"Giles County, Tennessee",12609.00,0.93,0.44,29.20
+47057,"Grainger County, Tennessee",9411.00,0.92,0.70,31.90
+47059,"Greene County, Tennessee",28512.00,0.92,0.23,23.80
+47061,"Grundy County, Tennessee",5266.00,0.93,0.56,32.40
+47063,"Hamblen County, Tennessee",26689.00,0.94,0.28,21.50
+47065,"Hamilton County, Tennessee",179167.00,0.85,0.08,21.90
+47067,"Hancock County, Tennessee",2101.00,0.98,0.42,32.70
+47069,"Hardeman County, Tennessee",8687.00,0.89,0.39,32.80
+47071,"Hardin County, Tennessee",10426.00,0.93,0.29,25.40
+47073,"Hawkins County, Tennessee",21481.00,0.89,0.49,26.60
+47075,"Haywood County, Tennessee",7153.00,0.91,0.46,26.40
+47077,"Henderson County, Tennessee",11506.00,0.89,0.38,25.40
+47079,"Henry County, Tennessee",12545.00,0.90,0.22,22.10
+47081,"Hickman County, Tennessee",10427.00,0.90,0.61,36.40
+47083,"Houston County, Tennessee",3171.00,0.94,0.65,38.90
+47085,"Humphreys County, Tennessee",7773.00,0.95,0.40,35.30
+47087,"Jackson County, Tennessee",4704.00,0.94,0.62,30.70
+47089,"Jefferson County, Tennessee",24606.00,0.92,0.56,27.70
+47091,"Johnson County, Tennessee",6298.00,0.91,0.34,27.90
+47093,"Knox County, Tennessee",238588.00,0.86,0.16,22.10
+47095,"Lake County, Tennessee",1710.00,0.95,0.41,20.80
+47097,"Lauderdale County, Tennessee",9045.00,0.95,0.41,26.00
+47099,"Lawrence County, Tennessee",18192.00,0.92,0.33,26.10
+47101,"Lewis County, Tennessee",5176.00,0.89,0.45,33.60
+47103,"Lincoln County, Tennessee",15839.00,0.92,0.45,30.00
+47105,"Loudon County, Tennessee",24262.00,0.90,0.48,23.30
+47107,"McMinn County, Tennessee",22261.00,0.94,0.36,23.30
+47109,"McNairy County, Tennessee",9710.00,0.92,0.49,26.10
+47111,"Macon County, Tennessee",11481.00,0.94,0.49,31.90
+47113,"Madison County, Tennessee",44068.00,0.87,0.11,19.00
+47115,"Marion County, Tennessee",11826.00,0.89,0.46,31.50
+47117,"Marshall County, Tennessee",15692.00,0.89,0.48,30.50
+47119,"Maury County, Tennessee",49963.00,0.86,0.37,28.30
+47121,"Meigs County, Tennessee",4807.00,0.92,0.70,32.60
+47123,"Monroe County, Tennessee",17921.00,0.93,0.39,28.10
+47125,"Montgomery County, Tennessee",104222.00,0.91,0.35,26.60
+47127,"Moore County, Tennessee",2865.00,0.93,0.61,25.30
+47129,"Morgan County, Tennessee",7241.00,0.95,0.57,31.50
+47131,"Obion County, Tennessee",13120.00,0.93,0.28,19.80
+47133,"Overton County, Tennessee",9977.00,0.92,0.46,25.90
+47135,"Perry County, Tennessee",3057.00,0.92,0.38,26.80
+47137,"Pickett County, Tennessee",1692.00,0.89,0.46,27.10
+47139,"Polk County, Tennessee",7143.00,0.93,0.74,30.00
+47141,"Putnam County, Tennessee",37665.00,0.92,0.17,21.50
+47143,"Rhea County, Tennessee",12560.00,0.93,0.33,27.00
+47145,"Roane County, Tennessee",23119.00,0.90,0.52,29.00
+47147,"Robertson County, Tennessee",35452.00,0.89,0.55,31.30
+47149,"Rutherford County, Tennessee",180732.00,0.87,0.30,28.20
+47151,"Scott County, Tennessee",7780.00,0.95,0.29,28.30
+47153,"Sequatchie County, Tennessee",6249.00,0.87,0.48,32.00
+47155,"Sevier County, Tennessee",45941.00,0.90,0.24,26.60
+47157,"Shelby County, Tennessee",422464.00,0.89,0.07,22.60
+47159,"Smith County, Tennessee",9064.00,0.89,0.45,32.80
+47161,"Stewart County, Tennessee",5460.00,0.92,0.50,36.10
+47163,"Sullivan County, Tennessee",67689.00,0.89,0.30,21.90
+47165,"Sumner County, Tennessee",98077.00,0.86,0.42,29.40
+47167,"Tipton County, Tennessee",27667.00,0.92,0.61,33.40
+47169,"Trousdale County, Tennessee",4880.00,0.95,0.76,39.70
+47171,"Unicoi County, Tennessee",7508.00,0.88,0.56,24.80
+47173,"Union County, Tennessee",8124.00,0.88,0.61,31.80
+47175,"Van Buren County, Tennessee",2421.00,0.93,0.69,31.30
+47177,"Warren County, Tennessee",17419.00,0.93,0.29,27.30
+47179,"Washington County, Tennessee",61983.00,0.89,0.27,21.00
+47181,"Wayne County, Tennessee",6155.00,0.95,0.41,30.20
+47183,"Weakley County, Tennessee",14011.00,0.88,0.34,21.00
+47185,"White County, Tennessee",11115.00,0.94,0.49,24.90
+47187,"Williamson County, Tennessee",125974.00,0.76,0.33,28.10
+47189,"Wilson County, Tennessee",73588.00,0.85,0.44,30.60
+48001,"Anderson County, Texas",19753.00,0.95,0.24,23.20
+48003,"Andrews County, Texas",9009.00,0.95,0.25,25.40
+48005,"Angelina County, Texas",36669.00,0.93,0.16,22.40
+48007,"Aransas County, Texas",8833.00,0.84,0.34,20.80
+48009,"Archer County, Texas",4016.00,0.92,0.67,21.90
+48011,"Armstrong County, Texas",815.00,0.86,0.63,22.50
+48013,"Atascosa County, Texas",20318.00,0.88,0.48,30.30
+48015,"Austin County, Texas",14424.00,0.90,0.48,27.60
+48017,"Bailey County, Texas",2813.00,0.72,0.42,19.00
+48019,"Bandera County, Texas",8952.00,0.90,0.60,38.70
+48021,"Bastrop County, Texas",44714.00,0.87,0.52,35.40
+48023,"Baylor County, Texas",1466.00,0.95,0.13,14.70
+48025,"Bee County, Texas",9981.00,0.92,0.21,22.10
+48027,"Bell County, Texas",168459.00,0.89,0.16,22.90
+48029,"Bexar County, Texas",960800.00,0.84,0.06,25.70
+48031,"Blanco County, Texas",5329.00,0.84,0.37,28.20
+48033,"Borden County, Texas",267.00,0.88,0.26,17.30
+48035,"Bosque County, Texas",7486.00,0.91,0.49,29.50
+48037,"Bowie County, Texas",37867.00,0.94,0.19,18.30
+48039,"Brazoria County, Texas",171722.00,0.90,0.46,30.90
+48041,"Brazos County, Texas",112581.00,0.85,0.07,17.90
+48043,"Brewster County, Texas",4694.00,0.85,0.17,16.90
+48045,"Briscoe County, Texas",496.00,0.80,0.30,25.40
+48047,"Brooks County, Texas",2951.00,0.97,0.48,13.10
+48049,"Brown County, Texas",16839.00,0.93,0.09,18.10
+48051,"Burleson County, Texas",7492.00,0.86,0.49,28.50
+48053,"Burnet County, Texas",22760.00,0.87,0.32,27.40
+48055,"Caldwell County, Texas",20060.00,0.89,0.57,34.10
+48057,"Calhoun County, Texas",9608.00,0.97,0.17,18.00
+48059,"Callahan County, Texas",6157.00,0.88,0.63,27.80
+48061,"Cameron County, Texas",166691.00,0.90,0.10,20.30
+48063,"Camp County, Texas",5171.00,0.91,0.58,21.60
+48065,"Carson County, Texas",2820.00,0.89,0.55,23.10
+48067,"Cass County, Texas",10886.00,0.94,0.44,24.50
+48069,"Castro County, Texas",3364.00,0.95,0.28,15.60
+48071,"Chambers County, Texas",21825.00,0.94,0.60,30.40
+48073,"Cherokee County, Texas",19699.00,0.89,0.35,26.90
+48075,"Childress County, Texas",2840.00,0.92,0.18,25.40
+48077,"Clay County, Texas",4745.00,0.92,0.71,31.10
+48079,"Cochran County, Texas",1036.00,0.96,0.52,23.60
+48081,"Coke County, Texas",1325.00,0.94,0.44,24.80
+48083,"Coleman County, Texas",3361.00,0.93,0.37,27.80
+48085,"Collin County, Texas",559680.00,0.75,0.32,28.20
+48087,"Collingsworth County, Texas",1218.00,0.93,0.22,15.30
+48089,"Colorado County, Texas",8769.00,0.90,0.36,30.20
+48091,"Comal County, Texas",76950.00,0.83,0.40,31.60
+48093,"Comanche County, Texas",6042.00,0.94,0.30,20.60
+48095,"Concho County, Texas",992.00,0.93,0.47,28.30
+48097,"Cooke County, Texas",19886.00,0.90,0.41,24.40
+48099,"Coryell County, Texas",33899.00,0.82,0.53,23.70
+48101,"Cottle County, Texas",713.00,0.73,0.26,18.60
+48103,"Crane County, Texas",2237.00,0.97,0.38,23.00
+48105,"Crockett County, Texas",1558.00,0.91,0.28,32.50
+48107,"Crosby County, Texas",2335.00,0.90,0.55,23.30
+48109,"Culberson County, Texas",911.00,0.99,0.00,22.70
+48111,"Dallam County, Texas",3814.00,0.98,0.28,12.60
+48113,"Dallas County, Texas",1292835.00,0.83,0.17,27.30
+48115,"Dawson County, Texas",4205.00,0.93,0.25,21.80
+48117,"Deaf Smith County, Texas",8286.00,0.92,0.18,17.00
+48119,"Delta County, Texas",2279.00,0.91,0.67,31.70
+48121,"Denton County, Texas",492599.00,0.78,0.44,28.30
+48123,"DeWitt County, Texas",7490.00,0.91,0.38,24.40
+48125,"Dickens County, Texas",589.00,0.83,0.37,34.60
+48127,"Dimmit County, Texas",2352.00,0.90,0.20,27.90
+48129,"Donley County, Texas",1383.00,0.88,0.27,19.30
+48131,"Duval County, Texas",3590.00,0.88,0.48,33.20
+48133,"Eastland County, Texas",7573.00,0.93,0.20,22.40
+48135,"Ector County, Texas",73281.00,0.94,0.26,26.20
+48137,"Edwards County, Texas",716.00,0.91,0.18,17.10
+48139,"Ellis County, Texas",97761.00,0.89,0.46,30.60
+48141,"El Paso County, Texas",377646.00,0.89,0.06,24.20
+48143,"Erath County, Texas",20446.00,0.87,0.18,19.80
+48145,"Falls County, Texas",6200.00,0.93,0.53,27.20
+48147,"Fannin County, Texas",14759.00,0.86,0.44,31.70
+48149,"Fayette County, Texas",10737.00,0.92,0.23,21.90
+48151,"Fisher County, Texas",1793.00,0.92,0.39,23.50
+48153,"Floyd County, Texas",2187.00,0.95,0.40,23.00
+48155,"Foard County, Texas",500.00,0.91,0.21,12.30
+48157,"Fort Bend County, Texas",393884.00,0.83,0.54,32.90
+48159,"Franklin County, Texas",4489.00,0.83,0.50,28.30
+48161,"Freestone County, Texas",7065.00,0.93,0.40,27.70
+48163,"Frio County, Texas",6830.00,0.91,0.27,19.10
+48165,"Gaines County, Texas",8472.00,0.89,0.22,21.40
+48167,"Galveston County, Texas",164431.00,0.87,0.39,27.40
+48169,"Garza County, Texas",1616.00,0.99,0.37,20.10
+48171,"Gillespie County, Texas",12087.00,0.87,0.20,19.90
+48173,"Glasscock County, Texas",455.00,0.83,0.23,28.00
+48175,"Goliad County, Texas",2875.00,0.90,0.55,29.70
+48177,"Gonzales County, Texas",8636.00,0.87,0.33,26.20
+48179,"Gray County, Texas",8829.00,0.93,0.18,19.10
+48181,"Grayson County, Texas",63791.00,0.88,0.27,25.70
+48183,"Gregg County, Texas",56334.00,0.93,0.18,21.30
+48185,"Grimes County, Texas",11335.00,0.93,0.57,32.70
+48187,"Guadalupe County, Texas",83268.00,0.88,0.59,28.20
+48189,"Hale County, Texas",13458.00,0.96,0.23,18.20
+48191,"Hall County, Texas",1155.00,0.89,0.27,17.30
+48193,"Hamilton County, Texas",3312.00,0.93,0.28,20.20
+48195,"Hansford County, Texas",2429.00,0.96,0.21,20.80
+48197,"Hardeman County, Texas",1802.00,0.93,0.28,14.80
+48199,"Hardin County, Texas",23503.00,0.95,0.61,28.50
+48201,"Harris County, Texas",2239156.00,0.84,0.09,29.00
+48203,"Harrison County, Texas",30667.00,0.91,0.41,22.30
+48205,"Hartley County, Texas",1695.00,0.91,0.42,12.60
+48207,"Haskell County, Texas",2265.00,0.91,0.33,19.10
+48209,"Hays County, Texas",124248.00,0.83,0.46,31.30
+48211,"Hemphill County, Texas",1546.00,0.87,0.23,17.20
+48213,"Henderson County, Texas",33007.00,0.90,0.40,29.80
+48215,"Hidalgo County, Texas",332795.00,0.87,0.10,22.90
+48217,"Hill County, Texas",15366.00,0.92,0.44,29.40
+48219,"Hockley County, Texas",9554.00,0.94,0.35,22.30
+48221,"Hood County, Texas",26263.00,0.88,0.44,34.80
+48223,"Hopkins County, Texas",16779.00,0.92,0.27,23.40
+48225,"Houston County, Texas",7676.00,0.92,0.36,27.70
+48227,"Howard County, Texas",14167.00,0.96,0.22,21.40
+48229,"Hudspeth County, Texas",966.00,0.82,0.31,19.00
+48231,"Hunt County, Texas",44966.00,0.89,0.40,31.40
+48233,"Hutchinson County, Texas",8999.00,0.94,0.14,20.40
+48235,"Irion County, Texas",689.00,0.88,0.37,21.00
+48237,"Jack County, Texas",3060.00,0.93,0.44,29.40
+48239,"Jackson County, Texas",5890.00,0.95,0.42,27.10
+48241,"Jasper County, Texas",12091.00,0.92,0.42,30.10
+48243,"Jeff Davis County, Texas",700.00,0.64,0.18,17.80
+48245,"Jefferson County, Texas",103041.00,0.95,0.12,20.80
+48247,"Jim Hogg County, Texas",2042.00,0.97,0.31,26.50
+48249,"Jim Wells County, Texas",14790.00,0.90,0.30,25.00
+48251,"Johnson County, Texas",85387.00,0.94,0.52,31.50
+48253,"Jones County, Texas",6338.00,0.90,0.59,26.30
+48255,"Karnes County, Texas",4804.00,0.91,0.17,19.80
+48257,"Kaufman County, Texas",71908.00,0.88,0.57,35.40
+48259,"Kendall County, Texas",21045.00,0.79,0.41,29.20
+48261,"Kenedy County, Texas",46.00,0.96,0.28,#VALUE!
+48263,"Kent County, Texas",187.00,0.86,0.27,13.10
+48265,"Kerr County, Texas",22844.00,0.86,0.17,21.10
+48267,"Kimble County, Texas",2089.00,0.94,0.13,22.20
+48269,"King County, Texas",85.00,0.91,0.07,14.40
+48271,"Kinney County, Texas",1314.00,0.83,0.19,7.90
+48273,"Kleberg County, Texas",13086.00,0.88,0.26,20.20
+48275,"Knox County, Texas",1394.00,0.95,0.25,16.90
+48277,"Lamar County, Texas",22572.00,0.89,0.10,19.40
+48279,"Lamb County, Texas",5456.00,0.92,0.32,17.40
+48281,"Lampasas County, Texas",8762.00,0.91,0.46,29.40
+48283,"La Salle County, Texas",2207.00,0.92,0.20,26.30
+48285,"Lavaca County, Texas",9147.00,0.89,0.36,25.80
+48287,"Lee County, Texas",7672.00,0.83,0.35,32.80
+48289,"Leon County, Texas",6183.00,0.95,0.39,30.00
+48291,"Liberty County, Texas",32970.00,0.91,0.57,39.70
+48293,"Limestone County, Texas",8100.00,0.92,0.32,28.20
+48295,"Lipscomb County, Texas",1344.00,0.98,0.42,19.70
+48297,"Live Oak County, Texas",4000.00,0.88,0.35,29.60
+48299,"Llano County, Texas",8055.00,0.86,0.47,29.00
+48301,"Loving County, Texas",39.00,0.74,0.21,#VALUE!
+48303,"Lubbock County, Texas",151356.00,0.90,0.05,16.80
+48305,"Lynn County, Texas",2461.00,0.95,0.58,25.10
+48307,"McCulloch County, Texas",3189.00,0.88,0.14,18.60
+48309,"McLennan County, Texas",117951.00,0.89,0.07,20.40
+48311,"McMullen County, Texas",247.00,0.76,0.34,28.40
+48313,"Madison County, Texas",4698.00,0.92,0.37,24.80
+48315,"Marion County, Texas",3364.00,0.95,0.63,32.00
+48317,"Martin County, Texas",2176.00,0.95,0.46,20.20
+48319,"Mason County, Texas",1629.00,0.87,0.35,26.70
+48321,"Matagorda County, Texas",14742.00,0.95,0.24,24.90
+48323,"Maverick County, Texas",22296.00,0.92,0.19,23.10
+48325,"Medina County, Texas",21776.00,0.87,0.48,29.90
+48327,"Menard County, Texas",671.00,0.87,0.30,18.60
+48329,"Midland County, Texas",85072.00,0.92,0.14,21.00
+48331,"Milam County, Texas",10580.00,0.90,0.47,31.30
+48333,"Mills County, Texas",2012.00,0.91,0.25,22.60
+48335,"Mitchell County, Texas",3745.00,0.97,0.41,26.10
+48337,"Montague County, Texas",8196.00,0.91,0.40,29.20
+48339,"Montgomery County, Texas",297162.00,0.85,0.39,31.60
+48341,"Moore County, Texas",9653.00,0.93,0.12,16.60
+48343,"Morris County, Texas",4953.00,0.93,0.55,26.20
+48345,"Motley County, Texas",562.00,0.88,0.24,18.80
+48347,"Nacogdoches County, Texas",27800.00,0.87,0.18,21.00
+48349,"Navarro County, Texas",22195.00,0.92,0.29,26.90
+48351,"Newton County, Texas",4221.00,0.95,0.66,39.30
+48353,"Nolan County, Texas",6187.00,0.94,0.17,17.90
+48355,"Nueces County, Texas",160375.00,0.92,0.08,20.00
+48357,"Ochiltree County, Texas",4804.00,0.93,0.09,18.20
+48359,"Oldham County, Texas",874.00,0.88,0.45,27.60
+48361,"Orange County, Texas",37696.00,0.95,0.49,24.30
+48363,"Palo Pinto County, Texas",11985.00,0.89,0.41,29.60
+48365,"Panola County, Texas",9529.00,0.95,0.35,28.20
+48367,"Parker County, Texas",71963.00,0.87,0.51,32.70
+48369,"Parmer County, Texas",4677.00,0.95,0.23,16.60
+48371,"Pecos County, Texas",5976.00,0.96,0.17,14.70
+48373,"Polk County, Texas",17662.00,0.92,0.31,30.20
+48375,"Potter County, Texas",49483.00,0.92,0.19,19.10
+48377,"Presidio County, Texas",2449.00,0.78,0.13,8.90
+48379,"Rains County, Texas",5019.00,0.87,0.64,39.50
+48381,"Randall County, Texas",72342.00,0.91,0.55,19.80
+48383,"Reagan County, Texas",1566.00,0.89,0.11,21.00
+48385,"Real County, Texas",744.00,0.78,0.20,17.70
+48387,"Red River County, Texas",4303.00,0.90,0.52,28.40
+48389,"Reeves County, Texas",6255.00,0.98,0.06,17.80
+48391,"Refugio County, Texas",2557.00,0.94,0.42,25.50
+48393,"Roberts County, Texas",398.00,0.82,0.59,15.10
+48395,"Robertson County, Texas",6617.00,0.94,0.47,26.90
+48397,"Rockwall County, Texas",56151.00,0.83,0.55,33.40
+48399,"Runnels County, Texas",4404.00,0.95,0.35,22.10
+48401,"Rusk County, Texas",21072.00,0.93,0.52,27.00
+48403,"Sabine County, Texas",3029.00,0.90,0.41,35.20
+48405,"San Augustine County, Texas",2585.00,0.87,0.39,25.90
+48407,"San Jacinto County, Texas",10378.00,0.91,0.72,38.20
+48409,"San Patricio County, Texas",28393.00,0.93,0.44,23.60
+48411,"San Saba County, Texas",2312.00,0.92,0.25,25.30
+48413,"Schleicher County, Texas",1058.00,0.83,0.31,25.80
+48415,"Scurry County, Texas",6876.00,0.94,0.12,18.50
+48417,"Shackelford County, Texas",1483.00,0.87,0.33,19.80
+48419,"Shelby County, Texas",10047.00,0.91,0.28,23.80
+48421,"Sherman County, Texas",1116.00,0.92,0.36,16.90
+48423,"Smith County, Texas",107599.00,0.90,0.11,23.20
+48425,"Somervell County, Texas",4543.00,0.83,0.34,30.20
+48427,"Starr County, Texas",23333.00,0.86,0.19,25.00
+48429,"Stephens County, Texas",3815.00,0.92,0.15,21.90
+48431,"Sterling County, Texas",575.00,0.89,0.15,24.90
+48433,"Stonewall County, Texas",664.00,0.95,0.17,14.60
+48435,"Sutton County, Texas",1421.00,0.87,0.28,20.30
+48437,"Swisher County, Texas",2610.00,0.92,0.31,20.00
+48439,"Tarrant County, Texas",1050372.00,0.86,0.21,26.80
+48441,"Taylor County, Texas",70258.00,0.90,0.06,16.60
+48443,"Terrell County, Texas",364.00,0.89,0.08,9.60
+48445,"Terry County, Texas",4957.00,0.94,0.33,18.50
+48447,"Throckmorton County, Texas",717.00,0.90,0.29,17.00
+48449,"Titus County, Texas",13191.00,0.94,0.20,20.90
+48451,"Tom Green County, Texas",57290.00,0.87,0.08,19.20
+48453,"Travis County, Texas",725645.00,0.71,0.10,25.50
+48455,"Trinity County, Texas",4849.00,0.91,0.60,37.40
+48457,"Tyler County, Texas",6255.00,0.92,0.43,31.00
+48459,"Upshur County, Texas",16377.00,0.93,0.63,29.50
+48461,"Upton County, Texas",1320.00,0.92,0.37,28.10
+48463,"Uvalde County, Texas",9661.00,0.94,0.11,17.60
+48465,"Val Verde County, Texas",21131.00,0.92,0.09,18.40
+48467,"Van Zandt County, Texas",24887.00,0.90,0.52,37.30
+48469,"Victoria County, Texas",41154.00,0.91,0.18,21.70
+48471,"Walker County, Texas",28340.00,0.88,0.24,26.50
+48473,"Waller County, Texas",24146.00,0.89,0.61,31.00
+48475,"Ward County, Texas",5042.00,0.97,0.29,21.10
+48477,"Washington County, Texas",16369.00,0.86,0.20,21.20
+48479,"Webb County, Texas",110657.00,0.90,0.05,21.80
+48481,"Wharton County, Texas",17908.00,0.93,0.29,25.00
+48483,"Wheeler County, Texas",2269.00,0.92,0.23,24.00
+48485,"Wichita County, Texas",62261.00,0.85,0.04,15.30
+48487,"Wilbarger County, Texas",5436.00,0.93,0.13,16.00
+48489,"Willacy County, Texas",7939.00,0.88,0.36,19.00
+48491,"Williamson County, Texas",321072.00,0.77,0.38,27.70
+48493,"Wilson County, Texas",23328.00,0.86,0.55,36.40
+48495,"Winkler County, Texas",3380.00,0.96,0.29,27.50
+48497,"Wise County, Texas",33718.00,0.89,0.44,34.00
+48499,"Wood County, Texas",16925.00,0.90,0.42,31.80
+48501,"Yoakum County, Texas",3273.00,0.92,0.29,24.30
+48503,"Young County, Texas",8135.00,0.92,0.11,18.60
+48505,"Zapata County, Texas",4669.00,0.88,0.13,24.00
+48507,"Zavala County, Texas",3612.00,0.91,0.42,18.30
+49001,"Beaver County, Utah",3023.00,0.90,0.10,16.10
+49003,"Box Elder County, Utah",26707.00,0.87,0.33,23.20
+49005,"Cache County, Utah",66302.00,0.81,0.08,16.90
+49007,"Carbon County, Utah",8067.00,0.91,0.09,17.30
+49009,"Daggett County, Utah",256.00,0.81,0.18,16.10
+49011,"Davis County, Utah",178241.00,0.82,0.40,23.10
+49013,"Duchesne County, Utah",7930.00,0.86,0.17,19.80
+49015,"Emery County, Utah",3955.00,0.92,0.27,20.40
+49017,"Garfield County, Utah",2321.00,0.82,0.10,13.70
+49019,"Grand County, Utah",5480.00,0.84,0.03,13.40
+49021,"Iron County, Utah",26664.00,0.86,0.09,15.90
+49023,"Juab County, Utah",5412.00,0.87,0.41,22.80
+49025,"Kane County, Utah",3422.00,0.82,0.10,12.70
+49027,"Millard County, Utah",5230.00,0.89,0.05,17.00
+49029,"Morgan County, Utah",5292.00,0.86,0.59,27.70
+49031,"Piute County, Utah",570.00,0.73,0.35,17.70
+49033,"Rich County, Utah",976.00,0.80,0.41,24.60
+49035,"Salt Lake County, Utah",619466.00,0.79,0.08,22.40
+49037,"San Juan County, Utah",5156.00,0.83,0.24,23.30
+49039,"Sanpete County, Utah",12036.00,0.86,0.24,22.80
+49041,"Sevier County, Utah",9170.00,0.87,0.09,17.70
+49043,"Summit County, Utah",22696.00,0.73,0.24,22.80
+49045,"Tooele County, Utah",36512.00,0.86,0.45,30.20
+49047,"Uintah County, Utah",14316.00,0.89,0.13,19.60
+49049,"Utah County, Utah",320495.00,0.78,0.15,21.80
+49051,"Wasatch County, Utah",16948.00,0.81,0.37,23.10
+49053,"Washington County, Utah",77459.00,0.83,0.05,18.50
+49055,"Wayne County, Utah",1271.00,0.68,0.13,25.60
+49057,"Weber County, Utah",131828.00,0.83,0.31,22.90
+50001,"Addison County, Vermont",19341.00,0.78,0.29,25.60
+50003,"Bennington County, Vermont",17461.00,0.80,0.16,19.30
+50005,"Caledonia County, Vermont",15234.00,0.82,0.30,24.90
+50007,"Chittenden County, Vermont",93578.00,0.74,0.09,21.60
+50009,"Essex County, Vermont",2566.00,0.88,0.64,27.10
+50011,"Franklin County, Vermont",25233.00,0.87,0.35,26.00
+50013,"Grand Isle County, Vermont",3613.00,0.83,0.62,32.70
+50015,"Lamoille County, Vermont",13709.00,0.85,0.28,26.40
+50017,"Orange County, Vermont",15650.00,0.83,0.55,25.80
+50019,"Orleans County, Vermont",13184.00,0.86,0.15,23.80
+50021,"Rutland County, Vermont",28803.00,0.88,0.15,22.80
+50023,"Washington County, Vermont",30906.00,0.78,0.18,23.40
+50025,"Windham County, Vermont",22579.00,0.77,0.18,22.20
+50027,"Windsor County, Vermont",28757.00,0.81,0.33,23.40
+51001,"Accomack County, Virginia",14099.00,0.87,0.20,21.40
+51003,"Albemarle County, Virginia",53838.00,0.76,0.38,22.40
+51005,"Alleghany County, Virginia",6007.00,0.96,0.52,24.80
+51007,"Amelia County, Virginia",6079.00,0.87,0.70,37.40
+51009,"Amherst County, Virginia",14609.00,0.89,0.59,27.40
+51011,"Appomattox County, Virginia",7614.00,0.91,0.58,26.00
+51013,"Arlington County, Virginia",148246.00,0.47,0.51,27.70
+51015,"Augusta County, Virginia",37136.00,0.93,0.48,24.20
+51017,"Bath County, Virginia",1722.00,0.94,0.16,20.40
+51019,"Bedford County, Virginia",36473.00,0.89,0.58,26.50
+51021,"Bland County, Virginia",2277.00,0.94,0.43,24.00
+51023,"Botetourt County, Virginia",15827.00,0.88,0.60,25.20
+51025,"Brunswick County, Virginia",6248.00,0.89,0.63,32.60
+51027,"Buchanan County, Virginia",5805.00,0.93,0.32,29.60
+51029,"Buckingham County, Virginia",6479.00,0.89,0.66,39.50
+51031,"Campbell County, Virginia",25668.00,0.91,0.57,23.30
+51033,"Caroline County, Virginia",15767.00,0.88,0.65,36.20
+51035,"Carroll County, Virginia",12029.00,0.94,0.62,26.60
+51036,"Charles City County, Virginia",3222.00,0.88,0.79,35.70
+51037,"Charlotte County, Virginia",4537.00,0.89,0.55,33.50
+51041,"Chesterfield County, Virginia",184760.00,0.84,0.47,26.40
+51043,"Clarke County, Virginia",7421.00,0.81,0.69,35.30
+51045,"Craig County, Virginia",1964.00,0.96,0.69,33.90
+51047,"Culpeper County, Virginia",25422.00,0.88,0.48,36.90
+51049,"Cumberland County, Virginia",4917.00,0.89,0.68,41.40
+51051,"Dickenson County, Virginia",4444.00,0.94,0.34,28.00
+51053,"Dinwiddie County, Virginia",13371.00,0.89,0.67,33.10
+51057,"Essex County, Virginia",4073.00,0.87,0.47,34.80
+51059,"Fairfax County, Virginia",611718.00,0.69,0.36,30.40
+51061,"Fauquier County, Virginia",38097.00,0.83,0.53,37.60
+51063,"Floyd County, Virginia",7584.00,0.88,0.50,33.40
+51065,"Fluvanna County, Virginia",13164.00,0.85,0.67,32.00
+51067,"Franklin County, Virginia",23512.00,0.87,0.41,30.90
+51069,"Frederick County, Virginia",44501.00,0.88,0.55,32.70
+51071,"Giles County, Virginia",7406.00,0.95,0.53,29.00
+51073,"Gloucester County, Virginia",19083.00,0.91,0.60,34.40
+51075,"Goochland County, Virginia",11326.00,0.82,0.63,29.90
+51077,"Grayson County, Virginia",5827.00,0.91,0.60,26.40
+51079,"Greene County, Virginia",10557.00,0.85,0.69,30.30
+51081,"Greensville County, Virginia",3877.00,0.89,0.58,26.50
+51083,"Halifax County, Virginia",13505.00,0.90,0.25,25.40
+51085,"Hanover County, Virginia",56934.00,0.83,0.55,26.60
+51087,"Henrico County, Virginia",173906.00,0.79,0.39,22.40
+51089,"Henry County, Virginia",19464.00,0.92,0.42,24.10
+51091,"Highland County, Virginia",805.00,0.80,0.30,24.60
+51093,"Isle of Wight County, Virginia",18470.00,0.90,0.66,29.60
+51095,"James City County, Virginia",35330.00,0.83,0.55,26.20
+51097,"King and Queen County, Virginia",3248.00,0.89,0.74,34.60
+51099,"King George County, Virginia",13820.00,0.87,0.47,35.60
+51101,"King William County, Virginia",9155.00,0.89,0.63,34.70
+51103,"Lancaster County, Virginia",3953.00,0.83,0.26,26.60
+51105,"Lee County, Virginia",6901.00,0.90,0.44,26.00
+51107,"Loudoun County, Virginia",226387.00,0.72,0.39,32.20
+51109,"Louisa County, Virginia",17615.00,0.88,0.56,34.50
+51111,"Lunenburg County, Virginia",4556.00,0.91,0.58,32.00
+51113,"Madison County, Virginia",6470.00,0.81,0.50,29.00
+51115,"Mathews County, Virginia",3172.00,0.82,0.55,36.90
+51117,"Mecklenburg County, Virginia",12273.00,0.88,0.26,25.70
+51119,"Middlesex County, Virginia",4437.00,0.80,0.44,29.80
+51121,"Montgomery County, Virginia",45188.00,0.80,0.19,18.00
+51125,"Nelson County, Virginia",6495.00,0.73,0.43,29.90
+51127,"New Kent County, Virginia",12083.00,0.81,0.62,31.70
+51131,"Northampton County, Virginia",4850.00,0.85,0.26,24.70
+51133,"Northumberland County, Virginia",4336.00,0.85,0.54,38.80
+51135,"Nottoway County, Virginia",5833.00,0.85,0.44,30.80
+51137,"Orange County, Virginia",17338.00,0.86,0.59,37.10
+51139,"Page County, Virginia",10681.00,0.93,0.48,33.00
+51141,"Patrick County, Virginia",7210.00,0.88,0.43,33.40
+51143,"Pittsylvania County, Virginia",25257.00,0.93,0.61,26.20
+51145,"Powhatan County, Virginia",15147.00,0.83,0.62,32.90
+51147,"Prince Edward County, Virginia",8237.00,0.87,0.39,25.10
+51149,"Prince George County, Virginia",19827.00,0.82,0.56,24.80
+51153,"Prince William County, Virginia",249858.00,0.79,0.54,38.10
+51155,"Pulaski County, Virginia",14880.00,0.93,0.46,24.30
+51157,"Rappahannock County, Virginia",3468.00,0.79,0.54,38.30
+51159,"Richmond County, Virginia",3208.00,0.85,0.54,27.40
+51161,"Roanoke County, Virginia",46477.00,0.86,0.61,22.50
+51163,"Rockbridge County, Virginia",9969.00,0.89,0.51,27.30
+51165,"Rockingham County, Virginia",41338.00,0.89,0.48,21.70
+51167,"Russell County, Virginia",8527.00,0.93,0.47,27.60
+51169,"Scott County, Virginia",7808.00,0.93,0.61,30.10
+51171,"Shenandoah County, Virginia",20387.00,0.89,0.44,29.80
+51173,"Smyth County, Virginia",11673.00,0.91,0.32,22.50
+51175,"Southampton County, Virginia",7839.00,0.91,0.66,33.70
+51177,"Spotsylvania County, Virginia",69708.00,0.84,0.57,37.30
+51179,"Stafford County, Virginia",78696.00,0.79,0.56,37.90
+51181,"Surry County, Virginia",3069.00,0.93,0.76,40.30
+51183,"Sussex County, Virginia",4307.00,0.93,0.65,34.70
+51185,"Tazewell County, Virginia",14127.00,0.93,0.31,24.80
+51187,"Warren County, Virginia",19244.00,0.85,0.53,40.10
+51191,"Washington County, Virginia",23555.00,0.92,0.35,24.20
+51193,"Westmoreland County, Virginia",7028.00,0.84,0.59,38.70
+51195,"Wise County, Virginia",12211.00,0.90,0.27,23.30
+51197,"Wythe County, Virginia",12341.00,0.93,0.30,24.80
+51199,"York County, Virginia",35523.00,0.85,0.67,24.10
+51510,"Alexandria city, Virginia",97901.00,0.59,0.58,30.10
+51520,"Bristol city, Virginia",7286.00,0.84,0.51,19.10
+51530,"Buena Vista city, Virginia",3056.00,0.87,0.57,15.30
+51540,"Charlottesville city, Virginia",23670.00,0.60,0.38,17.00
+51550,"Chesapeake city, Virginia",123540.00,0.87,0.55,26.00
+51570,"Colonial Heights city, Virginia",8540.00,0.88,0.70,24.60
+51580,"Covington city, Virginia",2332.00,0.95,0.61,16.70
+51590,"Danville city, Virginia",16076.00,0.89,0.28,19.20
+51595,"Emporia city, Virginia",2176.00,0.90,0.59,23.40
+51600,"Fairfax city, Virginia",12943.00,0.71,0.67,28.50
+51610,"Falls Church city, Virginia",7948.00,0.57,0.64,27.70
+51620,"Franklin city, Virginia",3367.00,0.87,0.58,23.30
+51630,"Fredericksburg city, Virginia",14354.00,0.78,0.58,32.40
+51640,"Galax city, Virginia",2796.00,0.93,0.31,22.00
+51650,"Hampton city, Virginia",67348.00,0.88,0.50,22.30
+51660,"Harrisonburg city, Virginia",23583.00,0.82,0.35,17.30
+51670,"Hopewell city, Virginia",9431.00,0.92,0.74,25.20
+51678,"Lexington city, Virginia",2721.00,0.58,0.26,13.20
+51680,"Lynchburg city, Virginia",36027.00,0.80,0.24,16.90
+51683,"Manassas city, Virginia",22588.00,0.83,0.67,34.00
+51685,"Manassas Park city, Virginia",9756.00,0.82,0.85,41.20
+51690,"Martinsville city, Virginia",5308.00,0.87,0.58,19.60
+51700,"Newport News city, Virginia",92115.00,0.85,0.38,23.40
+51710,"Norfolk city, Virginia",125430.00,0.82,0.35,22.70
+51720,"Norton city, Virginia",1466.00,0.80,0.51,20.10
+51730,"Petersburg city, Virginia",14304.00,0.85,0.63,25.00
+51735,"Poquoson city, Virginia",6350.00,0.88,0.77,25.80
+51740,"Portsmouth city, Virginia",45028.00,0.86,0.56,23.20
+51750,"Radford city, Virginia",7771.00,0.82,0.54,16.90
+51760,"Richmond city, Virginia",119758.00,0.74,0.40,22.00
+51770,"Roanoke city, Virginia",46368.00,0.84,0.37,20.90
+51775,"Salem city, Virginia",12358.00,0.84,0.48,18.80
+51790,"Staunton city, Virginia",12047.00,0.88,0.55,22.10
+51800,"Suffolk city, Virginia",45875.00,0.90,0.60,29.60
+51810,"Virginia Beach city, Virginia",242547.00,0.85,0.33,23.50
+51820,"Waynesboro city, Virginia",10864.00,0.90,0.60,22.30
+51830,"Williamsburg city, Virginia",6444.00,0.68,0.47,17.70
+51840,"Winchester city, Virginia",14308.00,0.82,0.52,21.10
+53001,"Adams County, Washington",8050.00,0.89,0.30,22.30
+53003,"Asotin County, Washington",9300.00,0.86,0.49,15.30
+53005,"Benton County, Washington",92769.00,0.87,0.22,22.20
+53007,"Chelan County, Washington",36824.00,0.84,0.19,19.40
+53009,"Clallam County, Washington",29996.00,0.82,0.06,20.10
+53011,"Clark County, Washington",237782.00,0.80,0.27,25.80
+53013,"Columbia County, Washington",1743.00,0.84,0.28,19.60
+53015,"Cowlitz County, Washington",45906.00,0.89,0.25,27.50
+53017,"Douglas County, Washington",20326.00,0.85,0.55,21.70
+53019,"Ferry County, Washington",2460.00,0.77,0.20,24.60
+53021,"Franklin County, Washington",42094.00,0.91,0.48,22.50
+53023,"Garfield County, Washington",862.00,0.78,0.32,23.80
+53025,"Grant County, Washington",42635.00,0.87,0.07,20.00
+53027,"Grays Harbor County, Washington",28624.00,0.85,0.16,24.00
+53029,"Island County, Washington",38999.00,0.82,0.29,27.10
+53031,"Jefferson County, Washington",11478.00,0.73,0.19,24.30
+53033,"King County, Washington",1212908.00,0.61,0.06,28.90
+53035,"Kitsap County, Washington",131017.00,0.75,0.16,29.30
+53037,"Kittitas County, Washington",21580.00,0.79,0.17,23.50
+53039,"Klickitat County, Washington",9249.00,0.70,0.23,22.90
+53041,"Lewis County, Washington",33406.00,0.87,0.28,28.00
+53043,"Lincoln County, Washington",4418.00,0.79,0.35,25.60
+53045,"Mason County, Washington",25535.00,0.86,0.47,35.30
+53047,"Okanogan County, Washington",17501.00,0.80,0.08,19.50
+53049,"Pacific County, Washington",8482.00,0.79,0.22,23.20
+53051,"Pend Oreille County, Washington",4806.00,0.87,0.46,32.10
+53053,"Pierce County, Washington",446913.00,0.83,0.27,32.10
+53055,"San Juan County, Washington",8106.00,0.69,0.04,16.40
+53057,"Skagit County, Washington",57119.00,0.86,0.23,26.60
+53059,"Skamania County, Washington",5511.00,0.79,0.49,30.30
+53061,"Snohomish County, Washington",418564.00,0.77,0.32,31.70
+53063,"Spokane County, Washington",246816.00,0.81,0.05,22.20
+53065,"Stevens County, Washington",17576.00,0.87,0.31,30.10
+53067,"Thurston County, Washington",137214.00,0.80,0.26,26.60
+53069,"Wahkiakum County, Washington",1550.00,0.80,0.52,41.00
+53071,"Walla Walla County, Washington",26947.00,0.80,0.10,15.10
+53073,"Whatcom County, Washington",109391.00,0.80,0.09,21.90
+53075,"Whitman County, Washington",22363.00,0.72,0.12,16.80
+53077,"Yakima County, Washington",105896.00,0.92,0.05,19.70
+54001,"Barbour County, West Virginia",5578.00,0.88,0.52,27.40
+54003,"Berkeley County, West Virginia",61078.00,0.89,0.46,29.90
+54005,"Boone County, West Virginia",7010.00,0.90,0.48,34.70
+54007,"Braxton County, West Virginia",3730.00,0.88,0.29,29.80
+54009,"Brooke County, West Virginia",9282.00,0.90,0.53,23.50
+54011,"Cabell County, West Virginia",39546.00,0.88,0.21,21.10
+54013,"Calhoun County, West Virginia",1794.00,0.99,0.48,39.20
+54015,"Clay County, West Virginia",2519.00,0.96,0.51,37.80
+54017,"Doddridge County, West Virginia",2927.00,0.86,0.71,30.50
+54019,"Fayette County, West Virginia",13818.00,0.90,0.47,31.10
+54021,"Gilmer County, West Virginia",2245.00,0.85,0.28,30.00
+54023,"Grant County, West Virginia",4973.00,0.88,0.35,22.80
+54025,"Greenbrier County, West Virginia",13148.00,0.94,0.16,25.40
+54027,"Hampshire County, West Virginia",8516.00,0.91,0.55,38.40
+54029,"Hancock County, West Virginia",12409.00,0.88,0.53,25.00
+54031,"Hardy County, West Virginia",6157.00,0.89,0.30,26.40
+54033,"Harrison County, West Virginia",28346.00,0.90,0.16,22.60
+54035,"Jackson County, West Virginia",10149.00,0.89,0.41,28.90
+54037,"Jefferson County, West Virginia",27856.00,0.82,0.54,37.20
+54039,"Kanawha County, West Virginia",76292.00,0.87,0.11,22.00
+54041,"Lewis County, West Virginia",6537.00,0.86,0.44,30.00
+54043,"Lincoln County, West Virginia",6418.00,0.87,0.61,35.30
+54045,"Logan County, West Virginia",9181.00,0.93,0.25,27.10
+54047,"McDowell County, West Virginia",3175.00,0.92,0.29,33.10
+54049,"Marion County, West Virginia",24828.00,0.88,0.39,24.30
+54051,"Marshall County, West Virginia",12888.00,0.93,0.54,25.20
+54053,"Mason County, West Virginia",9091.00,0.96,0.51,27.20
+54055,"Mercer County, West Virginia",22693.00,0.91,0.25,23.40
+54057,"Mineral County, West Virginia",11553.00,0.88,0.51,25.40
+54059,"Mingo County, West Virginia",6017.00,0.92,0.47,35.60
+54061,"Monongalia County, West Virginia",53500.00,0.81,0.14,21.40
+54063,"Monroe County, West Virginia",4208.00,0.91,0.67,35.50
+54065,"Morgan County, West Virginia",7721.00,0.91,0.61,42.40
+54067,"Nicholas County, West Virginia",9044.00,0.93,0.30,32.20
+54069,"Ohio County, West Virginia",18314.00,0.87,0.24,21.10
+54071,"Pendleton County, West Virginia",2432.00,0.88,0.44,31.30
+54073,"Pleasants County, West Virginia",2989.00,0.90,0.54,26.40
+54075,"Pocahontas County, West Virginia",2486.00,0.85,0.12,21.70
+54077,"Preston County, West Virginia",13272.00,0.92,0.53,31.50
+54079,"Putnam County, West Virginia",25790.00,0.90,0.48,28.30
+54081,"Raleigh County, West Virginia",26338.00,0.93,0.17,23.60
+54083,"Randolph County, West Virginia",10436.00,0.88,0.12,21.50
+54085,"Ritchie County, West Virginia",2859.00,0.90,0.31,29.40
+54087,"Roane County, West Virginia",4125.00,0.88,0.37,32.60
+54089,"Summers County, West Virginia",3356.00,0.88,0.49,33.00
+54091,"Taylor County, West Virginia",6456.00,0.92,0.56,27.30
+54093,"Tucker County, West Virginia",2972.00,0.84,0.29,27.30
+54095,"Tyler County, West Virginia",2925.00,0.92,0.56,33.10
+54097,"Upshur County, West Virginia",9267.00,0.84,0.31,27.00
+54099,"Wayne County, West Virginia",13872.00,0.90,0.62,25.90
+54101,"Webster County, West Virginia",2578.00,0.92,0.35,31.10
+54103,"Wetzel County, West Virginia",5082.00,0.90,0.39,28.50
+54105,"Wirt County, West Virginia",1949.00,0.87,0.69,33.60
+54107,"Wood County, West Virginia",35520.00,0.90,0.21,20.40
+54109,"Wyoming County, West Virginia",5972.00,0.94,0.36,32.80
+55001,"Adams County, Wisconsin",7987.00,0.89,0.55,29.10
+55003,"Ashland County, Wisconsin",7581.00,0.81,0.16,17.40
+55005,"Barron County, Wisconsin",22230.00,0.87,0.18,20.60
+55007,"Bayfield County, Wisconsin",7301.00,0.82,0.40,23.30
+55009,"Brown County, Wisconsin",139271.00,0.88,0.11,18.70
+55011,"Buffalo County, Wisconsin",6802.00,0.86,0.56,24.90
+55013,"Burnett County, Wisconsin",6800.00,0.86,0.41,31.30
+55015,"Calumet County, Wisconsin",28601.00,0.87,0.63,22.50
+55017,"Chippewa County, Wisconsin",32569.00,0.87,0.37,22.60
+55019,"Clark County, Wisconsin",15788.00,0.80,0.36,22.80
+55021,"Columbia County, Wisconsin",30294.00,0.87,0.49,26.40
+55023,"Crawford County, Wisconsin",7013.00,0.88,0.31,22.50
+55025,"Dane County, Wisconsin",314337.00,0.73,0.05,20.90
+55027,"Dodge County, Wisconsin",46378.00,0.89,0.44,23.50
+55029,"Door County, Wisconsin",14156.00,0.85,0.10,17.40
+55031,"Douglas County, Wisconsin",21745.00,0.87,0.36,21.60
+55033,"Dunn County, Wisconsin",23558.00,0.84,0.35,23.20
+55035,"Eau Claire County, Wisconsin",56723.00,0.85,0.19,17.60
+55037,"Florence County, Wisconsin",1902.00,0.89,0.60,21.70
+55039,"Fond du Lac County, Wisconsin",52489.00,0.88,0.29,20.60
+55041,"Forest County, Wisconsin",3744.00,0.88,0.27,24.00
+55043,"Grant County, Wisconsin",25660.00,0.81,0.31,20.60
+55045,"Green County, Wisconsin",19534.00,0.87,0.39,25.10
+55047,"Green Lake County, Wisconsin",8845.00,0.85,0.47,24.60
+55049,"Iowa County, Wisconsin",12784.00,0.84,0.38,25.90
+55051,"Iron County, Wisconsin",2649.00,0.89,0.43,21.30
+55053,"Jackson County, Wisconsin",9119.00,0.88,0.33,25.00
+55055,"Jefferson County, Wisconsin",46221.00,0.87,0.45,25.30
+55057,"Juneau County, Wisconsin",12034.00,0.88,0.39,24.40
+55059,"Kenosha County, Wisconsin",85204.00,0.88,0.40,26.20
+55061,"Kewaunee County, Wisconsin",10700.00,0.87,0.49,24.70
+55063,"La Crosse County, Wisconsin",62724.00,0.85,0.10,19.00
+55065,"Lafayette County, Wisconsin",8303.00,0.84,0.48,25.10
+55067,"Langlade County, Wisconsin",8688.00,0.90,0.25,22.60
+55069,"Lincoln County, Wisconsin",13099.00,0.87,0.32,22.20
+55071,"Manitowoc County, Wisconsin",40326.00,0.89,0.23,20.00
+55073,"Marathon County, Wisconsin",70785.00,0.87,0.15,19.10
+55075,"Marinette County, Wisconsin",18739.00,0.90,0.27,21.30
+55077,"Marquette County, Wisconsin",6911.00,0.89,0.54,29.80
+55078,"Menominee County, Wisconsin",1364.00,0.86,0.23,21.30
+55079,"Milwaukee County, Wisconsin",445979.00,0.81,0.21,22.30
+55081,"Monroe County, Wisconsin",21749.00,0.87,0.22,20.40
+55083,"Oconto County, Wisconsin",18925.00,0.87,0.54,27.10
+55085,"Oneida County, Wisconsin",16525.00,0.88,0.22,21.80
+55087,"Outagamie County, Wisconsin",101029.00,0.87,0.33,20.20
+55089,"Ozaukee County, Wisconsin",48123.00,0.84,0.42,23.20
+55091,"Pepin County, Wisconsin",3533.00,0.82,0.48,26.20
+55093,"Pierce County, Wisconsin",22212.00,0.84,0.59,27.70
+55095,"Polk County, Wisconsin",21893.00,0.88,0.38,29.70
+55097,"Portage County, Wisconsin",36822.00,0.83,0.20,19.60
+55099,"Price County, Wisconsin",6013.00,0.89,0.19,21.40
+55101,"Racine County, Wisconsin",94221.00,0.88,0.37,23.70
+55103,"Richland County, Wisconsin",7914.00,0.88,0.35,24.60
+55105,"Rock County, Wisconsin",80958.00,0.90,0.29,23.20
+55107,"Rusk County, Wisconsin",6111.00,0.88,0.29,27.00
+55109,"St. Croix County, Wisconsin",50444.00,0.85,0.41,26.10
+55111,"Sauk County, Wisconsin",33750.00,0.87,0.25,22.80
+55113,"Sawyer County, Wisconsin",7703.00,0.84,0.16,20.90
+55115,"Shawano County, Wisconsin",19602.00,0.85,0.41,23.50
+55117,"Sheboygan County, Wisconsin",60282.00,0.89,0.14,17.80
+55119,"Taylor County, Wisconsin",9763.00,0.84,0.26,22.50
+55121,"Trempealeau County, Wisconsin",15240.00,0.87,0.32,22.70
+55123,"Vernon County, Wisconsin",13711.00,0.83,0.41,24.90
+55125,"Vilas County, Wisconsin",10001.00,0.83,0.27,18.80
+55127,"Walworth County, Wisconsin",54345.00,0.86,0.35,24.80
+55129,"Washburn County, Wisconsin",7064.00,0.86,0.35,24.40
+55131,"Washington County, Wisconsin",73600.00,0.87,0.45,25.20
+55133,"Waukesha County, Wisconsin",215530.00,0.85,0.31,23.20
+55135,"Waupaca County, Wisconsin",25573.00,0.89,0.36,24.70
+55137,"Waushara County, Wisconsin",10588.00,0.89,0.49,27.80
+55139,"Winnebago County, Wisconsin",88979.00,0.87,0.27,18.60
+55141,"Wood County, Wisconsin",35109.00,0.89,0.23,20.90
+56001,"Albany County, Wyoming",20511.00,0.77,0.06,14.30
+56003,"Big Horn County, Wyoming",4868.00,0.87,0.17,17.40
+56005,"Campbell County, Wyoming",23900.00,0.92,0.01,20.30
+56007,"Carbon County, Wyoming",6516.00,0.88,0.12,15.90
+56009,"Converse County, Wyoming",6843.00,0.85,0.21,25.50
+56011,"Crook County, Wyoming",3398.00,0.84,0.28,24.50
+56013,"Fremont County, Wyoming",16314.00,0.84,0.05,17.30
+56015,"Goshen County, Wyoming",5734.00,0.82,0.14,16.40
+56017,"Hot Springs County, Wyoming",2008.00,0.81,0.09,13.00
+56019,"Johnson County, Wyoming",3948.00,0.79,0.10,15.90
+56021,"Laramie County, Wyoming",50613.00,0.90,0.06,17.20
+56023,"Lincoln County, Wyoming",9577.00,0.84,0.19,23.60
+56025,"Natrona County, Wyoming",40190.00,0.89,0.05,17.60
+56027,"Niobrara County, Wyoming",1083.00,0.84,0.03,17.50
+56029,"Park County, Wyoming",14351.00,0.84,0.09,15.30
+56031,"Platte County, Wyoming",3494.00,0.87,0.09,18.30
+56033,"Sheridan County, Wyoming",15372.00,0.87,0.08,15.90
+56035,"Sublette County, Wyoming",4365.00,0.84,0.16,22.60
+56037,"Sweetwater County, Wyoming",20668.00,0.91,0.04,20.40
+56039,"Teton County, Wyoming",14567.00,0.66,0.04,15.90
+56041,"Uinta County, Wyoming",9468.00,0.91,0.16,20.40
+56043,"Washakie County, Wyoming",3828.00,0.87,0.07,11.20
+56045,"Weston County, Wyoming",2939.00,0.79,0.26,27.20
+72001,"Adjuntas Municipio, Puerto Rico",4854.00,0.86,0.39,28.90
+72003,"Aguada Municipio, Puerto Rico",11249.00,0.87,0.43,20.90
+72005,"Aguadilla Municipio, Puerto Rico",14138.00,0.90,0.27,20.40
+72007,"Aguas Buenas Municipio, Puerto Rico",8349.00,0.93,0.69,29.50
+72009,"Aibonito Municipio, Puerto Rico",7532.00,0.94,0.35,24.10
+72011,"Añasco Municipio, Puerto Rico",8531.00,0.92,0.53,23.00
+72013,"Arecibo Municipio, Puerto Rico",24511.00,0.93,0.44,25.70
+72015,"Arroyo Municipio, Puerto Rico",3826.00,0.96,0.67,28.20
+72017,"Barceloneta Municipio, Puerto Rico",6265.00,0.94,0.58,26.00
+72019,"Barranquitas Municipio, Puerto Rico",8609.00,0.96,0.50,31.80
+72021,"Bayamón Municipio, Puerto Rico",66121.00,0.89,0.56,30.00
+72023,"Cabo Rojo Municipio, Puerto Rico",14829.00,0.91,0.53,25.40
+72025,"Caguas Municipio, Puerto Rico",45289.00,0.90,0.49,31.50
+72027,"Camuy Municipio, Puerto Rico",10669.00,0.96,0.64,28.60
+72029,"Canóvanas Municipio, Puerto Rico",14362.00,0.92,0.76,34.50
+72031,"Carolina Municipio, Puerto Rico",57206.00,0.89,0.59,30.00
+72033,"Cataño Municipio, Puerto Rico",7182.00,0.89,0.73,30.30
+72035,"Cayey Municipio, Puerto Rico",13811.00,0.96,0.41,26.30
+72037,"Ceiba Municipio, Puerto Rico",3655.00,0.91,0.64,26.20
+72039,"Ciales Municipio, Puerto Rico",4036.00,0.92,0.56,33.90
+72041,"Cidra Municipio, Puerto Rico",12820.00,0.96,0.57,29.80
+72043,"Coamo Municipio, Puerto Rico",10383.00,0.93,0.58,25.70
+72045,"Comerío Municipio, Puerto Rico",5392.00,0.94,0.59,32.50
+72047,"Corozal Municipio, Puerto Rico",9924.00,0.95,0.67,36.30
+72049,"Culebra Municipio, Puerto Rico",574.00,0.85,0.05,12.20
+72051,"Dorado Municipio, Puerto Rico",12300.00,0.86,0.68,34.70
+72053,"Fajardo Municipio, Puerto Rico",9961.00,0.87,0.40,26.90
+72054,"Florida Municipio, Puerto Rico",3460.00,0.91,0.75,26.20
+72055,"Guánica Municipio, Puerto Rico",2932.00,0.94,0.58,18.90
+72057,"Guayama Municipio, Puerto Rico",9166.00,0.95,0.37,26.20
+72059,"Guayanilla Municipio, Puerto Rico",4377.00,0.95,0.66,25.20
+72061,"Guaynabo Municipio, Puerto Rico",36585.00,0.86,0.59,25.70
+72063,"Gurabo Municipio, Puerto Rico",16407.00,0.88,0.71,35.00
+72065,"Hatillo Municipio, Puerto Rico",13223.00,0.94,0.52,25.80
+72067,"Hormigueros Municipio, Puerto Rico",4907.00,0.97,0.81,24.90
+72069,"Humacao Municipio, Puerto Rico",15292.00,0.93,0.42,27.30
+72071,"Isabela Municipio, Puerto Rico",12250.00,0.93,0.52,25.50
+72073,"Jayuya Municipio, Puerto Rico",3540.00,0.95,0.20,23.20
+72075,"Juana Díaz Municipio, Puerto Rico",13600.00,0.93,0.66,25.50
+72077,"Juncos Municipio, Puerto Rico",12734.00,0.96,0.67,30.90
+72079,"Lajas Municipio, Puerto Rico",6547.00,0.94,0.54,23.60
+72081,"Lares Municipio, Puerto Rico",8020.00,0.95,0.43,31.40
+72083,"Las Marías Municipio, Puerto Rico",2255.00,0.99,0.54,27.80
+72085,"Las Piedras Municipio, Puerto Rico",10118.00,0.94,0.77,32.20
+72087,"Loíza Municipio, Puerto Rico",7009.00,0.91,0.81,33.40
+72089,"Luquillo Municipio, Puerto Rico",5200.00,0.89,0.69,30.60
+72091,"Manatí Municipio, Puerto Rico",11053.00,0.93,0.47,26.20
+72093,"Maricao Municipio, Puerto Rico",1354.00,0.95,0.35,22.70
+72095,"Maunabo Municipio, Puerto Rico",2288.00,0.95,0.50,28.50
+72097,"Mayagüez Municipio, Puerto Rico",18771.00,0.92,0.24,21.50
+72099,"Moca Municipio, Puerto Rico",10476.00,0.90,0.54,28.90
+72101,"Morovis Municipio, Puerto Rico",8758.00,0.95,0.69,33.00
+72103,"Naguabo Municipio, Puerto Rico",6753.00,0.91,0.69,32.20
+72105,"Naranjito Municipio, Puerto Rico",7998.00,0.95,0.60,40.00
+72107,"Orocovis Municipio, Puerto Rico",5259.00,0.90,0.44,36.10
+72109,"Patillas Municipio, Puerto Rico",3887.00,0.90,0.55,32.00
+72111,"Peñuelas Municipio, Puerto Rico",5625.00,0.92,0.67,27.10
+72113,"Ponce Municipio, Puerto Rico",37276.00,0.93,0.16,24.10
+72115,"Quebradillas Municipio, Puerto Rico",7261.00,0.87,0.54,27.40
+72117,"Rincón Municipio, Puerto Rico",5198.00,0.85,0.46,23.00
+72119,"Río Grande Municipio, Puerto Rico",15959.00,0.87,0.71,38.30
+72121,"Sabana Grande Municipio, Puerto Rico",6360.00,0.90,0.61,24.10
+72123,"Salinas Municipio, Puerto Rico",7368.00,0.92,0.52,25.90
+72125,"San Germán Municipio, Puerto Rico",7595.00,0.94,0.54,27.20
+72127,"San Juan Municipio, Puerto Rico",126627.00,0.80,0.24,25.20
+72129,"San Lorenzo Municipio, Puerto Rico",11316.00,0.92,0.63,30.80
+72131,"San Sebastián Municipio, Puerto Rico",10571.00,0.91,0.34,25.50
+72133,"Santa Isabel Municipio, Puerto Rico",6680.00,0.95,0.55,25.20
+72135,"Toa Alta Municipio, Puerto Rico",26122.00,0.94,0.87,41.00
+72137,"Toa Baja Municipio, Puerto Rico",28121.00,0.85,0.75,31.90
+72139,"Trujillo Alto Municipio, Puerto Rico",27894.00,0.93,0.75,31.90
+72141,"Utuado Municipio, Puerto Rico",6438.00,0.93,0.40,33.00
+72143,"Vega Alta Municipio, Puerto Rico",11227.00,0.89,0.68,32.40
+72145,"Vega Baja Municipio, Puerto Rico",16897.00,0.94,0.61,29.90
+72147,"Vieques Municipio, Puerto Rico",2075.00,0.62,0.00,14.10
+72149,"Villalba Municipio, Puerto Rico",6513.00,0.96,0.52,29.10
+72151,"Yabucoa Municipio, Puerto Rico",8253.00,0.96,0.64,27.30
+72153,"Yauco Municipio, Puerto Rico",9734.00,0.93,0.38,20.00
