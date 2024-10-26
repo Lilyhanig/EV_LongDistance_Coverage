@@ -1,0 +1,7 @@
+eligible_hwys.shp filter=lfs diff=lfs merge=lfs -text
+eligible_hwys_400.shp filter=lfs diff=lfs merge=lfs -text
+eligible_hwys_500.shp filter=lfs diff=lfs merge=lfs -text
+eligible_hwys_600.shp filter=lfs diff=lfs merge=lfs -text
+eligible_hwys_1000.shp filter=lfs diff=lfs merge=lfs -text
+eligible_hwys_HDtruck_500.shp filter=lfs diff=lfs merge=lfs -text
+eligible_hwys_truck_500.shp filter=lfs diff=lfs merge=lfs -text
