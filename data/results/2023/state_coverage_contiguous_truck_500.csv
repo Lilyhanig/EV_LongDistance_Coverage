@@ -1,0 +1,53 @@
+STUSPS,NAME,Baseline Coverage,NEVI Coverage,State Spillover
+HI,Hawaii,55%,55%,0%
+AK,Alaska,39%,39%,0%
+CA,California,24%,24%,0%
+WA,Washington,19%,18%,1%
+NJ,New Jersey,16%,14%,11%
+UT,Utah,16%,16%,1%
+OR,Oregon,14%,13%,3%
+CT,Connecticut,11%,11%,8%
+TX,Texas,11%,7%,0%
+FL,Florida,10%,10%,0%
+MA,Massachusetts,10%,10%,4%
+NY,New York,10%,9%,5%
+PA,Pennsylvania,10%,9%,5%
+RI,Rhode Island,10%,8%,9%
+MD,Maryland,9%,8%,4%
+AZ,Arizona,8%,8%,0%
+CO,Colorado,8%,8%,0%
+DE,Delaware,8%,8%,7%
+NH,New Hampshire,8%,8%,7%
+DC,District of Columbia,7%,7%,7%
+IL,Illinois,7%,7%,2%
+GA,Georgia,5%,5%,1%
+WI,Wisconsin,5%,4%,2%
+IN,Indiana,4%,4%,1%
+LA,Louisiana,4%,4%,1%
+ME,Maine,4%,4%,1%
+MI,Michigan,4%,4%,1%
+MN,Minnesota,4%,4%,1%
+NV,Nevada,4%,4%,1%
+NM,New Mexico,4%,4%,0%
+OH,Ohio,4%,4%,1%
+VA,Virginia,4%,4%,2%
+WY,Wyoming,4%,4%,3%
+AR,Arkansas,3%,3%,0%
+ID,Idaho,3%,3%,1%
+KS,Kansas,3%,3%,1%
+MO,Missouri,3%,3%,1%
+NE,Nebraska,3%,3%,1%
+NC,North Carolina,3%,3%,1%
+ND,North Dakota,3%,3%,1%
+OK,Oklahoma,3%,3%,1%
+SC,South Carolina,3%,3%,1%
+TN,Tennessee,3%,3%,1%
+VT,Vermont,3%,2%,2%
+AL,Alabama,2%,2%,1%
+IA,Iowa,2%,2%,0%
+KY,Kentucky,2%,2%,1%
+MS,Mississippi,2%,2%,1%
+MT,Montana,2%,2%,0%
+WV,West Virginia,2%,2%,2%
+SD,South Dakota,1%,1%,0%
+,,,,

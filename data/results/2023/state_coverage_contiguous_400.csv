@@ -1,0 +1,54 @@
+STUSPS,NAME,Baseline Coverage,NEVI Coverage,AFC Coverage,State Spillover,NEVI Increase
+AL,Alabama,28%,4%,88%,23%,84%
+AK,Alaska,46%,40%,70%,0%,31%
+AZ,Arizona,19%,15%,98%,5%,83%
+AR,Arkansas,8%,2%,78%,4%,76%
+CA,California,92%,82%,99%,10%,17%
+CO,Colorado,62%,35%,89%,21%,53%
+CT,Connecticut,92%,39%,98%,87%,59%
+DE,Delaware,77%,35%,96%,75%,61%
+DC,District of Columbia,75%,13%,95%,75%,82%
+FL,Florida,68%,23%,95%,5%,71%
+GA,Georgia,33%,10%,90%,20%,80%
+HI,Hawaii,62%,62%,62%,0%,0%
+ID,Idaho,16%,5%,95%,11%,90%
+IL,Illinois,28%,11%,88%,17%,77%
+IN,Indiana,24%,5%,89%,20%,84%
+IA,Iowa,27%,3%,83%,23%,80%
+KS,Kansas,12%,6%,79%,8%,73%
+KY,Kentucky,13%,3%,90%,10%,88%
+LA,Louisiana,13%,5%,84%,8%,79%
+ME,Maine,95%,5%,98%,92%,93%
+MD,Maryland,71%,17%,95%,63%,78%
+MA,Massachusetts,99%,26%,98%,86%,73%
+MI,Michigan,36%,9%,91%,20%,82%
+MN,Minnesota,26%,12%,82%,4%,70%
+MS,Mississippi,13%,3%,85%,10%,82%
+MO,Missouri,11%,5%,83%,4%,77%
+MT,Montana,6%,4%,88%,2%,84%
+NE,Nebraska,8%,5%,76%,3%,71%
+NV,Nevada,83%,75%,99%,74%,24%
+NH,New Hampshire,99%,17%,98%,96%,81%
+NJ,New Jersey,86%,37%,97%,74%,60%
+NM,New Mexico,28%,6%,89%,23%,83%
+NY,New York,91%,21%,97%,73%,76%
+NC,North Carolina,30%,7%,92%,16%,86%
+ND,North Dakota,33%,4%,55%,28%,51%
+OH,Ohio,46%,5%,93%,36%,88%
+OK,Oklahoma,42%,6%,80%,34%,74%
+OR,Oregon,76%,30%,97%,52%,66%
+PA,Pennsylvania,76%,25%,95%,64%,71%
+RI,Rhode Island,98%,45%,98%,96%,53%
+SC,South Carolina,40%,8%,91%,34%,83%
+SD,South Dakota,6%,2%,68%,5%,66%
+TN,Tennessee,27%,4%,88%,21%,84%
+TX,Texas,37%,15%,80%,5%,66%
+UT,Utah,56%,16%,94%,37%,78%
+VT,Vermont,99%,5%,98%,98%,93%
+VA,Virginia,66%,10%,94%,57%,84%
+WA,Washington,76%,55%,96%,28%,41%
+WV,West Virginia,42%,4%,94%,41%,90%
+WI,Wisconsin,28%,10%,88%,20%,78%
+WY,Wyoming,36%,12%,90%,34%,78%
+AK,Alaska,46%,40%,70%,0%,31%
+HI,Hawaii,62%,62%,62%,0%,0%
